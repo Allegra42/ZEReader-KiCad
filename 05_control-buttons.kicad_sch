@@ -1,0 +1,14 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "2e9c7c1a-7040-47cb-86e4-098f16d20731")
+	(paper "A4")
+	(title_block
+		(title "ZEReader-Pico")
+		(rev "v1")
+		(company "Anna-Lena Marx")
+		(comment 1 "Bachelorthesis")
+	)
+	(lib_symbols)
+)

@@ -747,7 +747,7 @@
 		(uuid "f9b2dad5-bc6e-432a-a549-e89c354538d8")
 	)
 	(global_label "BTN_3"
-		(shape output)
+		(shape bidirectional)
 		(at 210.82 81.28 0)
 		(fields_autoplaced yes)
 		(effects
@@ -758,7 +758,7 @@
 		)
 		(uuid "20e14d0d-dfd8-4cf1-89af-313ddb1a24a0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 219.5504 81.28 0)
+			(at 220.6617 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -769,7 +769,7 @@
 		)
 	)
 	(global_label "BTN_1"
-		(shape output)
+		(shape bidirectional)
 		(at 110.49 81.28 0)
 		(fields_autoplaced yes)
 		(effects
@@ -780,7 +780,7 @@
 		)
 		(uuid "497be807-fd7f-4176-9a36-42f9772b9a81")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 119.2204 81.28 0)
+			(at 120.3317 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -791,7 +791,7 @@
 		)
 	)
 	(global_label "BTN_2"
-		(shape output)
+		(shape bidirectional)
 		(at 158.75 81.28 0)
 		(fields_autoplaced yes)
 		(effects
@@ -802,7 +802,7 @@
 		)
 		(uuid "94e4810c-e674-4d97-a7f9-fd08ec6cb7fe")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 167.4804 81.28 0)
+			(at 168.5917 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -834,6 +834,25 @@
 		)
 		(uuid "f9b2dad5-bc6e-432a-a549-e89c354538d8")
 	)
+	(text_box "Maybe switch to 10k?"
+		(exclude_from_sim no)
+		(at 241.3 66.04 0)
+		(size 30.48 7.62)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "be2bef0f-b734-494a-be95-efe2da0b59f1")
+	)
 	(global_label "BTN_3"
 		(shape bidirectional)
 		(at 181.61 83.82 0)

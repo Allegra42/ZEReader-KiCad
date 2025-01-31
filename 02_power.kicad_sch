@@ -3753,6 +3753,25 @@
 		)
 		(uuid "9097b2bf-64be-4c20-9ef2-214ae7d79276")
 	)
+	(text_box "The final design shall contain the RP2350 directly, without the Pico2 breakout.\nThis connector should then also handle D+/D-.\nFor now, this connector would not be needed, but integrating it now helps getting used to it."
+		(exclude_from_sim no)
+		(at 15.24 101.6 0)
+		(size 40.64 17.78)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "b458dfbd-bfce-4346-9fa8-1806e9e180d7")
+	)
 	(text_box "USB D+/D- on Pico\ncan only be accessed via\nthe bottom side test pads."
 		(exclude_from_sim no)
 		(at 40.64 53.34 90)

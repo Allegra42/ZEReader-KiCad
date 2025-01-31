@@ -3903,7 +3903,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3036dc17-9ccc-4f45-8721-ad5ad9c2afd5")
-		(property "Reference" "TP6"
+		(property "Reference" "TP6_EPD_DIN1"
 			(at 77.47 175.2599 90)
 			(effects
 				(font
@@ -3954,7 +3954,7 @@
 		(instances
 			(project "ZEReader-Pico"
 				(path "/ec954637-2a8b-4662-b4a1-f88107f11cb0/d006ff72-e176-4e99-8906-01d59b86077c"
-					(reference "TP6")
+					(reference "TP6_EPD_DIN1")
 					(unit 1)
 				)
 			)
@@ -4177,7 +4177,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4d3e92a2-9a22-491f-a462-141b130cd6da")
-		(property "Reference" "TP4"
+		(property "Reference" "TP4_EPD_CS1"
 			(at 77.47 165.0999 90)
 			(effects
 				(font
@@ -4228,7 +4228,7 @@
 		(instances
 			(project "ZEReader-Pico"
 				(path "/ec954637-2a8b-4662-b4a1-f88107f11cb0/d006ff72-e176-4e99-8906-01d59b86077c"
-					(reference "TP4")
+					(reference "TP4_EPD_CS1")
 					(unit 1)
 				)
 			)
@@ -4525,7 +4525,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5afad0a0-057c-4b53-9328-d4ffa3efb454")
-		(property "Reference" "TP3"
+		(property "Reference" "TP3_EPD_DC1"
 			(at 77.47 160.0199 90)
 			(effects
 				(font
@@ -4576,7 +4576,7 @@
 		(instances
 			(project "ZEReader-Pico"
 				(path "/ec954637-2a8b-4662-b4a1-f88107f11cb0/d006ff72-e176-4e99-8906-01d59b86077c"
-					(reference "TP3")
+					(reference "TP3_EPD_DC1")
 					(unit 1)
 				)
 			)
@@ -4862,7 +4862,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7baf1d65-a1a9-4e5d-bb21-42f831b6e9a5")
-		(property "Reference" "TP7"
+		(property "Reference" "TP7_GND1"
 			(at 77.47 180.3399 90)
 			(effects
 				(font
@@ -4913,7 +4913,7 @@
 		(instances
 			(project "ZEReader-Pico"
 				(path "/ec954637-2a8b-4662-b4a1-f88107f11cb0/d006ff72-e176-4e99-8906-01d59b86077c"
-					(reference "TP7")
+					(reference "TP7_GND1")
 					(unit 1)
 				)
 			)
@@ -5197,7 +5197,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "92a3e87d-dec3-400f-b703-125a7158ad2f")
-		(property "Reference" "TP2"
+		(property "Reference" "TP2_EPD_RST1"
 			(at 77.47 154.9399 90)
 			(effects
 				(font
@@ -5248,7 +5248,7 @@
 		(instances
 			(project "ZEReader-Pico"
 				(path "/ec954637-2a8b-4662-b4a1-f88107f11cb0/d006ff72-e176-4e99-8906-01d59b86077c"
-					(reference "TP2")
+					(reference "TP2_EPD_RST1")
 					(unit 1)
 				)
 			)
@@ -5609,7 +5609,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e04da947-6287-46db-b0ad-871f85be61e5")
-		(property "Reference" "TP1"
+		(property "Reference" "TP1_EPD_BUSY1"
 			(at 77.47 149.8599 90)
 			(effects
 				(font
@@ -5660,7 +5660,7 @@
 		(instances
 			(project ""
 				(path "/ec954637-2a8b-4662-b4a1-f88107f11cb0/d006ff72-e176-4e99-8906-01d59b86077c"
-					(reference "TP1")
+					(reference "TP1_EPD_BUSY1")
 					(unit 1)
 				)
 			)
@@ -6081,7 +6081,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fb80882b-612d-4f49-8521-c522a046e205")
-		(property "Reference" "TP5"
+		(property "Reference" "TP5_EPD_SCK1"
 			(at 77.47 170.1799 90)
 			(effects
 				(font
@@ -6132,7 +6132,7 @@
 		(instances
 			(project "ZEReader-Pico"
 				(path "/ec954637-2a8b-4662-b4a1-f88107f11cb0/d006ff72-e176-4e99-8906-01d59b86077c"
-					(reference "TP5")
+					(reference "TP5_EPD_SCK1")
 					(unit 1)
 				)
 			)

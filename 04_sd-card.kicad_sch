@@ -1765,7 +1765,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "01b178c4-281a-4c8b-9dbd-6b86fd75c5ba")
-		(property "Reference" "TP10"
+		(property "Reference" "TP10_SD_DO1"
 			(at 87.63 151.1299 90)
 			(effects
 				(font
@@ -1816,7 +1816,7 @@
 		(instances
 			(project "ZEReader-Pico"
 				(path "/ec954637-2a8b-4662-b4a1-f88107f11cb0/5fd074b7-3c47-4717-bcdc-b0d8134ff74e"
-					(reference "TP10")
+					(reference "TP10_SD_DO1")
 					(unit 1)
 				)
 			)
@@ -1832,7 +1832,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "09d8dedd-09b8-4689-a60f-388c9e01f11b")
-		(property "Reference" "TP9"
+		(property "Reference" "TP9_SD_DI1"
 			(at 87.63 144.7799 90)
 			(effects
 				(font
@@ -1883,7 +1883,7 @@
 		(instances
 			(project "ZEReader-Pico"
 				(path "/ec954637-2a8b-4662-b4a1-f88107f11cb0/5fd074b7-3c47-4717-bcdc-b0d8134ff74e"
-					(reference "TP9")
+					(reference "TP9_SD_DI1")
 					(unit 1)
 				)
 			)
@@ -2171,7 +2171,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6a9231dc-ab8f-481f-9332-b9ce630d0021")
-		(property "Reference" "TP8"
+		(property "Reference" "TP8_SD_CS1"
 			(at 87.63 138.4299 90)
 			(effects
 				(font
@@ -2222,7 +2222,7 @@
 		(instances
 			(project "ZEReader-Pico"
 				(path "/ec954637-2a8b-4662-b4a1-f88107f11cb0/5fd074b7-3c47-4717-bcdc-b0d8134ff74e"
-					(reference "TP8")
+					(reference "TP8_SD_CS1")
 					(unit 1)
 				)
 			)
@@ -2510,7 +2510,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d64ef654-f648-4a1c-a2a5-fdedf58d4f2b")
-		(property "Reference" "TP11"
+		(property "Reference" "TP11_SD_CLK1"
 			(at 87.63 157.4799 90)
 			(effects
 				(font
@@ -2561,7 +2561,7 @@
 		(instances
 			(project "ZEReader-Pico"
 				(path "/ec954637-2a8b-4662-b4a1-f88107f11cb0/5fd074b7-3c47-4717-bcdc-b0d8134ff74e"
-					(reference "TP11")
+					(reference "TP11_SD_CLK1")
 					(unit 1)
 				)
 			)
@@ -2643,7 +2643,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "efd95098-bb5f-4948-a682-e8d03b94efba")
-		(property "Reference" "TP12"
+		(property "Reference" "TP12_GND1"
 			(at 87.63 163.8299 90)
 			(effects
 				(font
@@ -2694,7 +2694,7 @@
 		(instances
 			(project "ZEReader-Pico"
 				(path "/ec954637-2a8b-4662-b4a1-f88107f11cb0/5fd074b7-3c47-4717-bcdc-b0d8134ff74e"
-					(reference "TP12")
+					(reference "TP12_GND1")
 					(unit 1)
 				)
 			)

@@ -1,6 +1,7 @@
 name: "KiBot GitHub Action"
 
 on:
+  workflow_dispatch
   push:
     paths:
       - '*.kicad_sch'
@@ -24,7 +25,7 @@ jobs:
 
     - name: Upload results
       if: ${{ always() }}
-      uses: actions/upload-artifacts@v4
+      uses: actions/upload-artifact@v4
       with:
         name: KiBot_Outputs
         path: Generated

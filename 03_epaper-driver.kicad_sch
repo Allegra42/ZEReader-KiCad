@@ -3129,10 +3129,10 @@
 		)
 		(uuid "c86b425c-0e64-4250-9966-4879d27d39a2")
 	)
-	(text_box "Question:\nCan the capacitor value be changed?\nE.g. 10uF to keep the BOM small?\n\n\nUC8179 Datasheet: \n\nNote:\n1. The capacitor value of VGH/VGL must be equal or more than the one of VDH/VDL/VDHR.\n-> can atleast these values be changed to 10uF for all of them? "
+	(text_box "Question:\nCan the capacitor value be changed?\nE.g. 10uF to keep the BOM small? Does this result in negative inrush effects?\n\n\nUC8179 Datasheet: \n\nNote:\n1. The capacitor value of VGH/VGL must be equal or more than the one of VDH/VDL/VDHR.\n-> can atleast these values be changed to 10uF for all of them? \n\nhttps://www.signalintegrityjournal.com/articles/1589-the-myth-of-three-capacitor-values\nhttps://codeinsecurity.wordpress.com/2025/01/25/proper-decoupling-practices-and-why-you-should-leave-100nf-behind/"
 		(exclude_from_sim no)
 		(at 172.72 15.24 0)
-		(size 68.58 25.4)
+		(size 99.06 30.48)
 		(stroke
 			(width 0)
 			(type default)
@@ -3147,6 +3147,16 @@
 			(justify left top)
 		)
 		(uuid "ca7b25a1-4933-437d-8410-459226ab4bf9")
+	)
+	(text "Charge pump"
+		(exclude_from_sim no)
+		(at 82.804 60.706 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d3b4addf-7a34-4870-ad1d-7f0e75dff352")
 	)
 	(label "VGL"
 		(at 201.93 123.19 0)

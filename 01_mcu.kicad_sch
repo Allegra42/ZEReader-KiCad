@@ -6,7 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "ZEReader-Pico")
-		(rev "v1")
+		(date "$(CURRENT_DATE)")
+		(rev "v1-$(REV)")
 		(company "Anna-Lena Marx")
 		(comment 1 "Bachelorthesis")
 	)

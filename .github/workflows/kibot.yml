@@ -1,0 +1,30 @@
+name: "KiBot GitHub Action"
+
+on:
+  push:
+    paths:
+      - '*.kicad_sch'
+      - '*.kicad_pcb'
+
+jobs:
+  quick:
+    name: "Quick start action"
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repo
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: '0'
+
+    - name: Run KiBot
+      uses: INTI-CMNB/KiBot@v2_k8
+      with:
+        quickstart: YES
+
+    - name: Upload results
+      if: ${{ always }}
+      uses: actions/upload-artifacts@v4
+      with:
+        name: KiBot_Outputs
+        path: Generated

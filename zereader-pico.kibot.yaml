@@ -16,11 +16,11 @@ preflight:
   filters:
 
   set_text_variables:
-  - name: 'git_hash'
+  - name: 'kibot_git-hash'
     command: 'git log -1 --format="%h" $KIBOT_PCB_NAME'
     before: 'Git:'
 
-  - name: 'date'
+  - name: 'kibot_date'
     command 'date --iso-8601=minutes'
 
 outputs:

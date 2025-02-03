@@ -20,7 +20,7 @@ preflight:
     command: 'git log -1 --format="%h" $KIBOT_PCB_NAME'
 
   - name: 'kibot_date'
-    command 'date --iso-8601=minutes'
+    command: 'date --iso-8601=minutes'
 
 outputs:
   - name: 'IBoM'

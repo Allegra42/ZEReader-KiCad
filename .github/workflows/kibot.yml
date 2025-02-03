@@ -22,7 +22,8 @@ jobs:
       uses: INTI-CMNB/KiBot@v2_k8
       with:
         config: 'zereader-pico.kibot.yaml'
-        dir: KiBot_Outputs 
+        dir: KiBot_Outputs
+        schema: 'ZEReader-Pico.kicad_sch'
 
     - name: Upload results
       if: ${{ always() }}

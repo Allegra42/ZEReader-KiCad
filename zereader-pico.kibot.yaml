@@ -2,7 +2,7 @@ kibot:
   version: 1
 
 globals:
-  filters:
+  # filters:
 
   # This will undo the 'set_text_variables' task when running locally
   restore_project: true

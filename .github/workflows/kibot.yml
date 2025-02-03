@@ -23,7 +23,7 @@ jobs:
         quickstart: YES
 
     - name: Upload results
-      if: ${{ always }}
+      if: ${{ always() }}
       uses: actions/upload-artifacts@v4
       with:
         name: KiBot_Outputs

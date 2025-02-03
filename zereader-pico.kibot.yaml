@@ -1,0 +1,64 @@
+kibot:
+  version: 1
+
+globals:
+  filters:
+
+  # This will undo the 'set_text_variables' task when running locally
+  restore_project: true
+
+preflight:
+  check_zone_fills: true
+
+  run_erc: true
+  run_drc: true
+  # Filters for ERC/DRC warnings and errors
+  filters:
+
+  set_text_variables:
+  - name: 'git_hash'
+    command: 'git log -1 --format="%h" $KIBOT_PCB_NAME'
+    before: 'Git:'
+
+  - name: 'date'
+    command 'date --iso-8601=minutes'
+
+outputs:
+  - name: 'IBoM'
+    type: ibom
+    dir: BoM
+
+  - name: 'HTML BoM'
+    type: bom
+    dir: BoM
+    options: &bom_options
+      format: HTML
+      title: 'Bill of Materials'
+
+  - name: 'Schematic'
+    type: pdf_sch_print
+    dir: Schematic
+
+  - name: 'Gerber_Files'
+    type: gerber
+    dir: Gerber
+    layers:
+      - F.Cu
+      - B.Cu
+      - F.Paste
+      - B.Paste
+      - F.SilkS
+      - B.SilkS
+      - F.Mask
+      - B.Mask
+      - Edge.Cuts 
+
+  - name: 'Drill'
+    type: excellon
+    dir: Drill
+
+  - name: 'PDF PCB'
+    type: pcb_print
+    dir: PCB
+
+

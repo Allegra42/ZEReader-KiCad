@@ -1,7 +1,7 @@
 name: "KiBot GitHub Action"
 
 on:
-  workflow_dispatch
+  workflow_dispatch:
   push:
     paths:
       - '*.kicad_sch'

@@ -1841,7 +1841,7 @@
 	)
 	(text_box "VBUS comes from the original Pico USB port.\nAs there is also the USB-C charging connector in this design\nfor feeding the LiPo charger and bypassing the original USB Port would only be an option\nby connecting to the test pads on the bottom side of the Pico. \nTo keep both parts seperated, VBUS is marked as a power flag and controls\nwhether the system is feed from original Pico USB connector or the path on page 3."
 		(exclude_from_sim no)
-		(at 172.72 27.94 0)
+		(at 175.26 25.4 0)
 		(size 73.66 20.32)
 		(stroke
 			(width 0)

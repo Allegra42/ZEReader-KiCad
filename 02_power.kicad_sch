@@ -4678,7 +4678,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "40fb1f8c-c188-4013-8a1f-5e85ef34db91")
+		(uuid "4cf8c6ec-758e-4fc6-90d3-a50788b5c97e")
 		(property "Reference" "S2"
 			(at 239.14 57.15 0)
 			(effects
@@ -4695,7 +4695,7 @@
 				)
 			)
 		)
-		(property "Footprint" "4504040015514:450404015514"
+		(property "Footprint" "prj-footprints:450404015514"
 			(at 238.76 64.77 0)
 			(effects
 				(font
@@ -4864,16 +4864,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "62da7833-b782-497a-bd45-6c9a1d31faf9")
-		)
-		(pin "3"
-			(uuid "4029e767-32dd-4961-9050-846d94057ce4")
+			(uuid "8ec8ed0d-359d-496a-8ef8-ff5749c7bae4")
 		)
 		(pin "2"
-			(uuid "ed93864e-fc6b-4f60-9ee6-1d058ec0272a")
+			(uuid "8b37c6ea-2e22-4273-a219-2d84460cc684")
+		)
+		(pin "3"
+			(uuid "ecab6973-bdca-4530-8313-f3c6b2560aff")
 		)
 		(instances
-			(project "ZEReader-Pico"
+			(project ""
 				(path "/ec954637-2a8b-4662-b4a1-f88107f11cb0/a18230d5-251f-4044-a9cd-045093d87cd6"
 					(reference "S2")
 					(unit 1)

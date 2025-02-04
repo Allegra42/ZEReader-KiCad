@@ -9366,6 +9366,530 @@
 			)
 		)
 	)
+	(footprint "prj-footprints:450404015514"
+		(layer "F.Cu")
+		(uuid "65e0f599-477b-42ab-9f57-06c6ef443a72")
+		(at 111.5 52)
+		(descr "<B>WS-SLSU</B><BR> Mini Slide Switch, Same Side Connection Side Push 6.7x2.7 mm")
+		(property "Reference" "S1"
+			(at -3.1 -3.008 0)
+			(layer "F.SilkS")
+			(uuid "2f0195dc-9b0f-450f-9691-a91d9f8c9a7f")
+			(effects
+				(font
+					(size 0.8 0.8)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "450404015514"
+			(at 3.396 3.792 0)
+			(layer "F.Fab")
+			(uuid "d9c7900a-882f-4d6c-bfe3-efe9f133d076")
+			(effects
+				(font
+					(size 0.8 0.8)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "prj-footprints:450404015514"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "38bec402-0fd6-44ab-97f8-7c627d793429")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fea42968-8ba2-4b0f-a4a1-59cda0a3e8a7")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8f4068d0-48be-44b8-b70b-eeb7a94f41dc")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" "Würth Elektronik"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "769adfd2-a9d7-49d4-a9c0-0ac5b4f8036a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description_1" "\n                        \n                            Slide Switch SPDT Surface Mount\n                        \n"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9d23344c-39ec-4ab9-a964-0288ee2d9d87")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "None"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d310e464-e5fb-4a15-ab00-3fa21654d743")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Price" "None"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "259b615d-b29b-46f9-99e2-6a9e493727a3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "IR" "300mA"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0ebbb46c-7737-4acf-9b00-782bb81ae47f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "QTY" "150"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "33fe8670-8c6d-49c3-9c4d-573b0a635834")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "PACKAGING" "Tape and Reel"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4d46af6b-26bb-44fe-ae03-53514291fd85")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "VR" "5V(DC)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "82d93cea-08d4-4306-bd55-196a61ea3074")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/450404015514/W%25C3%25BCrth+Elektronik+Midcom/view-part/?ref=snap"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9c939df7-017f-4e72-92f4-7b9e72407141")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DATASHEET-URL" "https://www.we-online.com/catalog/datasheet/450404015514.pdf"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d25323d2-a82a-46c9-86b5-24431d040072")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MP" "450404015514"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "75debb6e-517e-4427-955d-946cbacee88e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "PART-NUMBER" "450404015514"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "63c3ac85-9d7e-43f0-86c4-7d1d0ada68bf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "66d469d1-2a71-4c94-9571-577efbc1b671")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/450404015514/W%25C3%25BCrth+Elektronik+Midcom/view-part/?ref=eda"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b583dac3-0988-42b7-91fc-b0daced53e53")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/d006ff72-e176-4e99-8906-01d59b86077c/c7396c6e-480a-4829-b85f-8d2ab6623576")
+		(sheetname "03_ePaper-Driver")
+		(sheetfile "03_epaper-driver.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -3.45 -0.4)
+			(end -3.45 0.4)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "99853e64-b504-4abf-ba26-c907144d7a00")
+		)
+		(fp_line
+			(start -2.9 -1.45)
+			(end -0.01 -1.45)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "271a1dcf-f5aa-4b6a-979c-f05cb208bc03")
+		)
+		(fp_line
+			(start -0.1 1.45)
+			(end 1.6 1.45)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "f74da9d1-d1d1-4f30-af19-14b8df640394")
+		)
+		(fp_line
+			(start -0.01 -2.95)
+			(end 1.49 -2.95)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "7e9c503e-824c-4b77-a47b-e3f4c2b147e7")
+		)
+		(fp_line
+			(start -0.01 -1.45)
+			(end -0.01 -2.95)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "7165d3de-a727-4df5-a8c1-b45cd66ea50c")
+		)
+		(fp_line
+			(start 1.49 -2.95)
+			(end 1.49 -1.45)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "3ebc1d2e-8d7b-47db-8da3-b107b4072988")
+		)
+		(fp_line
+			(start 1.49 -1.45)
+			(end 2.9 -1.45)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "332e6c67-53a9-45b8-a32f-77130469e6f7")
+		)
+		(fp_line
+			(start 3.45 0.4)
+			(end 3.45 -0.4)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "8db8d7eb-a993-4962-b905-c45e341922a1")
+		)
+		(fp_circle
+			(center 1.7 0.9)
+			(end 1.8 0.9)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.SilkS")
+			(uuid "2d2092b4-4246-471e-9e65-96a4dd8e6a4f")
+		)
+		(fp_poly
+			(pts
+				(xy -0.21 -3.15) (xy 1.7 -3.15) (xy 1.7 -1.75) (xy 4.45 -1.75) (xy 4.45 1.75) (xy 2.8 1.75) (xy 2.8 2.8)
+				(xy -2.8 2.8) (xy -2.8 1.75) (xy -4.45 1.75) (xy -4.45 -1.75) (xy -0.21 -1.75)
+			)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill solid)
+			(layer "F.CrtYd")
+			(uuid "d3632406-3937-4a54-952d-34fa6c52676a")
+		)
+		(fp_line
+			(start -3.35 -1.35)
+			(end 0.09 -1.35)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "03f7ed65-34bc-407c-a708-6691cb3e315a")
+		)
+		(fp_line
+			(start -3.35 1.35)
+			(end -3.35 -1.35)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "37605290-3011-4267-9535-3b98557e9076")
+		)
+		(fp_line
+			(start 0.09 -2.85)
+			(end 1.39 -2.85)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "5cf76d59-962a-47fb-997c-b13f3736096c")
+		)
+		(fp_line
+			(start 0.09 -1.35)
+			(end 0.09 -2.85)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "732ef774-c65f-4889-95af-6a4838954c69")
+		)
+		(fp_line
+			(start 0.09 -1.35)
+			(end 1.39 -1.35)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "27b9d49e-a89f-4cd2-97d0-4c096c29a438")
+		)
+		(fp_line
+			(start 1.39 -2.85)
+			(end 1.39 -1.35)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "53350ef6-1e62-4020-8b20-311eaea95041")
+		)
+		(fp_line
+			(start 1.39 -1.35)
+			(end 3.35 -1.35)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "96fc45b6-33ac-4196-953b-e7da1e5f5759")
+		)
+		(fp_line
+			(start 3.35 -1.35)
+			(end 3.35 1.35)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "7abeedab-43c6-46ae-9935-9eeed475593c")
+		)
+		(fp_line
+			(start 3.35 1.35)
+			(end -3.35 1.35)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "4f655a91-c139-4378-ab67-8f71cc8db4cc")
+		)
+		(pad "" np_thru_hole circle
+			(at -1.5 0)
+			(size 0.9 0.9)
+			(drill 0.9)
+			(layers "*.Cu" "*.Mask")
+			(uuid "5536113b-53c7-4732-9aab-a594cd5745ec")
+		)
+		(pad "" np_thru_hole circle
+			(at 1.5 0)
+			(size 0.9 0.9)
+			(drill 0.9)
+			(layers "*.Cu" "*.Mask")
+			(uuid "d2b20e53-939c-41f8-a7c4-eec78a0eb114")
+		)
+		(pad "1" smd rect
+			(at 2.25 2.05)
+			(size 0.7 1.1)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 42 "Net-(R9-Pad2)")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "f3479a54-47b0-463f-a29c-289445ad0887")
+		)
+		(pad "2" smd rect
+			(at -0.75 2.05)
+			(size 0.7 1.1)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 15 "/03_ePaper-Driver/RESE")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "1a4ee21b-35af-442d-ad6b-47dd64a992c0")
+		)
+		(pad "3" smd rect
+			(at -2.25 2.05)
+			(size 0.7 1.1)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 43 "Net-(R10-Pad1)")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "9e622824-4f10-4bcf-bda1-f3f25c5967e7")
+		)
+		(pad "Z1" smd rect
+			(at -3.75 -1.15)
+			(size 1 0.8)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(solder_mask_margin 0.102)
+			(uuid "194922df-f364-456e-a389-cffa6bb31ee6")
+		)
+		(pad "Z2" smd rect
+			(at 3.75 -1.15)
+			(size 1 0.8)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(solder_mask_margin 0.102)
+			(uuid "df33d4e1-8cf9-41b6-9564-65bc361bd0ea")
+		)
+		(pad "Z3" smd rect
+			(at 3.75 1.15)
+			(size 1 0.8)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(solder_mask_margin 0.102)
+			(uuid "a68f89f4-b020-48b1-958c-0ebc2336ee7b")
+		)
+		(pad "Z4" smd rect
+			(at -3.75 1.15)
+			(size 1 0.8)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(solder_mask_margin 0.102)
+			(uuid "f7812a95-eb0e-453e-b5fa-a09cc6ab6159")
+		)
+		(model "${KIPRJMOD}/packages3d/450404015514.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 180 180 0)
+			)
+		)
+	)
 	(footprint "Connector_JST:JST_EH_S2B-EH_1x02_P2.50mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "6613329d-8424-4acd-92f5-68df38917725")
@@ -13950,530 +14474,6 @@
 			(uuid "47aaed3c-1d1d-453a-aa94-d3fa74c4f740")
 		)
 	)
-	(footprint "prj-footprints:450404015514"
-		(layer "F.Cu")
-		(uuid "9e0b1dbc-9f80-4af2-9baa-b9e58f0bd376")
-		(at 120.5 31.155)
-		(descr "<B>WS-SLSU</B><BR> Mini Slide Switch, Same Side Connection Side Push 6.7x2.7 mm")
-		(property "Reference" "S1"
-			(at -3.1 -3.008 0)
-			(layer "F.SilkS")
-			(uuid "83d0c167-495d-4add-933e-7ea72096bc9b")
-			(effects
-				(font
-					(size 0.8 0.8)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "450404015514"
-			(at 3.396 3.792 0)
-			(layer "F.Fab")
-			(uuid "de40c407-0201-4664-91de-799cb1ef3921")
-			(effects
-				(font
-					(size 0.8 0.8)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "prj-footprints:450404015514"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "98ea4e91-867c-4fd0-97ab-9afbf57f69d8")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9d3aa658-5407-43df-b187-70d3ddfeed19")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d5ea800b-32f6-4bee-8083-151c5e84c3c2")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MF" "Würth Elektronik"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e8cc2cb7-1601-44d2-a9e5-ddba6556276d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description_1" "\n                        \n                            Slide Switch SPDT Surface Mount\n                        \n"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ec312eca-51d8-4b22-a170-eea0717ae347")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Package" "None"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3584aae3-8470-4fce-87cb-12d591673e67")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Price" "None"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "28cee6ea-1df6-49b3-850b-e40c5221a77a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "IR" "300mA"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a99f70a7-f841-429a-bf8e-98321c379d86")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "QTY" "150"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f57eefae-b724-4782-ab42-c6e9baee9bd6")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "PACKAGING" "Tape and Reel"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e9fd73de-4d5c-4d2f-b51f-5fa888315591")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "VR" "5V(DC)"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "83775985-1dd0-45bf-a23e-1ed6956ac92a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/450404015514/W%25C3%25BCrth+Elektronik+Midcom/view-part/?ref=snap"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e55eec56-122c-4edb-a92a-7e854a855673")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "DATASHEET-URL" "https://www.we-online.com/catalog/datasheet/450404015514.pdf"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "58016c5d-8303-4829-a188-a9982fb0aab8")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MP" "450404015514"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3d139971-fdb6-45c1-9563-e362b1e76a1b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "PART-NUMBER" "450404015514"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "696aff67-023d-47d1-bb02-4e9fbeb88c20")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d2daa5ad-1049-474b-9d66-75d10f1b3306")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/450404015514/W%25C3%25BCrth+Elektronik+Midcom/view-part/?ref=eda"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "630cf884-5aa2-4186-b8b4-1eb4d8104993")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(path "/d006ff72-e176-4e99-8906-01d59b86077c/4e4f292f-3faa-446e-b0d0-d5672a16c84c")
-		(sheetname "03_ePaper-Driver")
-		(sheetfile "03_epaper-driver.kicad_sch")
-		(attr smd)
-		(fp_line
-			(start -3.45 -0.4)
-			(end -3.45 0.4)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "1bf239ec-53e9-44b3-9176-ff88a81b1a14")
-		)
-		(fp_line
-			(start -2.9 -1.45)
-			(end -0.01 -1.45)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "e14af6b3-a7d4-4946-b3ef-50d95206b87e")
-		)
-		(fp_line
-			(start -0.1 1.45)
-			(end 1.6 1.45)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "5a03676c-454a-481a-9861-97c12915cc39")
-		)
-		(fp_line
-			(start -0.01 -2.95)
-			(end 1.49 -2.95)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "b29fe86e-8a6d-465d-8e11-23d0b3e3adfb")
-		)
-		(fp_line
-			(start -0.01 -1.45)
-			(end -0.01 -2.95)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "1e4482d6-e858-4a5d-acc4-5c1463f91f5b")
-		)
-		(fp_line
-			(start 1.49 -2.95)
-			(end 1.49 -1.45)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "5392dc32-5475-4fb3-bcfd-32da7b13435f")
-		)
-		(fp_line
-			(start 1.49 -1.45)
-			(end 2.9 -1.45)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "f84e5aba-b051-42d6-8d7a-9e8cf6b8e76c")
-		)
-		(fp_line
-			(start 3.45 0.4)
-			(end 3.45 -0.4)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "ec28c419-32a4-414b-8e00-fee5d77c2d09")
-		)
-		(fp_circle
-			(center 1.7 0.9)
-			(end 1.8 0.9)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(fill none)
-			(layer "F.SilkS")
-			(uuid "b3d9bf37-74f8-482d-8c27-f802cb3aa082")
-		)
-		(fp_poly
-			(pts
-				(xy -0.21 -3.15) (xy 1.7 -3.15) (xy 1.7 -1.75) (xy 4.45 -1.75) (xy 4.45 1.75) (xy 2.8 1.75) (xy 2.8 2.8)
-				(xy -2.8 2.8) (xy -2.8 1.75) (xy -4.45 1.75) (xy -4.45 -1.75) (xy -0.21 -1.75)
-			)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(fill solid)
-			(layer "F.CrtYd")
-			(uuid "ae21dec0-85ed-4865-b0f9-691c82b8a6c4")
-		)
-		(fp_line
-			(start -3.35 -1.35)
-			(end 0.09 -1.35)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "921de788-127a-44dd-860b-dcd861021569")
-		)
-		(fp_line
-			(start -3.35 1.35)
-			(end -3.35 -1.35)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "1b1b0619-33bf-4fed-a834-4177bff95aee")
-		)
-		(fp_line
-			(start 0.09 -2.85)
-			(end 1.39 -2.85)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "2e4b99c8-7bdc-4caf-b16a-706ac420e751")
-		)
-		(fp_line
-			(start 0.09 -1.35)
-			(end 0.09 -2.85)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "c59b534f-50da-45d4-9cac-1462c1c77b36")
-		)
-		(fp_line
-			(start 0.09 -1.35)
-			(end 1.39 -1.35)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "3edebd07-a63a-47c7-943f-878174da49e8")
-		)
-		(fp_line
-			(start 1.39 -2.85)
-			(end 1.39 -1.35)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "a0308719-e09a-476b-8775-65f3c1b0dc0e")
-		)
-		(fp_line
-			(start 1.39 -1.35)
-			(end 3.35 -1.35)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "bc035a01-48ab-4e16-921d-839b81b69005")
-		)
-		(fp_line
-			(start 3.35 -1.35)
-			(end 3.35 1.35)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "9819fd06-ad34-4190-8f09-75f5e6de2700")
-		)
-		(fp_line
-			(start 3.35 1.35)
-			(end -3.35 1.35)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "f77be26e-305b-4bac-891f-78aa5cc51e49")
-		)
-		(pad "" np_thru_hole circle
-			(at -1.5 0)
-			(size 0.9 0.9)
-			(drill 0.9)
-			(layers "*.Cu" "*.Mask")
-			(uuid "3ef87e8e-7c6c-4906-a43f-8f0174e345ca")
-		)
-		(pad "" np_thru_hole circle
-			(at 1.5 0)
-			(size 0.9 0.9)
-			(drill 0.9)
-			(layers "*.Cu" "*.Mask")
-			(uuid "5c6206c3-c50a-432a-be60-b9ff09ef5329")
-		)
-		(pad "1" smd rect
-			(at 2.25 2.05)
-			(size 0.7 1.1)
-			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 42 "Net-(R9-Pad2)")
-			(pintype "passive")
-			(solder_mask_margin 0.102)
-			(uuid "7a500aaa-8359-4525-acb5-d11705d235d8")
-		)
-		(pad "2" smd rect
-			(at -0.75 2.05)
-			(size 0.7 1.1)
-			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 15 "/03_ePaper-Driver/RESE")
-			(pintype "passive")
-			(solder_mask_margin 0.102)
-			(uuid "6ce40030-76b7-4756-bbda-928c248a0ba2")
-		)
-		(pad "3" smd rect
-			(at -2.25 2.05)
-			(size 0.7 1.1)
-			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 43 "Net-(R10-Pad1)")
-			(pintype "passive")
-			(solder_mask_margin 0.102)
-			(uuid "4ebce21b-9060-4ce6-a3c7-ba07f288eb7e")
-		)
-		(pad "Z1" smd rect
-			(at -3.75 -1.15)
-			(size 1 0.8)
-			(layers "F.Cu" "F.Paste" "F.Mask")
-			(solder_mask_margin 0.102)
-			(uuid "df70a30d-0045-4373-94c7-061ba784b052")
-		)
-		(pad "Z2" smd rect
-			(at 3.75 -1.15)
-			(size 1 0.8)
-			(layers "F.Cu" "F.Paste" "F.Mask")
-			(solder_mask_margin 0.102)
-			(uuid "59f541f6-f9ed-43d1-b47a-b84cd0145b3b")
-		)
-		(pad "Z3" smd rect
-			(at 3.75 1.15)
-			(size 1 0.8)
-			(layers "F.Cu" "F.Paste" "F.Mask")
-			(solder_mask_margin 0.102)
-			(uuid "9dcd6912-e093-4f14-a4bb-e0a8ac0ae05d")
-		)
-		(pad "Z4" smd rect
-			(at -3.75 1.15)
-			(size 1 0.8)
-			(layers "F.Cu" "F.Paste" "F.Mask")
-			(solder_mask_margin 0.102)
-			(uuid "1dbd10f6-0a01-4a72-b199-edf648e1f863")
-		)
-		(model "${KIPRJMOD}/packages3d/450404015514.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 180 180 0)
-			)
-		)
-	)
 	(footprint "TestPoint:TestPoint_Plated_Hole_D2.0mm"
 		(layer "F.Cu")
 		(uuid "b67bb222-73c5-4a9f-b248-64488a71a0cf")
@@ -17190,530 +17190,6 @@
 			)
 		)
 	)
-	(footprint "prj-footprints:450404015514"
-		(layer "F.Cu")
-		(uuid "d9975aee-fd68-4970-b482-261674692db8")
-		(at 52 50.5 90)
-		(descr "<B>WS-SLSU</B><BR> Mini Slide Switch, Same Side Connection Side Push 6.7x2.7 mm")
-		(property "Reference" "S2"
-			(at -3.1 -3.008 90)
-			(layer "F.SilkS")
-			(uuid "26d61241-d63a-4a8e-8454-950444a76806")
-			(effects
-				(font
-					(size 0.8 0.8)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "450404015514"
-			(at 3.396 3.792 90)
-			(layer "F.Fab")
-			(uuid "35eb0791-1cd6-4705-97e1-f282a8ff06ac")
-			(effects
-				(font
-					(size 0.8 0.8)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "prj-footprints:450404015514"
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b1f8ad93-8373-414c-a780-e854c27b0a36")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5e9d45fb-67ae-447b-9acd-a796702c8598")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9ddc1303-eb8e-4669-93ba-8df94a8d4b6b")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MF" "Würth Elektronik"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b98a1a27-8e06-4d93-a3d2-d1147d687b43")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description_1" "\n                        \n                            Slide Switch SPDT Surface Mount\n                        \n"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "68b33a56-7ef2-4467-b8a2-aad512a87b13")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Package" "None"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "18000546-6428-4268-a8fc-8bc7fea59049")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Price" "None"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "95d161b2-ea21-4987-8244-64614b884344")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "IR" "300mA"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9700ddd3-d352-4608-bfc3-9d43c63a6435")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "QTY" "150"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4d97e97a-c453-4eaf-9139-85f21b4763c3")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "PACKAGING" "Tape and Reel"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c410b80d-9ff2-47ac-ada2-5000efe0b353")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "VR" "5V(DC)"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8521e713-63d3-49c4-8d87-4030623da6d9")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/450404015514/W%25C3%25BCrth+Elektronik+Midcom/view-part/?ref=snap"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "137b6ce1-e10d-4fc1-a2e2-3af77fbabb53")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "DATASHEET-URL" "https://www.we-online.com/catalog/datasheet/450404015514.pdf"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "42a2e472-2667-41b6-8b62-36c8095f3b25")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MP" "450404015514"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "34db6b23-6de2-4601-8e18-f77e5f7900f3")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "PART-NUMBER" "450404015514"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "55ed372f-c783-4074-8897-21172e845cd8")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "0c0f1eea-381b-4ec6-998a-fe1dd8c6a538")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/450404015514/W%25C3%25BCrth+Elektronik+Midcom/view-part/?ref=eda"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6e058c83-c5db-42f1-a460-2505ac97f5af")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(path "/a18230d5-251f-4044-a9cd-045093d87cd6/40fb1f8c-c188-4013-8a1f-5e85ef34db91")
-		(sheetname "02_Power")
-		(sheetfile "02_power.kicad_sch")
-		(attr smd)
-		(fp_line
-			(start 1.49 -2.95)
-			(end 1.49 -1.45)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "62eaa5e8-6fc2-4b49-8da9-f495e8e80395")
-		)
-		(fp_line
-			(start -0.01 -2.95)
-			(end 1.49 -2.95)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "f5426a7d-f08e-435d-85eb-3e499e7b71a0")
-		)
-		(fp_line
-			(start 1.49 -1.45)
-			(end 2.9 -1.45)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "9c158386-7435-465e-8ded-6faec89571f8")
-		)
-		(fp_line
-			(start -0.01 -1.45)
-			(end -0.01 -2.95)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "4dfcafb9-80ad-42ab-a782-ec47dffb6bf6")
-		)
-		(fp_line
-			(start -2.9 -1.45)
-			(end -0.01 -1.45)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "1199d481-f543-4958-92e8-3112e4649392")
-		)
-		(fp_line
-			(start -3.45 -0.4)
-			(end -3.45 0.4)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "b7abba64-6d96-4802-9ca0-738ad019e3cf")
-		)
-		(fp_line
-			(start 3.45 0.4)
-			(end 3.45 -0.4)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "639f5f4e-9ef4-4aac-a48b-c00428b60769")
-		)
-		(fp_line
-			(start -0.1 1.45)
-			(end 1.6 1.45)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "70a61c5d-b1ce-4c1d-a89d-315cc8284d64")
-		)
-		(fp_circle
-			(center 1.7 0.9)
-			(end 1.8 0.9)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(fill none)
-			(layer "F.SilkS")
-			(uuid "11405c12-efc7-4d90-ac90-2bf4fc2f36cd")
-		)
-		(fp_poly
-			(pts
-				(xy -0.21 -3.15) (xy 1.7 -3.15) (xy 1.7 -1.75) (xy 4.45 -1.75) (xy 4.45 1.75) (xy 2.8 1.75) (xy 2.8 2.8)
-				(xy -2.8 2.8) (xy -2.8 1.75) (xy -4.45 1.75) (xy -4.45 -1.75) (xy -0.21 -1.75)
-			)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(fill solid)
-			(layer "F.CrtYd")
-			(uuid "67d4ed27-929f-4fc9-b986-ccf7ab65fef0")
-		)
-		(fp_line
-			(start 1.39 -2.85)
-			(end 1.39 -1.35)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "ef991590-10ab-43bc-9e1f-9c7868098906")
-		)
-		(fp_line
-			(start 0.09 -2.85)
-			(end 1.39 -2.85)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "6844d700-6808-400a-821c-833abb4d3f38")
-		)
-		(fp_line
-			(start 3.35 -1.35)
-			(end 3.35 1.35)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "b08a1090-2ea2-46f5-a61f-90ddbf650385")
-		)
-		(fp_line
-			(start 1.39 -1.35)
-			(end 3.35 -1.35)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "c56d481b-3a3e-406f-a1f0-62318b255faf")
-		)
-		(fp_line
-			(start 0.09 -1.35)
-			(end 0.09 -2.85)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "e6d5c79b-21fc-4c57-a040-52765f911556")
-		)
-		(fp_line
-			(start 0.09 -1.35)
-			(end 1.39 -1.35)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "5502ee06-c05b-4e02-8ace-227475f2e495")
-		)
-		(fp_line
-			(start -3.35 -1.35)
-			(end 0.09 -1.35)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "3bb79231-dff2-46b9-91c9-9bc43873e063")
-		)
-		(fp_line
-			(start 3.35 1.35)
-			(end -3.35 1.35)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "9ea71488-2d62-4b09-964c-55fe37740301")
-		)
-		(fp_line
-			(start -3.35 1.35)
-			(end -3.35 -1.35)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "2b52e0b6-ff99-4c45-833f-6c63e3c96b97")
-		)
-		(pad "" np_thru_hole circle
-			(at -1.5 0 90)
-			(size 0.9 0.9)
-			(drill 0.9)
-			(layers "*.Cu" "*.Mask")
-			(uuid "9da37563-290b-43ba-b281-34ef52544063")
-		)
-		(pad "" np_thru_hole circle
-			(at 1.5 0 90)
-			(size 0.9 0.9)
-			(drill 0.9)
-			(layers "*.Cu" "*.Mask")
-			(uuid "cee461a4-763f-414d-90c7-280b998ec2b6")
-		)
-		(pad "1" smd rect
-			(at 2.25 2.05 90)
-			(size 0.7 1.1)
-			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 34 "GND")
-			(pintype "passive")
-			(solder_mask_margin 0.102)
-			(uuid "d35a4c7f-1254-462a-aabe-a1b2ac302786")
-		)
-		(pad "2" smd rect
-			(at -0.75 2.05 90)
-			(size 0.7 1.1)
-			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 90 "Net-(R16-Pad1)")
-			(pintype "passive")
-			(solder_mask_margin 0.102)
-			(uuid "649bde76-9197-423f-bae6-6cea0058e1c9")
-		)
-		(pad "3" smd rect
-			(at -2.25 2.05 90)
-			(size 0.7 1.1)
-			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 74 "/02_Power/V_USB_LIPO")
-			(pintype "passive")
-			(solder_mask_margin 0.102)
-			(uuid "45a46868-caf5-40e2-b4f0-7c8a9a3c69bb")
-		)
-		(pad "Z1" smd rect
-			(at -3.75 -1.15 90)
-			(size 1 0.8)
-			(layers "F.Cu" "F.Paste" "F.Mask")
-			(solder_mask_margin 0.102)
-			(uuid "dbd0ba3a-023f-4434-be23-3c2bfc84f091")
-		)
-		(pad "Z2" smd rect
-			(at 3.75 -1.15 90)
-			(size 1 0.8)
-			(layers "F.Cu" "F.Paste" "F.Mask")
-			(solder_mask_margin 0.102)
-			(uuid "7f560736-3740-4dcb-b907-6350f7a01aaa")
-		)
-		(pad "Z3" smd rect
-			(at 3.75 1.15 90)
-			(size 1 0.8)
-			(layers "F.Cu" "F.Paste" "F.Mask")
-			(solder_mask_margin 0.102)
-			(uuid "5d240c31-e975-4d59-ab4b-5a9b29e7b136")
-		)
-		(pad "Z4" smd rect
-			(at -3.75 1.15 90)
-			(size 1 0.8)
-			(layers "F.Cu" "F.Paste" "F.Mask")
-			(solder_mask_margin 0.102)
-			(uuid "ebd5cf28-2861-486a-b983-05e19f01f63a")
-		)
-		(model "${KIPRJMOD}/packages3d/450404015514.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 180 180 0)
-			)
-		)
-	)
 	(footprint "prj-footprints:SOT91P240X110-3N_DMG2305UX-7"
 		(layer "F.Cu")
 		(uuid "d9c80896-9d6c-400b-9d3b-099fc5767575")
@@ -19248,6 +18724,530 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "prj-footprints:450404015514"
+		(layer "F.Cu")
+		(uuid "f5835312-846f-4e3d-80cf-14b4dbef3c50")
+		(at 51.95 49.25 90)
+		(descr "<B>WS-SLSU</B><BR> Mini Slide Switch, Same Side Connection Side Push 6.7x2.7 mm")
+		(property "Reference" "S2"
+			(at -3.1 -3.008 90)
+			(layer "F.SilkS")
+			(uuid "62543d5e-f920-4bea-998a-afaedecfbad0")
+			(effects
+				(font
+					(size 0.8 0.8)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "450404015514"
+			(at 3.396 3.792 90)
+			(layer "F.Fab")
+			(uuid "18cb308f-d66a-4142-adcf-2840a29c30b1")
+			(effects
+				(font
+					(size 0.8 0.8)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "prj-footprints:450404015514"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "02024e51-797c-4008-87f4-69e701417a51")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0d5fe5d3-95fd-4230-b1ae-7bf6413d5dd7")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "07189f7e-aa9c-4528-81e7-b9a485491241")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" "Würth Elektronik"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4f9064c6-2fa2-4e62-8803-01d86ef2b7df")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description_1" "\n                        \n                            Slide Switch SPDT Surface Mount\n                        \n"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "029822c7-400e-42ae-be54-3a87fbd713b3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "None"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d68c51b5-5859-4eb6-9f34-da9bfbbd86a9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Price" "None"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "de77613e-3ac7-48df-b699-e2e5ae5eee6d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "IR" "300mA"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d829e9a0-1889-4db7-a556-d54d71d88f8a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "QTY" "150"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3c582060-7cf1-4b46-be96-0e00248b1597")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "PACKAGING" "Tape and Reel"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e4b528d7-f21e-4d82-a48d-71ee26452846")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "VR" "5V(DC)"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "49027191-6310-4287-93ec-dbb0d9b30c49")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/450404015514/W%25C3%25BCrth+Elektronik+Midcom/view-part/?ref=snap"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "50fa6520-8f8b-4782-bf06-1459a3c66e1e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DATASHEET-URL" "https://www.we-online.com/catalog/datasheet/450404015514.pdf"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1ea35a9d-91db-4194-9b32-5ed0ef26db2b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MP" "450404015514"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c8f81111-f8f2-41b6-8699-adcfe2e8579b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "PART-NUMBER" "450404015514"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "00d1522c-b244-4ec8-af20-2ca2c8a7c0d5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "530cf0d6-d689-4f86-8f1c-048c3ffe59b3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/450404015514/W%25C3%25BCrth+Elektronik+Midcom/view-part/?ref=eda"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0b406345-0e5f-492c-82e6-a923ede4ebd8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/a18230d5-251f-4044-a9cd-045093d87cd6/4cf8c6ec-758e-4fc6-90d3-a50788b5c97e")
+		(sheetname "02_Power")
+		(sheetfile "02_power.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start 1.49 -2.95)
+			(end 1.49 -1.45)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "75142d27-4dc9-41f5-b9c5-7394a5ea06d7")
+		)
+		(fp_line
+			(start -0.01 -2.95)
+			(end 1.49 -2.95)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "a2f29b36-7dd6-4807-95d7-305c06a3e3fe")
+		)
+		(fp_line
+			(start 1.49 -1.45)
+			(end 2.9 -1.45)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "7cf6e6b3-5c6f-49be-b823-e2fa88e68829")
+		)
+		(fp_line
+			(start -0.01 -1.45)
+			(end -0.01 -2.95)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "8072d319-225c-41b9-9265-77c34de43587")
+		)
+		(fp_line
+			(start -2.9 -1.45)
+			(end -0.01 -1.45)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "27ddd003-d596-41b0-9989-605fa6dcd9ad")
+		)
+		(fp_line
+			(start -3.45 -0.4)
+			(end -3.45 0.4)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "7afd8beb-f9f8-4c9d-9377-0fe421b7e08e")
+		)
+		(fp_line
+			(start 3.45 0.4)
+			(end 3.45 -0.4)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "f9c9d756-db4e-41fe-bf0b-4311971055d3")
+		)
+		(fp_line
+			(start -0.1 1.45)
+			(end 1.6 1.45)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "338fd884-a8f8-4705-ad31-bafdbde1a2e0")
+		)
+		(fp_circle
+			(center 1.7 0.9)
+			(end 1.8 0.9)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.SilkS")
+			(uuid "4faf4fa0-679e-4f32-a099-7f8c77955ffb")
+		)
+		(fp_poly
+			(pts
+				(xy -0.21 -3.15) (xy 1.7 -3.15) (xy 1.7 -1.75) (xy 4.45 -1.75) (xy 4.45 1.75) (xy 2.8 1.75) (xy 2.8 2.8)
+				(xy -2.8 2.8) (xy -2.8 1.75) (xy -4.45 1.75) (xy -4.45 -1.75) (xy -0.21 -1.75)
+			)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill solid)
+			(layer "F.CrtYd")
+			(uuid "6ebbe466-91c6-47a0-b76c-38e1f7a554aa")
+		)
+		(fp_line
+			(start 1.39 -2.85)
+			(end 1.39 -1.35)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "a7178519-7898-4d95-a56a-c0c8774cde16")
+		)
+		(fp_line
+			(start 0.09 -2.85)
+			(end 1.39 -2.85)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "f586906d-59c3-44c7-b8b9-f13cd28dc5ae")
+		)
+		(fp_line
+			(start 3.35 -1.35)
+			(end 3.35 1.35)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "bfc75ce7-2e52-408b-bf2f-5feb48d2c86e")
+		)
+		(fp_line
+			(start 1.39 -1.35)
+			(end 3.35 -1.35)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "5980b3f7-3efb-4504-85a6-c988487a2a0e")
+		)
+		(fp_line
+			(start 0.09 -1.35)
+			(end 0.09 -2.85)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "7737facd-757d-4a5e-bd4e-d11f184b2af0")
+		)
+		(fp_line
+			(start 0.09 -1.35)
+			(end 1.39 -1.35)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "954cdb94-449b-40ce-867a-c25e8885a490")
+		)
+		(fp_line
+			(start -3.35 -1.35)
+			(end 0.09 -1.35)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "ed0a9a61-23da-464e-97a5-a8f87dc785b1")
+		)
+		(fp_line
+			(start 3.35 1.35)
+			(end -3.35 1.35)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "37c2c30e-dc23-46a3-837a-1808c1190ea0")
+		)
+		(fp_line
+			(start -3.35 1.35)
+			(end -3.35 -1.35)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "16492bf8-585e-4231-b7aa-46e667d158e4")
+		)
+		(pad "" np_thru_hole circle
+			(at -1.5 0 90)
+			(size 0.9 0.9)
+			(drill 0.9)
+			(layers "*.Cu" "*.Mask")
+			(uuid "6e3a0b3c-d734-4bbc-bcb3-5d7596899b8c")
+		)
+		(pad "" np_thru_hole circle
+			(at 1.5 0 90)
+			(size 0.9 0.9)
+			(drill 0.9)
+			(layers "*.Cu" "*.Mask")
+			(uuid "14dfd193-9674-4d36-824f-b1c6d05abd70")
+		)
+		(pad "1" smd rect
+			(at 2.25 2.05 90)
+			(size 0.7 1.1)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 34 "GND")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "d296022e-1420-417a-8518-ee7c1aefe3e2")
+		)
+		(pad "2" smd rect
+			(at -0.75 2.05 90)
+			(size 0.7 1.1)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 90 "Net-(R16-Pad1)")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "5a2c5320-d945-4047-919c-8a763e9e7a5b")
+		)
+		(pad "3" smd rect
+			(at -2.25 2.05 90)
+			(size 0.7 1.1)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 74 "/02_Power/V_USB_LIPO")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "c8284b05-5b3a-405f-ab9e-d8f7ddff8d34")
+		)
+		(pad "Z1" smd rect
+			(at -3.75 -1.15 90)
+			(size 1 0.8)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(solder_mask_margin 0.102)
+			(uuid "8082ecb6-709b-451a-9c7d-8bae9a08484a")
+		)
+		(pad "Z2" smd rect
+			(at 3.75 -1.15 90)
+			(size 1 0.8)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(solder_mask_margin 0.102)
+			(uuid "c82c6074-52e0-40f1-8fa4-545ad2b6795c")
+		)
+		(pad "Z3" smd rect
+			(at 3.75 1.15 90)
+			(size 1 0.8)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(solder_mask_margin 0.102)
+			(uuid "7146b693-3c7f-40bd-8d4b-24e3625bd200")
+		)
+		(pad "Z4" smd rect
+			(at -3.75 1.15 90)
+			(size 1 0.8)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(solder_mask_margin 0.102)
+			(uuid "7c3f17bb-ab30-4e69-81e8-f1c85db8a0e4")
+		)
+		(model "${KIPRJMOD}/packages3d/450404015514.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 180 180 0)
 			)
 		)
 	)

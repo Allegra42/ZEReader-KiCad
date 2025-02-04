@@ -3805,7 +3805,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/34295/ifsc-1515ah-01.pdf"
 			(at 63.5 76.2 0)
 			(effects
 				(font
@@ -5359,7 +5359,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/450404015514.pdf"
 			(at 76.2 124.46 0)
 			(effects
 				(font
@@ -5387,7 +5387,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description_1" "\n                        \n                            Slide Switch SPDT Surface Mount\n                        \n"
+		(property "Description_1" "Slide Switch SPDT Surface Mount"
 			(at 76.2 124.46 0)
 			(effects
 				(font
@@ -5714,7 +5714,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.hirose.com/product/document?clcode=&productname=&series=FH12&documenttype=Catalog&lang=en&documentid=D31648_en"
 			(at 215.9 95.25 0)
 			(effects
 				(font

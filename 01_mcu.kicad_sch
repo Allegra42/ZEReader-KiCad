@@ -2389,7 +2389,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheets.raspberrypi.com/pico/pico-2-datasheet.pdf"
 			(at 142.24 77.47 0)
 			(effects
 				(font

@@ -214,7 +214,7 @@
 				)
 			)
 		)
-		(symbol "MCU_RaspberryPi:Pico"
+		(symbol "MCU_RaspberryPi_and_Boards:Pico"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2355,6 +2355,197 @@
 		)
 	)
 	(symbol
+		(lib_id "MCU_RaspberryPi_and_Boards:Pico")
+		(at 142.24 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0c3e78cf-02f6-4dc3-a221-33ffe2f884ef")
+		(property "Reference" "U3"
+			(at 142.24 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Pico"
+			(at 142.24 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "RPi_Pico:RPi_Pico_SMD_TH"
+			(at 142.24 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 142.24 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "23"
+			(uuid "e2cc7f33-253a-4fef-9c9b-71c66830ad94")
+		)
+		(pin "24"
+			(uuid "0992e813-d9f9-4869-b494-3cd10c04dd80")
+		)
+		(pin "25"
+			(uuid "20e7b873-ee8b-4cc1-93a8-d0f99d4634e7")
+		)
+		(pin "26"
+			(uuid "586df130-407e-40a0-9e49-584487182ea1")
+		)
+		(pin "11"
+			(uuid "e603b7ea-7ee9-4677-affa-0c4631d0180c")
+		)
+		(pin "21"
+			(uuid "48dba415-3f96-472c-a1ce-0859ed5e3fd4")
+		)
+		(pin "14"
+			(uuid "84e0fc86-36ab-49ee-983b-c2f0055bd76c")
+		)
+		(pin "29"
+			(uuid "251d1283-e84a-4131-8086-6f02f62b0dce")
+		)
+		(pin "3"
+			(uuid "063a44d9-514c-4b2b-a104-61ebd1948ff4")
+		)
+		(pin "17"
+			(uuid "4b3564c5-3cc5-4688-a7c5-24865f2407e1")
+		)
+		(pin "1"
+			(uuid "4784803f-6bd2-4e38-a86d-68235dbd0780")
+		)
+		(pin "15"
+			(uuid "d1e41b5c-6990-4b69-ba5a-f9c97fec03f3")
+		)
+		(pin "36"
+			(uuid "2b6783b7-b3c0-4c2d-98a7-c4e525bb3b73")
+		)
+		(pin "37"
+			(uuid "dbd967ea-fe2a-40ed-872c-36ddc43ec6c0")
+		)
+		(pin "38"
+			(uuid "222eaeac-6e9b-4316-925d-77fd8c21300d")
+		)
+		(pin "39"
+			(uuid "c85d13b3-e1bb-4970-9a6f-35810e37c612")
+		)
+		(pin "4"
+			(uuid "fa8a1519-7c79-4687-b86e-44b93a57d766")
+		)
+		(pin "40"
+			(uuid "50e8db32-e359-496f-98c4-42149af487ab")
+		)
+		(pin "41"
+			(uuid "42fec68a-f9fa-4b16-b2cb-324dc571d9e9")
+		)
+		(pin "42"
+			(uuid "8714b0c0-9630-405e-82d7-e884865368b5")
+		)
+		(pin "43"
+			(uuid "a75a74f4-83bb-450d-8a46-0d6ed218e2a9")
+		)
+		(pin "5"
+			(uuid "a7857bd3-5571-4c10-a88d-e151768e3c7a")
+		)
+		(pin "6"
+			(uuid "162faa91-8684-40fc-9bdf-0109580a2679")
+		)
+		(pin "7"
+			(uuid "51cab883-de4f-4c0f-999b-3c6cb8337546")
+		)
+		(pin "8"
+			(uuid "af58a38d-665b-4da9-a1b1-19557ae719c7")
+		)
+		(pin "9"
+			(uuid "1a2c64b2-3030-49e0-8357-91899864616f")
+		)
+		(pin "22"
+			(uuid "b22cb267-2556-4981-b2b7-1bba798bef17")
+		)
+		(pin "30"
+			(uuid "787ca70b-45fe-427f-8f50-518a46d3e8bf")
+		)
+		(pin "31"
+			(uuid "4c09a9f9-7dac-44b9-81e7-f8ba955408d8")
+		)
+		(pin "32"
+			(uuid "0468ea3e-a2e1-4320-840d-1b69af31b31a")
+		)
+		(pin "13"
+			(uuid "276795c1-5141-45ff-bc3c-61b0fcf1a518")
+		)
+		(pin "16"
+			(uuid "ebc13396-ecbb-4493-ae40-edd41967131f")
+		)
+		(pin "10"
+			(uuid "b7280cf3-0016-4dc1-b259-622ab6295939")
+		)
+		(pin "27"
+			(uuid "78fac650-9dc7-4b1d-90b9-d101d362727f")
+		)
+		(pin "28"
+			(uuid "b263216b-b9f5-4550-931d-ae140d8b1b19")
+		)
+		(pin "20"
+			(uuid "84d03ade-1abb-4293-8815-274b4f04840c")
+		)
+		(pin "19"
+			(uuid "9c2d22f5-653f-4066-9d2c-7513ff57d86f")
+		)
+		(pin "18"
+			(uuid "23a357ff-2605-43e8-bee8-bc3404dfab0e")
+		)
+		(pin "2"
+			(uuid "0cbf2b83-a0d1-415d-9897-2f9a9a251406")
+		)
+		(pin "12"
+			(uuid "bc0022ae-9d8e-47c8-aada-373e34e1792e")
+		)
+		(pin "33"
+			(uuid "e66b6373-b30e-403f-be88-2fbd35c84077")
+		)
+		(pin "34"
+			(uuid "97dcea1e-0a8b-471f-bdf2-36bc38838981")
+		)
+		(pin "35"
+			(uuid "814dbd8d-eb5a-4f58-b7c2-db00c675258b")
+		)
+		(instances
+			(project ""
+				(path "/ec954637-2a8b-4662-b4a1-f88107f11cb0/8ebc337b-62e9-431a-9c7d-4f5ee75e8f92"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x03_Pin")
 		(at 142.24 115.57 270)
 		(mirror x)
@@ -2553,197 +2744,6 @@
 			(project "ZEReader-Pico"
 				(path "/ec954637-2a8b-4662-b4a1-f88107f11cb0/8ebc337b-62e9-431a-9c7d-4f5ee75e8f92"
 					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MCU_RaspberryPi:Pico")
-		(at 142.24 77.47 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "508173ee-0eb4-4df3-ac49-ae4a755db316")
-		(property "Reference" "U1"
-			(at 142.24 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Pico"
-			(at 142.24 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "prj-footprints:RPi_Pico_SMD_TH"
-			(at 142.24 77.47 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 142.24 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 142.24 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "17"
-			(uuid "a593ca18-3af7-493c-944d-0e2466525e8d")
-		)
-		(pin "1"
-			(uuid "0298f2da-1848-4351-aa7c-21d0255a7fd6")
-		)
-		(pin "16"
-			(uuid "8e08a8b4-d75a-462f-9357-b6a18db5813f")
-		)
-		(pin "10"
-			(uuid "75357ef8-94c9-4939-82d9-be58d14fe925")
-		)
-		(pin "2"
-			(uuid "082c3ae5-678c-4051-bed7-801f5adff1d1")
-		)
-		(pin "20"
-			(uuid "71944882-232e-4d4c-bee8-5a6d9d8c6faa")
-		)
-		(pin "23"
-			(uuid "bab2eee4-fc16-4395-a7f0-da33d757edd2")
-		)
-		(pin "24"
-			(uuid "bf615350-3351-45df-bc37-979d61230f5f")
-		)
-		(pin "29"
-			(uuid "361e5bcc-5060-40bf-a888-e17983b8a632")
-		)
-		(pin "3"
-			(uuid "6ee169f0-b135-4614-8520-7e274f037e6b")
-		)
-		(pin "30"
-			(uuid "bf2d0713-9e97-4c55-8da3-3d0a6508295c")
-		)
-		(pin "31"
-			(uuid "cd7ce6e3-eddf-44cc-9b74-a581224e06b8")
-		)
-		(pin "11"
-			(uuid "0c44c11f-d3e1-4e65-af95-bbce016c02b3")
-		)
-		(pin "18"
-			(uuid "260918d4-e19e-4661-88a1-b0f2e765fee3")
-		)
-		(pin "12"
-			(uuid "2cb56bb4-36f1-4099-99e8-00c96d61b258")
-		)
-		(pin "40"
-			(uuid "5bc0163e-db96-49b8-9144-af01d6ae47cc")
-		)
-		(pin "41"
-			(uuid "bcc214f1-c02f-46c4-8427-d809f8e047c5")
-		)
-		(pin "42"
-			(uuid "67c2f3ea-46bf-4bdd-8021-d57c6bda08e1")
-		)
-		(pin "34"
-			(uuid "fa2e1588-1395-4ede-84b8-44bf9afa45d4")
-		)
-		(pin "35"
-			(uuid "58d81eba-dcdd-44fa-88f9-2da4b0584e24")
-		)
-		(pin "14"
-			(uuid "9f9fd728-8d2b-4028-92a8-118aa8197414")
-		)
-		(pin "4"
-			(uuid "2d6a9f81-ac61-407f-bcd4-4deedcf75b2f")
-		)
-		(pin "27"
-			(uuid "ab13b3f7-a9b3-4ecb-8aff-95a0875ced37")
-		)
-		(pin "28"
-			(uuid "131e5f6a-43dd-4ec3-832a-a2f29dc7f32c")
-		)
-		(pin "36"
-			(uuid "3e9cdb53-71d6-432b-9f27-b5949256b080")
-		)
-		(pin "37"
-			(uuid "2883a33e-25a1-472b-b6a5-cc662835086a")
-		)
-		(pin "19"
-			(uuid "8dad9ea9-a894-4858-a896-b488de1e8715")
-		)
-		(pin "38"
-			(uuid "2fdc247f-7c41-45e1-beb8-e179d3968c80")
-		)
-		(pin "39"
-			(uuid "b7146161-20bf-4fd9-bf16-2ed1b61ecf5c")
-		)
-		(pin "32"
-			(uuid "62301965-030f-4d6a-9f0f-43af9a94b0e7")
-		)
-		(pin "33"
-			(uuid "12d62a57-905d-4a15-be7f-33db8687b595")
-		)
-		(pin "15"
-			(uuid "c94682f7-5817-4992-b590-d1705f824edf")
-		)
-		(pin "13"
-			(uuid "5fc1f96e-eb9f-4c03-ad31-2af551a37656")
-		)
-		(pin "43"
-			(uuid "97e150ce-b324-4905-b492-f9773bcbc513")
-		)
-		(pin "5"
-			(uuid "2565dbd4-e94d-4d55-b94c-4d239205b06a")
-		)
-		(pin "6"
-			(uuid "ba4ed0bb-3856-4a71-b77c-b94d4d6aa97e")
-		)
-		(pin "7"
-			(uuid "2d43460a-3b02-41a2-ba4f-18c4a9dee5b1")
-		)
-		(pin "8"
-			(uuid "f0bccad9-19e3-4168-93dd-4584b0889437")
-		)
-		(pin "9"
-			(uuid "e57d1517-5868-4456-957d-9cb915cc162a")
-		)
-		(pin "25"
-			(uuid "c3f3f266-bfdb-4f08-b62f-749f5e07ef32")
-		)
-		(pin "26"
-			(uuid "6a4a402b-0cf4-42d8-8191-16f3f2b1d656")
-		)
-		(pin "21"
-			(uuid "24be2c89-f535-4ad7-88ba-fd21845f7947")
-		)
-		(pin "22"
-			(uuid "9190b4d7-d41f-44ed-b643-d46c36574360")
-		)
-		(instances
-			(project ""
-				(path "/ec954637-2a8b-4662-b4a1-f88107f11cb0/8ebc337b-62e9-431a-9c7d-4f5ee75e8f92"
-					(reference "U1")
 					(unit 1)
 				)
 			)

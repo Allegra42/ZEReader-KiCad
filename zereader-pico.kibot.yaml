@@ -66,11 +66,16 @@ outputs:
     type: pcb_print
     dir: PCB
     options:
+      dpi: 360
+      format: 'PDF'
       pages:
-        - 'ZEReader-Pico.kicad_sch'
+        - autoscale_margin_x: 0
+          autoscale_margin_y: 0
+          layers: all
 
   - name: 'KiRi'
     type: kiri
     dir: KiRi
+    layers: all
 
 

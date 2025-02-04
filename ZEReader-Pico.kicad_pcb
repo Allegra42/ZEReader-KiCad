@@ -1433,7 +1433,7 @@
 		(descr "Plated Hole as test Point, diameter 2.0mm")
 		(tags "test point plated hole")
 		(property "Reference" "TP2_EPD_RST1"
-			(at 0 -2.498 360)
+			(at 0 -2.498 0)
 			(layer "F.SilkS")
 			(uuid "a41202fe-4cfa-4259-bc35-6a6a13a20858")
 			(effects
@@ -1444,7 +1444,7 @@
 			)
 		)
 		(property "Value" "EPD_RST"
-			(at 0 2.45 360)
+			(at 0 2.45 0)
 			(layer "F.Fab")
 			(uuid "8f7d2420-b712-4961-bb47-c82407fb04cd")
 			(effects
@@ -1521,7 +1521,7 @@
 			(uuid "81e15f2d-893c-4a43-aa20-f0b827e029c0")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -2.5 360)
+			(at 0 -2.5 0)
 			(layer "F.Fab")
 			(uuid "52d53ef5-c7ea-4ce9-b405-b01144bacac6")
 			(effects
@@ -2189,7 +2189,7 @@
 		(descr "Plated Hole as test Point, diameter 2.0mm")
 		(tags "test point plated hole")
 		(property "Reference" "TP1_EPD_BUSY1"
-			(at 0 -2.498 360)
+			(at 0 -2.498 0)
 			(layer "F.SilkS")
 			(uuid "b2601b40-7881-4bfc-bef2-22cb038f6697")
 			(effects
@@ -2200,7 +2200,7 @@
 			)
 		)
 		(property "Value" "EPD_BUSY"
-			(at 0 2.45 360)
+			(at 0 2.45 0)
 			(layer "F.Fab")
 			(uuid "bc2cffc4-6459-409c-9d10-54695096f369")
 			(effects
@@ -2277,7 +2277,7 @@
 			(uuid "c2fcfa89-00de-455c-8f95-1010831c8327")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -2.5 360)
+			(at 0 -2.5 0)
 			(layer "F.Fab")
 			(uuid "334d8d01-0762-458c-a535-2ebf9c27bcd1")
 			(effects
@@ -7045,7 +7045,7 @@
 		(descr "Plated Hole as test Point, diameter 2.0mm")
 		(tags "test point plated hole")
 		(property "Reference" "TP3_EPD_DC1"
-			(at 0 -2.498 360)
+			(at 0 -2.498 0)
 			(layer "F.SilkS")
 			(uuid "f6d168cd-ea8d-46c0-ac67-e021d03a8d3c")
 			(effects
@@ -7056,7 +7056,7 @@
 			)
 		)
 		(property "Value" "EPD_DC"
-			(at 0 2.45 360)
+			(at 0 2.45 0)
 			(layer "F.Fab")
 			(uuid "6851d43b-5683-43a8-b040-700e303739cb")
 			(effects
@@ -7133,7 +7133,7 @@
 			(uuid "da811442-b5da-4717-a95c-10ad7aed16a8")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -2.5 360)
+			(at 0 -2.5 0)
 			(layer "F.Fab")
 			(uuid "96d028a9-3d90-47e8-be71-fa14a5bc6a56")
 			(effects
@@ -7799,7 +7799,7 @@
 				(xyz 0 0 0)
 			)
 		)
-		(model "/Users/anna/Downloads/BQ24092DGQR.STEP"
+		(model "${KIPRJMOD}/packages3d/BQ24092DGQR.STEP"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -9456,7 +9456,7 @@
 		(descr "Plated Hole as test Point, diameter 2.0mm")
 		(tags "test point plated hole")
 		(property "Reference" "TP4_EPD_CS1"
-			(at 0 -2.498 360)
+			(at 0 -2.498 0)
 			(layer "F.SilkS")
 			(uuid "7d0d55b8-ade5-46a4-82e7-9b8c63fb5cfb")
 			(effects
@@ -9467,7 +9467,7 @@
 			)
 		)
 		(property "Value" "EPD_CS"
-			(at 0 2.45 360)
+			(at 0 2.45 0)
 			(layer "F.Fab")
 			(uuid "481efa06-4f78-4379-871a-45156462c3be")
 			(effects
@@ -9544,7 +9544,7 @@
 			(uuid "26cad66d-77eb-4bfc-8df3-dc4bf3158aed")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -2.5 360)
+			(at 0 -2.5 0)
 			(layer "F.Fab")
 			(uuid "0e1bd0d1-0f26-40dc-a5ed-f10b96dadee6")
 			(effects
@@ -9573,7 +9573,7 @@
 		(descr "Plated Hole as test Point, diameter 2.0mm")
 		(tags "test point plated hole")
 		(property "Reference" "TP10_SD_DO1"
-			(at 0 -2.498 360)
+			(at 0 -2.498 0)
 			(layer "F.SilkS")
 			(uuid "fcf22343-7cf4-4e22-a3a5-ff5ff82f598f")
 			(effects
@@ -9584,7 +9584,7 @@
 			)
 		)
 		(property "Value" "SD_DO"
-			(at 0 2.45 360)
+			(at 0 2.45 0)
 			(layer "F.Fab")
 			(uuid "2e48fd1e-fa09-4955-a27f-39edb21c20fd")
 			(effects
@@ -9661,7 +9661,7 @@
 			(uuid "e49e38ce-3d50-4f05-beb0-f64f059d95f0")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -2.5 360)
+			(at 0 -2.5 0)
 			(layer "F.Fab")
 			(uuid "271fa689-69a3-4bdc-8412-e1e785f5c021")
 			(effects
@@ -10954,7 +10954,7 @@
 		(descr "Plated Hole as test Point, diameter 2.0mm")
 		(tags "test point plated hole")
 		(property "Reference" "TP5_EPD_SCK1"
-			(at 0 -2.498 360)
+			(at 0 -2.498 0)
 			(layer "F.SilkS")
 			(uuid "acbef20c-50bc-489f-a761-6a0c1cc13d09")
 			(effects
@@ -10965,7 +10965,7 @@
 			)
 		)
 		(property "Value" "EPD_SCK"
-			(at 0 2.45 360)
+			(at 0 2.45 0)
 			(layer "F.Fab")
 			(uuid "54e79f89-47ec-4ead-8a99-1fd1e563a362")
 			(effects
@@ -11042,7 +11042,7 @@
 			(uuid "c2a9d31e-24a9-4d2f-be84-6217899d7fa3")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -2.5 360)
+			(at 0 -2.5 0)
 			(layer "F.Fab")
 			(uuid "8e44264b-5a73-483f-b5aa-c0d29a2973e7")
 			(effects
@@ -11576,7 +11576,7 @@
 			(solder_mask_margin 0.102)
 			(uuid "b28697cd-a4fb-4226-868b-c63289d52caf")
 		)
-		(model "/Users/anna/Downloads/450404015514/4504040015514.pretty/450404015514.step"
+		(model "${KIPRJMOD}/packages3d/450404015514.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -11595,7 +11595,7 @@
 		(descr "Plated Hole as test Point, diameter 2.0mm")
 		(tags "test point plated hole")
 		(property "Reference" "TP7_GND1"
-			(at 0 -2.498 360)
+			(at 0 -2.498 0)
 			(layer "F.SilkS")
 			(uuid "6cb97ce2-854b-4152-9195-a8622d105009")
 			(effects
@@ -11606,7 +11606,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 0 2.45 360)
+			(at 0 2.45 0)
 			(layer "F.Fab")
 			(uuid "056faa86-538e-433e-8296-d02a87a17081")
 			(effects
@@ -11683,7 +11683,7 @@
 			(uuid "5319fce5-98a2-4dbe-bd45-f27b6fabbade")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -2.5 360)
+			(at 0 -2.5 0)
 			(layer "F.Fab")
 			(uuid "c9d10c71-fd3c-4979-9a87-28e5416e3e6c")
 			(effects
@@ -12712,7 +12712,7 @@
 		(descr "Plated Hole as test Point, diameter 2.0mm")
 		(tags "test point plated hole")
 		(property "Reference" "TP6_EPD_DIN1"
-			(at 0 -2.498 360)
+			(at 0 -2.498 0)
 			(layer "F.SilkS")
 			(uuid "13eb31db-a0e7-4007-a925-9fdf953aae90")
 			(effects
@@ -12723,7 +12723,7 @@
 			)
 		)
 		(property "Value" "EPD_DIN"
-			(at 0 2.45 360)
+			(at 0 2.45 0)
 			(layer "F.Fab")
 			(uuid "2e5c1e5b-18a9-439b-b718-808957751bdf")
 			(effects
@@ -12800,7 +12800,7 @@
 			(uuid "1811b926-42f6-4364-ac5c-94bff56a1897")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -2.5 360)
+			(at 0 -2.5 0)
 			(layer "F.Fab")
 			(uuid "1016a33c-d288-488f-a5b6-87b2ec17f831")
 			(effects
@@ -15302,7 +15302,7 @@
 			(solder_mask_margin 0.102)
 			(uuid "d848395e-f4b5-4011-9940-52e598dce84e")
 		)
-		(model "/Users/anna/Downloads/450404015514/4504040015514.pretty/450404015514.step"
+		(model "${KIPRJMOD}/packages3d/450404015514.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -15310,7 +15310,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 180 180 0)
+				(xyz -180 -180 0)
 			)
 		)
 	)
@@ -17050,7 +17050,7 @@
 			(solder_mask_margin 0.102)
 			(uuid "f1cf57ca-2e85-4b79-be32-4f8ecfb60c80")
 		)
-		(model "/Users/anna/Downloads/UJ20-C-H-G-SMT-TR/UJ20.pretty/UJ20-C-H-G-SMT-TR.step"
+		(model "${KIPRJMOD}/packages3d/UJ20-C-H-G-SMT-TR.step"
 			(offset
 				(xyz 0 -4 0)
 			)
@@ -19239,7 +19239,7 @@
 			(pintype "bidirectional")
 			(uuid "496c7759-ed22-4487-9974-cbe6716366b8")
 		)
-		(model "/Users/anna/Downloads/KiCad-RP-Pico-main/RP-Pico Libraries/Pico.wrl"
+		(model "${KIPRJMOD}/packages3d/Pico.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -20795,7 +20795,7 @@
 		(layer "Edge.Cuts")
 		(uuid "d54d63f9-2c5f-43c8-b975-eae49ba2386b")
 	)
-	(gr_text "v1-$(REF)"
+	(gr_text "v1\nGit Rev: ${kibot_git-hash}"
 		(at 125 89 0)
 		(layer "B.SilkS")
 		(uuid "279c5a6e-1ba4-47c9-933b-bdf3c26b5ca7")

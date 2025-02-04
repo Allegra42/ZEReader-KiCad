@@ -10,10 +10,15 @@ globals:
 preflight:
   check_zone_fills: true
 
-  run_erc: true
-  run_drc: true
-  # Filters for ERC/DRC warnings and errors
-#  filters:
+  erc: true
+    dont_stop: true
+  drc: true
+    # Set some options to avoid stopping the KiBot run as the design is not finished yet
+    dont_stop: true
+    ignore_unconnected: true
+
+  fill_zones: true
+  update_xml: true
 
   set_text_variables:
   - name: 'kibot_git-hash'

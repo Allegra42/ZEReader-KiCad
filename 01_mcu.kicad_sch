@@ -7,9 +7,10 @@
 	(title_block
 		(title "ZEReader-Pico")
 		(date "${kibot_date}")
-		(rev "v1-${kibot_git-hash}")
+		(rev "v1")
 		(company "Anna-Lena Marx")
 		(comment 1 "Bachelorthesis")
+		(comment 4 "Git revision: ${kibot_git-hash}")
 	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x03_Pin"

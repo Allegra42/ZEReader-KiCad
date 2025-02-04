@@ -1,0 +1,7 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "DMG2305UX-7")(type "KiCad")(uri "${KIPRJMOD}/symbols/DMG2305UX-7.kicad_sym")(options "")(descr ""))
+  (lib (name "UJ20-C-H-C-3-SMT-TR")(type "KiCad")(uri "${KIPRJMOD}/symbols/UJ20-C-H-C-3-SMT-TR.kicad_sym")(options "")(descr ""))
+  (lib (name "450404015514")(type "KiCad")(uri "${KIPRJMOD}/symbols/450404015514.kicad_sym")(options "")(descr ""))
+  (lib (name "MCU_RaspberryPi_and_Boards")(type "KiCad")(uri "${KIPRJMOD}/symbols/MCU_RaspberryPi_and_Boards.kicad_sym")(options "")(descr ""))
+)

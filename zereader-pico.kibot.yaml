@@ -10,9 +10,11 @@ globals:
 preflight:
   check_zone_fills: true
 
-  erc: true
+  erc:
+    - enabled: true
     - dont_stop: true
-  drc: true
+  drc:
+    - enabled: true
     # Set some options to avoid stopping the KiBot run as the design is not finished yet
     - dont_stop: true
     - ignore_unconnected: true

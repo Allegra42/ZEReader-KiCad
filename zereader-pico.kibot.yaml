@@ -62,16 +62,20 @@ outputs:
     type: excellon
     dir: Drill
 
-  - name: 'PDF PCB'
-    type: pcb_print
+  - name: 'Draw Top View'
+    type: pcbdraw
     dir: PCB
     options:
-      dpi: 360
-      format: 'PDF'
-      pages:
-        - autoscale_margin_x: 0
-          autoscale_margin_y: 0
-          layers: all
+      format: png
+      dpi: 300
+
+  - name: 'Draw Bottom View'
+    type: pcbdraw
+    dir: PCB
+    options:
+      format: png
+      dpi: 300
+      bottom: true
 
   - name: 'KiRi'
     type: kiri

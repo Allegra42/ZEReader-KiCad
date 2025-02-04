@@ -229,7 +229,9 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      "unresolved_variable|2000022|1931072|00000000-0000-0000-0000-000000000000|00000000-0000-0000-0000-000000000000|/ec954637-2a8b-4662-b4a1-f88107f11cb0/8ebc337b-62e9-431a-9c7d-4f5ee75e8f92||"
+    ],
     "meta": {
       "version": 0
     },
@@ -435,7 +437,7 @@
       "simulation_model_issue": "ignore",
       "unannotated": "error",
       "unit_value_mismatch": "error",
-      "unresolved_variable": "error",
+      "unresolved_variable": "warning",
       "wire_dangling": "error"
     }
   },

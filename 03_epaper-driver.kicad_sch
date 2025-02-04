@@ -3796,7 +3796,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:IND_IFSC_1515AH_VIS-L"
+		(property "Footprint" "prj-footprints:IND_IFSC_1515AH_VIS-L"
 			(at 63.5 76.2 0)
 			(effects
 				(font

@@ -4503,7 +4503,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DMG2305UX-7:SOT91P240X110-3N_DMG2305UX-7"
+		(property "Footprint" "prj-footprints:SOT91P240X110-3N_DMG2305UX-7"
 			(at 204.47 64.77 0)
 			(effects
 				(font
@@ -5580,7 +5580,7 @@
 				)
 			)
 		)
-		(property "Footprint" "UJ20-C-H-G-SMT-TR:CUI_UJ20-C-H-G-SMT-TR"
+		(property "Footprint" "prj-footprints:CUI_UJ20-C-H-G-SMT-TR"
 			(at 25.4 76.2 0)
 			(effects
 				(font

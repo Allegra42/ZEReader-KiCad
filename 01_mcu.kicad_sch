@@ -2380,7 +2380,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RPi_Pico:RPi_Pico_SMD_TH"
+		(property "Footprint" "prj-footprints:RPi_Pico_SMD_TH"
 			(at 142.24 77.47 90)
 			(effects
 				(font

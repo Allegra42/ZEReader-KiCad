@@ -9,7 +9,7 @@ on:
 
 jobs:
   quick:
-    name: "Quick start action"
+    name: "KiBot"
     runs-on: ubuntu-latest
 
     steps:

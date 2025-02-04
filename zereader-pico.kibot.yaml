@@ -27,7 +27,7 @@ preflight:
     command: 'git log -1 --format="%h" $KIBOT_PCB_NAME'
 
   - name: 'kibot_date'
-    command: 'date --iso-8601=minutes'
+    command: 'TZ=Europe/Berlin date --iso-8601=minutes'
 
 outputs:
   - name: 'IBoM'
@@ -39,7 +39,6 @@ outputs:
     dir: BoM
     options: &bom_options
       format: HTML
-      title: 'Bill of Materials'
 
   - name: 'Schematic'
     type: pdf_sch_print
@@ -66,5 +65,12 @@ outputs:
   - name: 'PDF PCB'
     type: pcb_print
     dir: PCB
+    options:
+      pages:
+        - 'ZEReader-Pico.kicad_sch'
+
+  - name: 'KiRi'
+    type: kiri
+    dir: KiRi
 
 

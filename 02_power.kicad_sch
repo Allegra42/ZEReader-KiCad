@@ -5287,6 +5287,249 @@
 		)
 	)
 	(symbol
+		(lib_id "UJ20-C-H-G-SMT-TR:UJ20-C-H-G-SMT-TR")
+		(at 25.4 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "82ec9350-ee79-47cd-92c4-cd82620008db")
+		(property "Reference" "J5"
+			(at 25.4 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "UJ20-C-H-G-SMT-TR"
+			(at 25.4 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "prj-footprints:CUI_UJ20-C-H-G-SMT-TR"
+			(at 25.4 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 25.4 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 25.4 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Same Sky"
+			(at 25.4 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "3.66mm"
+			(at 25.4 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 25.4 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 25.4 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/UJ20-C-H-G-SMT-TR/Same+Sky/view-part/?ref=eda"
+			(at 25.4 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 25.4 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "1.01"
+			(at 25.4 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/UJ20-C-H-G-SMT-TR/Same+Sky/view-part/?ref=snap"
+			(at 25.4 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "UJ20-C-H-G-SMT-TR"
+			(at 25.4 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\n                        \n                            Type C, USB 2.0, 480 Mbps, 20 Vdc, 5 A, Right Angle, Gold Flash, Surface Mount, Black Insulator, USB Receptacle\n                        \n"
+			(at 25.4 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 25.4 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "CUI Devices"
+			(at 25.4 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "B9"
+			(uuid "addcc732-be20-483f-862a-cef9a4ab4b2c")
+		)
+		(pin "B5"
+			(uuid "4a32a491-0354-44d9-b751-01046cbd1c0c")
+		)
+		(pin "B6"
+			(uuid "741b85e0-49bd-4cb1-8412-5665611d7094")
+		)
+		(pin "SH1"
+			(uuid "921aeaa8-f331-4e27-9b08-b887a854e73c")
+		)
+		(pin "SH3"
+			(uuid "a5f56712-d655-492d-9f80-eea49a9ce5bf")
+		)
+		(pin "B4"
+			(uuid "1852359f-44fc-4dbc-96a8-b8beb8707632")
+		)
+		(pin "SH4"
+			(uuid "716fdc08-b893-400e-aa29-d888aa31ff2a")
+		)
+		(pin "B1"
+			(uuid "564188f2-d331-4b27-a604-5c10d0e62922")
+		)
+		(pin "B8"
+			(uuid "d19042a9-7a70-4f9f-93f1-254df2b9cc8e")
+		)
+		(pin "B12"
+			(uuid "d3a38ddf-8e0b-4685-a60f-3b97e53cb858")
+		)
+		(pin "A7"
+			(uuid "766dd71c-6dea-4c87-8608-fc1feec8ede1")
+		)
+		(pin "A12"
+			(uuid "94ddd217-be91-40b6-9ace-470039560930")
+		)
+		(pin "A6"
+			(uuid "bb6076ae-c440-4074-8211-b968b5324cab")
+		)
+		(pin "SH2"
+			(uuid "432faf2d-3f0f-4e47-a38f-ef4ed9910536")
+		)
+		(pin "B7"
+			(uuid "ff0d2cc0-9f84-4714-a139-ea70b938cfe6")
+		)
+		(pin "A1"
+			(uuid "6ebf4861-f790-40e8-8466-ea88df4c07ed")
+		)
+		(pin "A4"
+			(uuid "8f863f5e-10a6-4775-af04-ae0684be325e")
+		)
+		(pin "A5"
+			(uuid "dea33e7e-6a3a-418f-9484-ccc9fbacfa83")
+		)
+		(pin "A8"
+			(uuid "e90f78d5-34bf-494b-86d5-94ef2c74122c")
+		)
+		(pin "A9"
+			(uuid "731ef1fc-3311-4cde-a596-56f2dfd298c3")
+		)
+		(instances
+			(project ""
+				(path "/ec954637-2a8b-4662-b4a1-f88107f11cb0/a18230d5-251f-4044-a9cd-045093d87cd6"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 53.34 184.15 270)
 		(unit 1)
@@ -5549,249 +5792,6 @@
 			(project ""
 				(path "/ec954637-2a8b-4662-b4a1-f88107f11cb0/a18230d5-251f-4044-a9cd-045093d87cd6"
 					(reference "#PWR025")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "UJ20-C-H-G-SMT-TR:UJ20-C-H-G-SMT-TR")
-		(at 25.4 76.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b2befdea-90d1-4873-8d47-7579a3a68e3b")
-		(property "Reference" "J5"
-			(at 25.4 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "UJ20-C-H-G-SMT-TR"
-			(at 25.4 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "prj-footprints:CUI_UJ20-C-H-G-SMT-TR"
-			(at 25.4 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 25.4 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 25.4 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Same Sky"
-			(at 25.4 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "3.66mm"
-			(at 25.4 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 25.4 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 25.4 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/UJ20-C-H-G-SMT-TR/Same+Sky/view-part/?ref=eda"
-			(at 25.4 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 25.4 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "1.01"
-			(at 25.4 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/UJ20-C-H-G-SMT-TR/Same+Sky/view-part/?ref=snap"
-			(at 25.4 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "UJ20-C-H-G-SMT-TR"
-			(at 25.4 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "\n                        \n                            Type C, USB 2.0, 480 Mbps, 20 Vdc, 5 A, Right Angle, Gold Flash, Surface Mount, Black Insulator, USB Receptacle\n                        \n"
-			(at 25.4 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 25.4 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "CUI Devices"
-			(at 25.4 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "A7"
-			(uuid "22ecbf61-8fe5-4e09-9df3-70802c8c148a")
-		)
-		(pin "A1"
-			(uuid "5f7bf8ff-b57f-44ff-ae80-e0cf449a681e")
-		)
-		(pin "B9"
-			(uuid "eb4a3368-bdcf-4089-a30f-6abca4ba4d21")
-		)
-		(pin "SH1"
-			(uuid "8f584544-4548-47d2-bbe6-f95f18e0881c")
-		)
-		(pin "A12"
-			(uuid "1d2b2ff5-ce16-4c1b-a877-73117ad641c0")
-		)
-		(pin "B12"
-			(uuid "c7f69eae-1a04-4a81-b289-e560cb9cbf74")
-		)
-		(pin "SH2"
-			(uuid "47ebff82-31fe-46c3-8cd7-0c0f2c7b2671")
-		)
-		(pin "SH3"
-			(uuid "8a66f363-7ff8-4196-b574-3315da2a3edd")
-		)
-		(pin "B4"
-			(uuid "04369506-4c8c-4696-889a-4cdb1b202322")
-		)
-		(pin "B5"
-			(uuid "ce45ce23-113f-4739-9f3c-83b9781a54fc")
-		)
-		(pin "SH4"
-			(uuid "95b9a71d-c142-41b1-88f7-91cd13bcb89f")
-		)
-		(pin "A6"
-			(uuid "38aa4838-6a22-4075-a6df-7415f0b60e31")
-		)
-		(pin "A5"
-			(uuid "0f65afeb-4ca3-443e-b12e-2da14041e04d")
-		)
-		(pin "A8"
-			(uuid "ce73c7bf-f325-4aeb-b1a2-55bd580d5a99")
-		)
-		(pin "B1"
-			(uuid "72caedc8-1355-476b-8266-48d892ac4620")
-		)
-		(pin "A9"
-			(uuid "7798c746-fada-4205-ac59-2bb760c730de")
-		)
-		(pin "A4"
-			(uuid "35ff4469-9cd4-4246-9800-8299c677a69a")
-		)
-		(pin "B6"
-			(uuid "b5efd181-c204-4795-a450-89d162514c12")
-		)
-		(pin "B8"
-			(uuid "d872ff03-5ea9-4ebd-9b8b-974d51d75ad8")
-		)
-		(pin "B7"
-			(uuid "b2883718-d421-43a2-b855-a060874d956b")
-		)
-		(instances
-			(project ""
-				(path "/ec954637-2a8b-4662-b4a1-f88107f11cb0/a18230d5-251f-4044-a9cd-045093d87cd6"
-					(reference "J5")
 					(unit 1)
 				)
 			)

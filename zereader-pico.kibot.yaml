@@ -69,6 +69,14 @@ outputs:
       format: png
       dpi: 300
 
+  - name: 'Draw Top View Components'
+    type: pcbdraw
+    dir: PCB
+    options:
+      format: png
+      dpi: 300
+      show_components: all
+
   - name: 'Draw Bottom View'
     type: pcbdraw
     dir: PCB
@@ -76,6 +84,22 @@ outputs:
       format: png
       dpi: 300
       bottom: true
+
+  - name: 'Draw Bottom View Components'
+    type: pcbdraw
+    dir: PCB
+    options:
+      format: png
+      dpi: 300
+      bottom: true
+      show_components: all
+
+  - '3D Render'
+    type: 'render_3d'
+    dir: PCB
+    options:
+      download: true
+      view: 'top'
 
   - name: 'KiRi'
     type: kiri

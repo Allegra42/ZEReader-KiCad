@@ -94,8 +94,8 @@ outputs:
       bottom: true
       show_components: all
 
-  - '3D Render'
-    type: 'render_3d'
+  - name: '3D Render'
+    type: render_3d
     dir: PCB
     options:
       download: true

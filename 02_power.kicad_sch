@@ -3723,7 +3723,7 @@
 		)
 		(uuid "00c6f2aa-58bb-41c2-8984-e215d44500e6")
 	)
-	(text_box "To disable the temp sense function, use a fixed 10kOhm resistor between the TS pin and VSS."
+	(text_box "To disable the temp sense function, \nuse a fixed 10kOhm resistor between \nthe TS pin and VSS."
 		(exclude_from_sim no)
 		(at 127 101.6 0)
 		(size 43.18 7.62)
@@ -3745,7 +3745,7 @@
 	(text_box "BQ24092\n\nThe BQ24090/2/5 are designed\nto work with a 10-k NTC."
 		(exclude_from_sim no)
 		(at 93.98 38.1 0)
-		(size 30.48 12.7)
+		(size 33.02 12.7)
 		(stroke
 			(width 0)
 			(type default)
@@ -3780,10 +3780,10 @@
 		)
 		(uuid "41ef4cf9-0c96-43ad-ba21-b692f0b3ba9f")
 	)
-	(text_box "https://datasheets.raspberrypi.com/pico/pico-2-datasheet.pdf\n5.5 Powering Pico 2\n\nAn improved way to power from a second source is using a P-channel MOSFET (P-FET) to replace the Schottky diode as\nshown in Figure 9. Here, the gate of the FET is controlled by VBUS, and will disconnect the secondary source when\nVBUS is present. The P-FET should be chosen to have low on resistance, and therefore overcomes the efficiency and\nvoltage-drop issues with the diode-only solution..."
+	(text_box "https://datasheets.raspberrypi.com/pico/pico-2-datasheet.pdf\n5.5 Powering Pico 2\n\nAn improved way to power from a second source is using a P-channel \nMOSFET (P-FET) to replace the Schottky diode as\nshown in Figure 9. Here, the gate of the FET is controlled by VBUS,\nand will disconnect the secondary source when\nVBUS is present. The P-FET should be chosen to have low on resistance,\nand therefore overcomes the efficiency and\nvoltage-drop issues with the diode-only solution..."
 		(exclude_from_sim no)
 		(at 195.58 86.36 0)
-		(size 63.5 22.86)
+		(size 76.2 22.86)
 		(stroke
 			(width 0)
 			(type default)
@@ -3799,10 +3799,10 @@
 		)
 		(uuid "6c003e2a-1868-4a3f-811c-a56a05b9cc53")
 	)
-	(text_box "ISET\nPrograms the fast-charge current setting. External resistor from ISET to VSS defines fast charge current\nvalue. Range is 10.8 kΩ (50 mA) to 540 Ω (1000 mA).\n\nISET2\nProgramming the input/output current limit for the USB or adaptor source:\nhigh = 500 mA max, low = ISET, FLOAT = 100 mA max.\n\nPRETERM\nPrograms the current termination threshold (5 to 50% of Iout which is set by ISET) and sets the precharge current to twice the termination current level.\nExpected range of programming resistor is 1 kΩ to 10 kΩ (2k: Ipgm/10 for term; Ipgm/5 for precharge)."
+	(text_box "ISET\nPrograms the fast-charge current setting.\nExternal resistor from ISET to VSS defines \nfast charge current value.\nRange is 10.8 kΩ (50 mA) to 540 Ω (1000 mA).\n\nISET2\nProgramming the input/output current limit \nfor the USB or adaptor source:\nhigh = 500 mA max, low = ISET, FLOAT = 100 mA max.\n\nPRETERM\nPrograms the current termination threshold \n(5 to 50% of Iout which is set by ISET) and sets the \nprecharge current to twice the termination current level.\nExpected range of programming resistor is 1 kΩ to 10 kΩ\n(2k: Ipgm/10 for term; Ipgm/5 for precharge)."
 		(exclude_from_sim no)
 		(at 71.12 114.3 0)
-		(size 58.42 35.56)
+		(size 60.96 35.56)
 		(stroke
 			(width 0)
 			(type default)
@@ -3818,10 +3818,10 @@
 		)
 		(uuid "9097b2bf-64be-4c20-9ef2-214ae7d79276")
 	)
-	(text_box "The final design shall contain the RP2350 directly, without the Pico2 breakout.\nThis connector should then also handle D+/D-.\nFor now, this connector would not be needed, but integrating it now helps getting used to it."
+	(text_box "The final design shall contain the RP2350,\nwithout the Pico2 breakout.\nThis connector should then also handle D+/D-.\nFor now, this connector would not be needed, \nbut integrating it now helps getting used to it."
 		(exclude_from_sim no)
 		(at 17.78 114.3 0)
-		(size 40.64 17.78)
+		(size 50.8 15.24)
 		(stroke
 			(width 0)
 			(type default)
@@ -3856,7 +3856,7 @@
 		)
 		(uuid "c02ca3c1-c507-413f-9114-412f205a305e")
 	)
-	(text_box "Current senseing"
+	(text_box "Current\nsenseing"
 		(exclude_from_sim no)
 		(at 248.92 68.58 0)
 		(size 10.16 5.08)
@@ -4038,6 +4038,121 @@
 				)
 				(justify right)
 				(hide yes)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 160.02 62.23 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0b25c9e1-5e44-41ec-b138-8fb85ce704ea")
+		(property "Netclass" "PWR"
+			(at 160.7185 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 53.34 104.14 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3024a8bc-0fc9-4663-8e17-75c9ce092cef")
+		(property "Netclass" "GND"
+			(at 54.0385 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 207.01 72.39 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "88919f1b-a246-44c5-bb22-6cc321739bcf")
+		(property "Netclass" "PWR"
+			(at 204.47 71.6915 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 38.1 55.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a21fe628-4bac-4296-b972-05da1d3e82d7")
+		(property "Netclass" "PWR"
+			(at 38.7985 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 260.35 64.77 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d1319ec2-fc9d-4ca1-8371-526510e95803")
+		(property "Netclass" "PWR"
+			(at 261.0485 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -4409,16 +4524,16 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Socket")
-		(at 146.05 86.36 0)
+		(at 146.05 88.9 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "274ae33e-62dd-4107-9b63-da784574562e")
 		(property "Reference" "J6"
-			(at 147.32 86.3599 0)
+			(at 147.32 88.9001 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4427,7 +4542,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Socket"
-			(at 147.32 88.8999 0)
+			(at 147.32 86.3601 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4436,7 +4551,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_EH_S2B-EH_1x02_P2.50mm_Horizontal"
-			(at 146.05 86.36 0)
+			(at 146.05 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4445,7 +4560,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 146.05 86.36 0)
+			(at 146.05 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4454,7 +4569,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 146.05 86.36 0)
+			(at 146.05 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4621,7 +4736,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description_1" "\n                        \n                            MOSFET P-Ch 20V 5A Enhancement SOT23 | Diodes Inc DMG2305UX-7\n                        \n"
+		(property "Description_1" "MOSFET P-Ch 20V 5A Enhancement SOT23 | Diodes Inc DMG2305UX-7                \n"
 			(at 204.47 64.77 0)
 			(effects
 				(font
@@ -5430,7 +5545,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description_1" "\n                        \n                            Type C, USB 2.0, 480 Mbps, 20 Vdc, 5 A, Right Angle, Gold Flash, Surface Mount, Black Insulator, USB Receptacle\n                        \n"
+		(property "Description_1" "Type C, USB 2.0, 480 Mbps, 20 Vdc, 5 A, Right Angle, Gold Flash, Surface Mount, Black Insulator, USB Receptacle"
 			(at 25.4 76.2 0)
 			(effects
 				(font

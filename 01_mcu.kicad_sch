@@ -2287,6 +2287,29 @@
 			)
 		)
 	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 180.34 63.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3453ab23-1add-4b0b-8e33-fa1b36a2cc11")
+		(property "Netclass" "PWR"
+			(at 181.0385 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
 	(symbol
 		(lib_id "power:GND")
 		(at 163.83 71.12 90)
@@ -2752,6 +2775,7 @@
 	(symbol
 		(lib_id "Connector:Conn_01x03_Pin")
 		(at 113.03 55.88 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2759,7 +2783,7 @@
 		(dnp no)
 		(uuid "5251423f-f058-4ebd-a3e7-552a46e3e1f1")
 		(property "Reference" "J2"
-			(at 116.586 46.736 0)
+			(at 116.586 65.024 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2767,7 +2791,7 @@
 			)
 		)
 		(property "Value" "UART"
-			(at 116.84 49.276 0)
+			(at 116.84 62.484 0)
 			(effects
 				(font
 					(size 1.27 1.27)

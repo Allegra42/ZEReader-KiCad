@@ -1757,6 +1757,29 @@
 			)
 		)
 	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 96.52 64.77 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8be5f66d-3689-49de-be89-07d4eddd270f")
+		(property "Netclass" "PWR"
+			(at 93.98 64.0715 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 82.55 152.4 270)

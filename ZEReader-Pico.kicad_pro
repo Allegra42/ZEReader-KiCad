@@ -568,6 +568,18 @@
       {
         "netclass": "PWR",
         "pattern": "3V3"
+      },
+      {
+        "netclass": "PWR",
+        "pattern": "USB_VBUS"
+      },
+      {
+        "netclass": "PWR",
+        "pattern": "V_USB_LIPO"
+      },
+      {
+        "netclass": "Default",
+        "pattern": ""
       }
     ]
   },

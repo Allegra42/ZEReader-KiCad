@@ -4,4 +4,5 @@
   (lib (name "450404015514")(type "KiCad")(uri "${KIPRJMOD}/symbols/450404015514.kicad_sym")(options "")(descr ""))
   (lib (name "MCU_RaspberryPi_and_Boards")(type "KiCad")(uri "${KIPRJMOD}/symbols/MCU_RaspberryPi_and_Boards.kicad_sym")(options "")(descr ""))
   (lib (name "UJ20-C-H-G-SMT-TR")(type "KiCad")(uri "${KIPRJMOD}/symbols/UJ20-C-H-G-SMT-TR.kicad_sym")(options "")(descr ""))
+  (lib (name "2171790001")(type "KiCad")(uri "${KIPRJMOD}/symbols/2171790001.kicad_sym")(options "")(descr ""))
 )

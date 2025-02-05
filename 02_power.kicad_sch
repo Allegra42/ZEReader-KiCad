@@ -2809,6 +2809,12 @@
 		(uuid "2ced2a77-860b-439d-a3c3-8abc72ad8258")
 	)
 	(junction
+		(at 140.97 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4c7523d6-d1f9-491b-b8e7-784843710098")
+	)
+	(junction
 		(at 24.13 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2861,12 +2867,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d54520aa-ef47-4c2d-b5b4-b1170ef8663f")
-	)
-	(junction
-		(at 140.97 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e911130e-d187-4de6-a47d-cfb9b3d6bcb0")
 	)
 	(junction
 		(at 53.34 55.88)
@@ -3033,16 +3033,6 @@
 			(type default)
 		)
 		(uuid "33bed3f4-885e-48d0-a888-f22dbd7d6871")
-	)
-	(wire
-		(pts
-			(xy 140.97 88.9) (xy 151.13 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "34579599-18fc-4d9b-94dc-00b6e738fc8d")
 	)
 	(wire
 		(pts
@@ -3333,6 +3323,16 @@
 			(type default)
 		)
 		(uuid "9fa6a9ba-79f6-436b-ab3a-c9a2b1a32681")
+	)
+	(wire
+		(pts
+			(xy 140.97 88.9) (xy 151.13 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5037fcf-54de-46c5-9ca2-7785a2e1ea5a")
 	)
 	(wire
 		(pts
@@ -4168,7 +4168,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "124e2774-227f-4184-a238-cf369e58e778")
-		(property "Reference" "TP14"
+		(property "Reference" "TP14_USB_LIPO1"
 			(at 73.66 170.1799 90)
 			(effects
 				(font
@@ -4219,7 +4219,7 @@
 		(instances
 			(project "ZEReader-Pico"
 				(path "/ec954637-2a8b-4662-b4a1-f88107f11cb0/a18230d5-251f-4044-a9cd-045093d87cd6"
-					(reference "TP14")
+					(reference "TP14_USB_LIPO1")
 					(unit 1)
 				)
 			)
@@ -4288,6 +4288,75 @@
 			(project ""
 				(path "/ec954637-2a8b-4662-b4a1-f88107f11cb0/a18230d5-251f-4044-a9cd-045093d87cd6"
 					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Socket")
+		(at 156.21 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "159e371e-1a1c-434a-b069-875031591653")
+		(property "Reference" "J6"
+			(at 157.48 86.3599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02_Socket"
+			(at 157.48 88.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal"
+			(at 156.21 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 156.21 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 156.21 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d29ad92a-cf06-437c-b083-3cf1032e7492")
+		)
+		(pin "1"
+			(uuid "8682ea2a-8b3a-4cdb-b173-3a15361d2881")
+		)
+		(instances
+			(project ""
+				(path "/ec954637-2a8b-4662-b4a1-f88107f11cb0/a18230d5-251f-4044-a9cd-045093d87cd6"
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -4517,76 +4586,6 @@
 			(project ""
 				(path "/ec954637-2a8b-4662-b4a1-f88107f11cb0/a18230d5-251f-4044-a9cd-045093d87cd6"
 					(reference "#PWR026")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x02_Socket")
-		(at 156.21 88.9 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "274ae33e-62dd-4107-9b63-da784574562e")
-		(property "Reference" "J6"
-			(at 157.48 88.9001 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x02_Socket"
-			(at 157.48 86.3601 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_EH_S2B-EH_1x02_P2.50mm_Horizontal"
-			(at 156.21 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 156.21 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 156.21 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ef11322d-a1b6-47dd-aa06-6013e8a77861")
-		)
-		(pin "1"
-			(uuid "61d3c19e-9bf9-4b20-935c-0573c7c00a0b")
-		)
-		(instances
-			(project ""
-				(path "/ec954637-2a8b-4662-b4a1-f88107f11cb0/a18230d5-251f-4044-a9cd-045093d87cd6"
-					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -5496,7 +5495,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "80253eaa-b933-4979-bf7e-320dc9daf10f")
-		(property "Reference" "TP13"
+		(property "Reference" "TP13_USB_VBUS1"
 			(at 73.66 163.8299 90)
 			(effects
 				(font
@@ -5547,7 +5546,7 @@
 		(instances
 			(project ""
 				(path "/ec954637-2a8b-4662-b4a1-f88107f11cb0/a18230d5-251f-4044-a9cd-045093d87cd6"
-					(reference "TP13")
+					(reference "TP13_USB_VBUS1")
 					(unit 1)
 				)
 			)
@@ -5831,7 +5830,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c2693c05-861f-436f-95b8-f1c84ff831e9")
-		(property "Reference" "TP16"
+		(property "Reference" "TP16_GND1"
 			(at 73.66 182.8799 90)
 			(effects
 				(font
@@ -5882,7 +5881,7 @@
 		(instances
 			(project "ZEReader-Pico"
 				(path "/ec954637-2a8b-4662-b4a1-f88107f11cb0/a18230d5-251f-4044-a9cd-045093d87cd6"
-					(reference "TP16")
+					(reference "TP16_GND1")
 					(unit 1)
 				)
 			)
@@ -6509,7 +6508,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f7ffcabc-6cc9-44d0-917f-944df4353442")
-		(property "Reference" "TP15"
+		(property "Reference" "TP15_VSYS1"
 			(at 73.66 176.5299 90)
 			(effects
 				(font
@@ -6560,7 +6559,7 @@
 		(instances
 			(project "ZEReader-Pico"
 				(path "/ec954637-2a8b-4662-b4a1-f88107f11cb0/a18230d5-251f-4044-a9cd-045093d87cd6"
-					(reference "TP15")
+					(reference "TP15_VSYS1")
 					(unit 1)
 				)
 			)

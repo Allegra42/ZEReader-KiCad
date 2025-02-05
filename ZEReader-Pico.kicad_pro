@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.4,
-          "height": 0.65,
-          "width": 0.65
+          "drill": 0.6,
+          "height": 1.8,
+          "width": 1.0
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -58,7 +58,10 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "unresolved_variable|103000000|113000000|279c5a6e-1ba4-47c9-933b-bdf3c26b5ca7|00000000-0000-0000-0000-000000000000",
+        "unresolved_variable|178002200|168007200||"
+      ],
       "meta": {
         "version": 2
       },

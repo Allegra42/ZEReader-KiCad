@@ -8,7 +8,7 @@ on:
       - '*.kicad_pcb'
 
 jobs:
-  quick:
+  kibot:
     name: "KiBot"
     runs-on: ubuntu-latest
 

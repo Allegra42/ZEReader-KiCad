@@ -1,10 +1,9 @@
-# ZEReader-Pico
+# ZEReader-PCB
 
-KiCad project for the ZEReader PCB.
+KiCad project for the ZEReader.
 This project uses GitHub Actions and KiBot for CI/CD.
 
-Output can be downloaded in the Actions section.
-Includes:
+Outputs can be downloaded in the Actions section. They include:
 - BoM (interactive for manual assembly and classical HTML)
 - Drill file (.drl)
 - Gerber files (.gbr)
@@ -22,3 +21,4 @@ The git revision hash is also added as a silk screen label to the manufacturing 
 
 This intended to help with a more agile approach in hardware development.
 Besides, KiRi makes it easy to visualize and understand changes in schematic and pcb files tracked by git.
+

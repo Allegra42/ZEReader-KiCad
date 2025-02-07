@@ -44,7 +44,7 @@ outputs:
     type: pdf_sch_print
     dir: Schematic
 
-  - name: 'Gerber_Files'
+  - name: 'Gerber'
     type: gerber
     dir: Gerber
     layers:
@@ -62,6 +62,8 @@ outputs:
     type: excellon
     dir: Drill
     options:
+      metric_units: false
+      minimal_header: true
       pth_and_npth_single_file: false
       pth_id: '-PTH'
       npth_id: '-NPTH'

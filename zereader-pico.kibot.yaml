@@ -76,9 +76,9 @@ outputs:
       format: ipc
       output: 'netlist.ipc'
 
-  - name: 'Manufacturing Zip'
+  - name: 'Fab'
     type: compress
-    dir: Manufacturing
+    dir: Fab
     options:
       format: ZIP
       files:

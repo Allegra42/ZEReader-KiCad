@@ -59,7 +59,6 @@
         }
       ],
       "drc_exclusions": [
-        "unresolved_variable|103000000|113000000|279c5a6e-1ba4-47c9-933b-bdf3c26b5ca7|00000000-0000-0000-0000-000000000000",
         "unresolved_variable|178002200|168007200||"
       ],
       "meta": {

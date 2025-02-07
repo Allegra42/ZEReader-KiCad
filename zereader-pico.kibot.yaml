@@ -61,6 +61,11 @@ outputs:
   - name: 'Drill'
     type: excellon
     dir: Drill
+    options:
+      pth_and_npth_single_file: false
+      pth_id: '-PTH'
+      npth_id: '-NPTH'
+      output: "%f%i.drl"
 
   - name: 'Netlist'
     type: netlist
@@ -68,6 +73,19 @@ outputs:
     options:
       format: ipc
       output: 'netlist.ipc'
+
+  - name: 'Manufacturing Zip'
+    type: compress
+    dir: Manufacturing
+    options:
+      format: ZIP
+      files:
+        - from_output: Gerber
+          dest: /
+        - from_output: Drill
+          dest: /
+        - from_output: Netlist
+          dest: /
 
   - name: 'Draw Top View'
     type: pcbdraw

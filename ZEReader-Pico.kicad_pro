@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 0.8,
-          "width": 0.4
+          "height": 1.2,
+          "width": 1.0
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -498,7 +498,7 @@
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
+        "track_width": 0.3,
         "via_diameter": 0.7,
         "via_drill": 0.3,
         "wire_width": 6
@@ -515,7 +515,7 @@
         "name": "GND",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgb(0, 48, 255)",
-        "track_width": 0.3,
+        "track_width": 0.4,
         "via_diameter": 0.7,
         "via_drill": 0.3,
         "wire_width": 10
@@ -532,7 +532,7 @@
         "name": "PWR",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgb(255, 28, 34)",
-        "track_width": 0.3,
+        "track_width": 0.4,
         "via_diameter": 0.7,
         "via_drill": 0.3,
         "wire_width": 10

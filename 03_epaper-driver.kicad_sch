@@ -2560,16 +2560,6 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 166.37) (xy 72.39 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "85071264-50c3-4754-89de-a6f2df8d600b")
-	)
-	(wire
-		(pts
 			(xy 185.42 118.11) (xy 210.82 118.11)
 		)
 		(stroke
@@ -2860,6 +2850,16 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 166.37) (xy 72.39 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5577093-1317-4744-b1ac-3ccff1839db9")
+	)
+	(wire
+		(pts
 			(xy 76.2 107.95) (xy 76.2 129.54)
 		)
 		(stroke
@@ -2944,6 +2944,16 @@
 			(justify left top)
 		)
 		(uuid "ca7b25a1-4933-437d-8410-459226ab4bf9")
+	)
+	(text "25V"
+		(exclude_from_sim no)
+		(at 112.522 84.074 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "78c57e3e-985e-4da7-91c2-68a06d9943d4")
 	)
 	(text "Charge pump"
 		(exclude_from_sim no)
@@ -3147,7 +3157,7 @@
 	)
 	(global_label "EPD_CS"
 		(shape bidirectional)
-		(at 66.04 166.37 180)
+		(at 55.88 166.37 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3157,7 +3167,7 @@
 		)
 		(uuid "760fde20-05e9-461c-ad65-38ac0dfde368")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 54.8074 166.37 0)
+			(at 44.6474 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3445,14 +3455,14 @@
 		(dnp no)
 		(uuid "13d70602-04c4-429b-936a-87db25905e68")
 		(property "Reference" "C8"
-			(at 170.942 118.11 90)
+			(at 169.418 118.11 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "10uF"
 			(at 174.752 118.11 90)
 			(effects
 				(font
@@ -3712,14 +3722,14 @@
 		(dnp no)
 		(uuid "2ee7cc6b-01c6-4b68-a313-5914cd4ef20d")
 		(property "Reference" "C6"
-			(at 170.942 110.49 90)
+			(at 169.418 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "10uF"
 			(at 174.498 110.49 90)
 			(effects
 				(font
@@ -3855,7 +3865,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7uF"
+		(property "Value" "10uF"
 			(at 54.61 87.6299 0)
 			(effects
 				(font
@@ -3924,7 +3934,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7uF"
+		(property "Value" "10uF"
 			(at 105.41 85.0899 0)
 			(effects
 				(font
@@ -4436,15 +4446,15 @@
 		(dnp no)
 		(uuid "5cf964bc-5a78-4f73-869e-f5f336289f44")
 		(property "Reference" "C5"
-			(at 175.26 101.346 90)
+			(at 168.656 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "1uF"
-			(at 175.26 103.886 90)
+		(property "Value" "10uF"
+			(at 173.482 103.124 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4638,14 +4648,14 @@
 		(dnp no)
 		(uuid "737bfa8d-5f06-4bf6-bd22-32dac0caa2b5")
 		(property "Reference" "C11"
-			(at 170.942 125.73 90)
+			(at 169.926 125.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "10uF"
 			(at 175.006 125.73 90)
 			(effects
 				(font
@@ -4840,14 +4850,14 @@
 		(dnp no)
 		(uuid "8cad2127-8275-4754-975f-246de4371a27")
 		(property "Reference" "C10"
-			(at 170.942 123.19 90)
+			(at 169.672 123.19 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "10uF"
 			(at 175.006 123.19 90)
 			(effects
 				(font
@@ -4973,15 +4983,15 @@
 		(dnp no)
 		(uuid "90974113-c586-46d0-b2d0-b28a5dd3216b")
 		(property "Reference" "C4"
-			(at 175.514 76.2 90)
+			(at 168.402 77.724 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "1uF"
-			(at 175.514 78.74 90)
+		(property "Value" "10uF"
+			(at 173.736 77.724 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5309,14 +5319,14 @@
 		(dnp no)
 		(uuid "bfb38023-6741-43ec-9070-3e20b61624a0")
 		(property "Reference" "C9"
-			(at 170.942 120.65 90)
+			(at 169.418 120.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "10uF"
 			(at 174.752 120.65 90)
 			(effects
 				(font
@@ -5361,6 +5371,73 @@
 			(project "ZEReader-Pico"
 				(path "/ec954637-2a8b-4662-b4a1-f88107f11cb0/d006ff72-e176-4e99-8906-01d59b86077c"
 					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 59.69 166.37 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c23a35bb-0826-4626-ac5f-826d0c444887")
+		(property "Reference" "R19"
+			(at 59.69 166.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0Ohm"
+			(at 59.69 164.338 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 59.69 168.148 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 59.69 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 59.69 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "72cb8a80-848e-41ae-801e-aaca077abb75")
+		)
+		(pin "1"
+			(uuid "75293a26-c1a1-42a6-9782-0cbb2197c4b0")
+		)
+		(instances
+			(project ""
+				(path "/ec954637-2a8b-4662-b4a1-f88107f11cb0/d006ff72-e176-4e99-8906-01d59b86077c"
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -5799,14 +5876,14 @@
 		(dnp no)
 		(uuid "e9379583-cfc9-4172-ab97-6cb44360cfb9")
 		(property "Reference" "C7"
-			(at 170.942 115.57 90)
+			(at 169.672 115.57 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "10uF"
 			(at 174.752 115.57 90)
 			(effects
 				(font

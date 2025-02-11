@@ -7,4 +7,5 @@
   (lib (name "2171790001")(type "KiCad")(uri "${KIPRJMOD}/symbols/2171790001.kicad_sym")(options "")(descr ""))
   (lib (name "EG1215AA")(type "KiCad")(uri "${KIPRJMOD}/symbols/EG1215AA.kicad_sym")(options "")(descr ""))
   (lib (name "FFC2B28-24-G")(type "KiCad")(uri "${KIPRJMOD}/symbols/FFC2B28-24-G.kicad_sym")(options "")(descr ""))
+  (lib (name "USB4105-GF-A")(type "KiCad")(uri "${KIPRJMOD}/symbols/USB4105-GF-A.kicad_sym")(options "")(descr ""))
 )

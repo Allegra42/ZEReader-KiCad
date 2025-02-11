@@ -50,11 +50,10 @@ outputs:
     options:
       frame_plot_mechanism: 'gui'
       force_edge_cuts: true
-      scaling: 2.0
       pages:
-        - layers: [F.Adhesive, F.Paste, F.Silkscreen, F.Mask, Edge.Cuts, F.Courtyard, F.Fab]
+        - layers: [F.Cu, F.Adhesive, F.Paste, F.Silkscreen, F.Mask, Edge.Cuts, F.Courtyard, F.Fab]
           sheet: 'Top'
-        - layers: [B.Adhesive, B.Paste, B.Silkscreen, B.Mask, Edge.Cuts, B.Courtyard, B.Fab]
+        - layers: [B.Cu, B.Adhesive, B.Paste, B.Silkscreen, B.Mask, Edge.Cuts, B.Courtyard, B.Fab]
           sheet: 'Bottom'
           mirror: true
 

@@ -44,6 +44,10 @@ outputs:
     type: pdf_sch_print
     dir: Schematic
 
+  - name: 'PCB Sheet'
+    type: pcb_print
+    dir: Schematic
+
   - name: 'Gerber'
     type: gerber
     dir: Gerber

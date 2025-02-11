@@ -53,7 +53,7 @@ outputs:
       pages:
         - layers: 
           - F.Cu
-          - F.SilkS, 
+          - F.SilkS 
           - F.Mask
             color: '#14332440'
           - Edge.Cuts

@@ -51,9 +51,21 @@ outputs:
       frame_plot_mechanism: 'gui'
       force_edge_cuts: true
       pages:
-        - layers: [F.Cu, F.Paste, F.Silkscreen, F.Mask, Edge.Cuts, F.Fab]
+        - layers: 
+          - F.Cu
+          - F.SilkS, 
+          - F.Mask
+            color: '#14332440'
+          - Edge.Cuts
+          - F.Fab
           sheet: 'Top'
-        - layers: [B.Cu, B.Paste, B.Silkscreen, B.Mask, Edge.Cuts, B.Fab]
+        - layers: 
+          - B.Cu
+          - B.SilkS
+          - B.Mask
+            color: '#14332440'
+          - Edge.Cuts
+          - B.Fab
           sheet: 'Bottom'
           mirror: true
 

@@ -3026,6 +3026,16 @@
 	)
 	(wire
 		(pts
+			(xy 140.97 76.2) (xy 140.97 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32d5b997-4d2a-4ddc-a0bb-179c2cd5e4f0")
+	)
+	(wire
+		(pts
 			(xy 34.29 55.88) (xy 31.75 55.88)
 		)
 		(stroke
@@ -3163,16 +3173,6 @@
 			(type default)
 		)
 		(uuid "67e80843-26c8-4f1f-bdac-54eb8a30cc64")
-	)
-	(wire
-		(pts
-			(xy 140.97 67.31) (xy 130.81 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "687498f9-4aab-4d98-a18c-fd3a9cb08fe0")
 	)
 	(wire
 		(pts
@@ -3606,13 +3606,23 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 81.28) (xy 140.97 67.31)
+			(xy 130.81 67.31) (xy 132.08 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e3ad16d5-197b-4637-b220-f3d4603c098f")
+		(uuid "de27c112-612e-418c-9431-68f6e00de90d")
+	)
+	(wire
+		(pts
+			(xy 139.7 67.31) (xy 140.97 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e44118cb-13e6-4611-9057-d8a1895b5f43")
 	)
 	(wire
 		(pts
@@ -3673,6 +3683,16 @@
 			(type default)
 		)
 		(uuid "f7440a53-c65d-4640-a8e3-ed7cfc668d2f")
+	)
+	(wire
+		(pts
+			(xy 140.97 67.31) (xy 140.97 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9fe1d07-1cd3-457c-a847-0025648d99c6")
 	)
 	(wire
 		(pts
@@ -4586,6 +4606,74 @@
 			(project ""
 				(path "/ec954637-2a8b-4662-b4a1-f88107f11cb0/a18230d5-251f-4044-a9cd-045093d87cd6"
 					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 135.89 67.31 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2c52ab1a-1ef5-441c-87c9-bb137d9098a4")
+		(property "Reference" "R24"
+			(at 135.89 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0Ohm"
+			(at 135.89 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 135.89 65.532 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 135.89 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 135.89 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ced943ff-0388-4f3d-8e82-740088401047")
+		)
+		(pin "2"
+			(uuid "8c393224-b4c3-4ed0-a641-a2c2f2ac9e57")
+		)
+		(instances
+			(project "ZEReader-Pico"
+				(path "/ec954637-2a8b-4662-b4a1-f88107f11cb0/a18230d5-251f-4044-a9cd-045093d87cd6"
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -6355,6 +6443,76 @@
 			(project ""
 				(path "/ec954637-2a8b-4662-b4a1-f88107f11cb0/a18230d5-251f-4044-a9cd-045093d87cd6"
 					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 140.97 72.39 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ef396125-5641-4b05-a80a-c559b080b021")
+		(property "Reference" "R23"
+			(at 143.51 71.1199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0Ohm"
+			(at 143.51 73.6599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 142.748 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 140.97 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 140.97 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "16c0032d-fb5e-4f63-893f-13b80c7bf4a7")
+		)
+		(pin "2"
+			(uuid "925ab80c-2783-40fa-aeb2-ec9f26657c3e")
+		)
+		(instances
+			(project ""
+				(path "/ec954637-2a8b-4662-b4a1-f88107f11cb0/a18230d5-251f-4044-a9cd-045093d87cd6"
+					(reference "R23")
 					(unit 1)
 				)
 			)

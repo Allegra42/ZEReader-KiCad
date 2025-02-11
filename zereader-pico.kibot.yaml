@@ -52,20 +52,20 @@ outputs:
       force_edge_cuts: true
       pages:
         - layers: 
-          - F.Cu
-          - F.SilkS 
-          - F.Mask
+          - layer: F.Cu
+          - layer: F.SilkS 
+          - layer: F.Mask
             color: '#14332440'
-          - Edge.Cuts
-          - F.Fab
+          - layer: Edge.Cuts
+          - layer: F.Fab
           sheet: 'Top'
         - layers: 
-          - B.Cu
-          - B.SilkS
-          - B.Mask
+          - layer: B.Cu
+          - layer: B.SilkS
+          - layer: B.Mask
             color: '#14332440'
-          - Edge.Cuts
-          - B.Fab
+          - layer: Edge.Cuts
+          - layer: B.Fab
           sheet: 'Bottom'
           mirror: true
 

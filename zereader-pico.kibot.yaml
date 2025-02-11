@@ -47,6 +47,8 @@ outputs:
   - name: 'PCB Sheet'
     type: pcb_print
     dir: Schematic
+    options:
+      frame_plot_mechanism: 'gui'
 
   - name: 'Gerber'
     type: gerber

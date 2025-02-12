@@ -69,14 +69,12 @@ outputs:
           sheet: 'Bottom'
           mirror: true
 
-  - name: 'Copy Files'
+  - name: 'KiCad Board File'
     type: copy_files
     dir: 'KiCad'
     options:
       files:
-        - dest: 'KiCad'
-          filter: '*.kicad_pcb'
-          source: '*'
+        - source: "ZEReader-Pico.kicad_pcb"
 
   - name: 'Gerber'
     type: gerber

@@ -22,13 +22,6 @@ preflight:
   fill_zones: true
   update_xml: true
 
-  set_text_variables:
-  - name: 'kibot_git-hash'
-    command: 'git log -1 --format="%h" $KIBOT_PCB_NAME'
-
-  - name: 'kibot_date'
-    command: 'TZ=Europe/Berlin date --iso-8601=minutes'
-
 outputs:
   - name: 'IBoM'
     type: ibom

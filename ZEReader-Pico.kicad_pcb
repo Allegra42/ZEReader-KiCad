@@ -9,11 +9,11 @@
 	(paper "A4")
 	(title_block
 		(title "ZEReader-Pico")
-		(date "${kibot_date}")
+		(date "{kibot_date}")
 		(rev "v1")
 		(company "Anna-Lena Marx")
 		(comment 1 "Bachelorthesis")
-		(comment 4 "Git revision: ${kibot_git-hash}")
+		(comment 4 "Git revision: {kibot_git-hash}")
 	)
 	(layers
 		(0 "F.Cu" signal)
@@ -23295,7 +23295,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "ZEReader Pico v1\nGit Rev: ${kibot_git-hash}\nAnna-Lena Marx"
+	(gr_text "ZEReader Pico v1\nGit Rev: {kibot_git-hash}\nAnna-Lena Marx"
 		(at 169.291 135.509 0)
 		(layer "F.SilkS")
 		(uuid "279c5a6e-1ba4-47c9-933b-bdf3c26b5ca7")

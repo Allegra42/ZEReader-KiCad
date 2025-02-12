@@ -6,11 +6,11 @@
 	(paper "A4")
 	(title_block
 		(title "ZEReader-Pico")
-		(date "${kibot_date}")
+		(date "{kibot_date}")
 		(rev "v1")
 		(company "Anna-Lena Marx")
 		(comment 1 "Bachelorthesis")
-		(comment 4 "Git revision: ${kibot_git-hash}")
+		(comment 4 "Git revision: {kibot_git-hash}")
 	)
 	(lib_symbols
 		(symbol "Device:R"

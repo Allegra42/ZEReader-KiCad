@@ -18,6 +18,14 @@ jobs:
       with:
         fetch-depth: '0'
 
+    - name: Replace vars
+      run: |
+        DATE=$(TZ=Europe/Berlin date --iso-8601=minutes)
+        sed -i "s|{kibot_date}|$DATE|g" *.kicad_*
+
+        REV=$(git log -1 --format="%h" ZEReader-Pico.kicad_pcb)
+        sed -i "s/{kibot_git-hash}/$REV/g" *.kicad_*
+
     - name: Run KiBot
       uses: INTI-CMNB/KiBot@v2_k8
       with:

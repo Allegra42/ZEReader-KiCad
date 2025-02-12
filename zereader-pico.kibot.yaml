@@ -120,7 +120,7 @@ outputs:
           dest: /
         - from_output: Netlist
           dest: /
-        - from_output: KiCad
+        - from_output: 'KiCad Board File'
           dest: /
 
   - name: 'Draw Top View'

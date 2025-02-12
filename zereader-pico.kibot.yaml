@@ -42,11 +42,11 @@ outputs:
 
   - name: 'Schematic'
     type: pdf_sch_print
-    dir: Schematic
+    dir: Documentation
 
   - name: 'PCB Sheet'
     type: pcb_print
-    dir: Schematic
+    dir: Documentation
     options:
       frame_plot_mechanism: 'gui'
       force_edge_cuts: true
@@ -68,6 +68,15 @@ outputs:
           - layer: B.Fab
           sheet: 'Bottom'
           mirror: true
+
+  - name: 'Copy Files'
+    type: copy_files
+    dir: 'KiCad'
+    options:
+      files:
+        - dest: 'KiCad'
+          filter: '*.kicad_pcb'
+          source: '*'
 
   - name: 'Gerber'
     type: gerber
@@ -112,6 +121,8 @@ outputs:
         - from_output: Drill
           dest: /
         - from_output: Netlist
+          dest: /
+        - from_output: KiCad
           dest: /
 
   - name: 'Draw Top View'

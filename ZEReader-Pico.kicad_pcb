@@ -16294,7 +16294,7 @@
 	(footprint "prj-footprints:Logo"
 		(layer "F.Cu")
 		(uuid "c99b3e7c-1beb-4e92-8d88-fee4e327c6d1")
-		(at 157.988 128.778)
+		(at 159.512 128.524)
 		(property "Reference" "G***"
 			(at 0 0 0)
 			(layer "F.SilkS")
@@ -20855,7 +20855,7 @@
 	(footprint "Symbol:KiCad-Logo2_6mm_SilkScreen"
 		(layer "B.Cu")
 		(uuid "51106e45-1630-428d-9de4-254784935c5c")
-		(at 151.257 124.079 180)
+		(at 151.391487 124.018848 180)
 		(descr "KiCad Logo")
 		(tags "Logo KiCad")
 		(property "Reference" "REF**"
@@ -23296,7 +23296,7 @@
 		)
 	)
 	(gr_text "ZEReader Pico v1\nGit Rev: ${kibot_git-hash}\nAnna-Lena Marx"
-		(at 167.64 135.509 0)
+		(at 169.291 135.509 0)
 		(layer "F.SilkS")
 		(uuid "279c5a6e-1ba4-47c9-933b-bdf3c26b5ca7")
 		(effects

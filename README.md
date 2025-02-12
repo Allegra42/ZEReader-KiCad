@@ -26,7 +26,7 @@ Besides, KiRi makes it easy to visualize and understand changes in schematic and
 ## Production
 [AISLER](https://aisler.net/) helps to make this project alive.
 
-To get the lastest revision manufactured, just follow this link for [Uploading to AISLER](https://aisler.net/p/new?url=https://raw.githubusercontent.com/Allegra42/ZEReader-KiCad/refs/heads/main/ZEReader-Pico.kicad_sch&ref=github).
+To get the lastest revision manufactured, just follow this link for [Uploading to AISLER](https://aisler.net/p/new?url=https://raw.githubusercontent.com/Allegra42/ZEReader-KiCad/refs/heads/main/ZEReader-Pico.kicad_pcb&ref=github).
 
 Alternatively, the GitHub Actions output already contains a prepacked ZIP file with everything needed for production and correct git revisions filled in.
 

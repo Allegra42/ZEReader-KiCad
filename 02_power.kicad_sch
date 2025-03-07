@@ -3790,6 +3790,25 @@
 		)
 		(uuid "9097b2bf-64be-4c20-9ef2-214ae7d79276")
 	)
+	(text_box "TODO:\nRethink the charge current limitation\nbecause with the 200mA limit, the USB C port without\na LiPo connected seems to be too less to drive the circuit during initial power on. "
+		(exclude_from_sim no)
+		(at 142.24 121.92 0)
+		(size 48.26 20.32)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "a736de6e-93c0-4df2-aa53-e76ef97e0588")
+	)
 	(text_box "The final design shall contain the RP2350,\nwithout the Pico2 breakout.\nThis connector should then also handle D+/D-.\nFor now, this connector would not be needed, \nbut integrating it now helps getting used to it."
 		(exclude_from_sim no)
 		(at 17.78 114.3 0)

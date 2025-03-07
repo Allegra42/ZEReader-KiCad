@@ -2888,6 +2888,63 @@
 		)
 		(uuid "ff1a1bd9-0b32-4d11-986c-7a3283d5680a")
 	)
+	(text_box "TODO:\nSi1308 or BSS138 for a new revision?"
+		(exclude_from_sim no)
+		(at 111.76 114.3 0)
+		(size 25.4 12.7)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "16bb5aad-0d30-484c-bdfd-14bf2749508b")
+	)
+	(text_box "TODO:\nThe pin numbering of the currently use FFC connector footprint is vice versa (than expected).\nThus, the EPD only works with a twisted cable!\nThis needs to be fixed!"
+		(exclude_from_sim no)
+		(at 231.14 129.54 0)
+		(size 40.64 15.24)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "a7d28074-8338-4c25-89c4-5055c28de14e")
+	)
+	(text_box "TODO:\nTesting if 10uF is fine here.\nCurrently, it is working with 1uF."
+		(exclude_from_sim no)
+		(at 167.64 60.96 0)
+		(size 25.4 12.7)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "ab2af634-96a7-4573-b334-d3be34f216fc")
+	)
 	(text_box "1 NC\n2 GDR\n3 RESE\n4 NC\n5 VSH2\n6 TSCL\n7 TSDA\n8 BS\n9 BUSY\n10 RST\n11 DC\n12 CS\n13 SCL\n14 SDA\n15 VDDIO\n16 VCI\n17 VSS\n18 VDD\n19 VPP\n20 VSH\n21 VGH\n22 VSL\n23 VGL\n24 VCOM"
 		(exclude_from_sim no)
 		(at 228.6 66.04 0)

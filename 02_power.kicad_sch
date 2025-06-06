@@ -3906,7 +3906,7 @@
 		)
 		(uuid "bae3073b-6891-45e3-a0c5-ca3d93776867")
 	)
-	(text "Programs the\nfast charge current\n2.7k -> 200mA"
+	(text "Programs the\nfast charge current\n1.5k -> 360mA\nfuture: 1k -> 500mA"
 		(exclude_from_sim no)
 		(at 86.868 93.98 90)
 		(effects
@@ -5675,7 +5675,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.7k"
+		(property "Value" "1.5k"
 			(at 85.09 82.55 0)
 			(effects
 				(font

@@ -2907,6 +2907,25 @@
 		)
 		(uuid "16bb5aad-0d30-484c-bdfd-14bf2749508b")
 	)
+	(text_box "TODO:\nSomething in the design here is wrong. The shortening between both resistors is the same for all PCBs, while the switch is fine."
+		(exclude_from_sim no)
+		(at 68.58 132.08 0)
+		(size 38.1 12.7)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "8683f551-a22b-4177-8d35-7b23c854d519")
+	)
 	(text_box "TODO:\nThe pin numbering of the currently use FFC connector footprint is vice versa (than expected).\nThus, the EPD only works with a twisted cable!\nThis needs to be fixed!"
 		(exclude_from_sim no)
 		(at 231.14 129.54 0)
@@ -3012,7 +3031,7 @@
 		)
 		(uuid "78c57e3e-985e-4da7-91c2-68a06d9943d4")
 	)
-	(text "Charge pump"
+	(text "Booster circuit"
 		(exclude_from_sim no)
 		(at 82.804 60.706 0)
 		(effects
@@ -3519,7 +3538,7 @@
 				)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "1uF"
 			(at 174.752 118.11 90)
 			(effects
 				(font
@@ -4510,7 +4529,7 @@
 				)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "1uF"
 			(at 173.482 103.124 90)
 			(effects
 				(font
@@ -4712,7 +4731,7 @@
 				)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "1uF"
 			(at 175.006 125.73 90)
 			(effects
 				(font
@@ -4914,7 +4933,7 @@
 				)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "1uF"
 			(at 175.006 123.19 90)
 			(effects
 				(font
@@ -5047,7 +5066,7 @@
 				)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "1uF"
 			(at 173.736 77.724 90)
 			(effects
 				(font
@@ -5383,7 +5402,7 @@
 				)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "1uF"
 			(at 174.752 120.65 90)
 			(effects
 				(font
@@ -5940,7 +5959,7 @@
 				)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "1uF"
 			(at 174.752 115.57 90)
 			(effects
 				(font

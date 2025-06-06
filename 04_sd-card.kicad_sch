@@ -1185,6 +1185,16 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 60.96) (xy 53.34 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b788070-2e5e-4bf2-ab45-0e859cff1a1c")
+	)
+	(wire
+		(pts
 			(xy 73.66 158.75) (xy 82.55 158.75)
 		)
 		(stroke
@@ -1285,6 +1295,16 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 63.5) (xy 53.34 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fec73bb-89d6-4ef9-8299-b6e2a190a78a")
+	)
+	(wire
+		(pts
 			(xy 93.98 53.34) (xy 93.98 55.88)
 		)
 		(stroke
@@ -1355,6 +1375,16 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 55.88) (xy 53.34 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e92d200-b7a0-4823-bcea-22a9f1d6daf0")
+	)
+	(wire
+		(pts
 			(xy 152.4 92.71) (xy 158.75 92.71)
 		)
 		(stroke
@@ -1402,6 +1432,16 @@
 			(type default)
 		)
 		(uuid "bb17e57c-bc21-485b-993c-75523c0ea8aa")
+	)
+	(wire
+		(pts
+			(xy 46.99 58.42) (xy 53.34 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb438d76-0ddb-4236-80c6-7232dcced723")
 	)
 	(wire
 		(pts
@@ -1523,6 +1563,16 @@
 		)
 		(uuid "f8951629-0445-4dc0-bf3f-34704f99a9f6")
 	)
+	(wire
+		(pts
+			(xy 46.99 66.04) (xy 53.34 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcea2286-e412-49f9-8e50-ee17630e87ba")
+	)
 	(text_box "DAT1 and DAT2 are not connected in SPI mode"
 		(exclude_from_sim no)
 		(at 157.48 119.38 0)
@@ -1580,7 +1630,7 @@
 		)
 		(uuid "40c2e59f-dc30-4a0b-b0ee-757f049af841")
 	)
-	(text_box "Pull-up resistors\n10k-100k"
+	(text_box "Pull-up resistors\n10k-100k\n-> must be used!"
 		(exclude_from_sim no)
 		(at 68.58 73.66 0)
 		(size 20.32 7.62)

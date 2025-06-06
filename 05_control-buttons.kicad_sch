@@ -1046,7 +1046,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4589580d-9f65-4c6b-a262-909f2e050759")
-		(property "Reference" "SW2"
+		(property "Reference" "SW3"
 			(at 124.46 97.7899 90)
 			(effects
 				(font
@@ -1100,7 +1100,7 @@
 		(instances
 			(project "ZEReader-Pico"
 				(path "/ec954637-2a8b-4662-b4a1-f88107f11cb0/33ac9274-8ec9-4374-b845-560e6893b431"
-					(reference "SW2")
+					(reference "SW3")
 					(unit 1)
 				)
 			)
@@ -1116,7 +1116,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4706ae36-293a-4f4e-9239-8ab8ebb29c16")
-		(property "Reference" "SW3"
+		(property "Reference" "SW2"
 			(at 175.26 97.7899 90)
 			(effects
 				(font
@@ -1170,7 +1170,7 @@
 		(instances
 			(project "ZEReader-Pico"
 				(path "/ec954637-2a8b-4662-b4a1-f88107f11cb0/33ac9274-8ec9-4374-b845-560e6893b431"
-					(reference "SW3")
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -1322,7 +1322,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "93d99e29-00f5-419c-b52b-1a3e4816727e")
-		(property "Reference" "SW4"
+		(property "Reference" "SW1"
 			(at 226.06 97.7899 90)
 			(effects
 				(font
@@ -1376,7 +1376,7 @@
 		(instances
 			(project "ZEReader-Pico"
 				(path "/ec954637-2a8b-4662-b4a1-f88107f11cb0/33ac9274-8ec9-4374-b845-560e6893b431"
-					(reference "SW4")
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -1532,7 +1532,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ea60f782-fa2e-473d-abeb-28254ff44aeb")
-		(property "Reference" "SW1"
+		(property "Reference" "SW4"
 			(at 73.66 97.7899 90)
 			(effects
 				(font
@@ -1586,7 +1586,7 @@
 		(instances
 			(project ""
 				(path "/ec954637-2a8b-4662-b4a1-f88107f11cb0/33ac9274-8ec9-4374-b845-560e6893b431"
-					(reference "SW1")
+					(reference "SW4")
 					(unit 1)
 				)
 			)

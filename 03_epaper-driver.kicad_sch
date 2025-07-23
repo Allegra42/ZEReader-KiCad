@@ -2945,25 +2945,6 @@
 		)
 		(uuid "a7d28074-8338-4c25-89c4-5055c28de14e")
 	)
-	(text_box "TODO:\nTesting if 10uF is fine here.\nCurrently, it is working with 1uF."
-		(exclude_from_sim no)
-		(at 167.64 60.96 0)
-		(size 25.4 12.7)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "ab2af634-96a7-4573-b334-d3be34f216fc")
-	)
 	(text_box "1 NC\n2 GDR\n3 RESE\n4 NC\n5 VSH2\n6 TSCL\n7 TSDA\n8 BS\n9 BUSY\n10 RST\n11 DC\n12 CS\n13 SCL\n14 SDA\n15 VDDIO\n16 VCI\n17 VSS\n18 VDD\n19 VPP\n20 VSH\n21 VGH\n22 VSL\n23 VGL\n24 VCOM"
 		(exclude_from_sim no)
 		(at 228.6 66.04 0)
@@ -3001,25 +2982,6 @@
 			(justify left top)
 		)
 		(uuid "c86b425c-0e64-4250-9966-4879d27d39a2")
-	)
-	(text_box "Question:\nCan the capacitor value be changed?\nE.g. 10uF to keep the BOM small? Does this result in negative inrush effects?\n\n\nUC8179 Datasheet: \n\nNote:\n1. The capacitor value of VGH/VGL must be equal or more than the one of VDH/VDL/VDHR.\n-> can atleast these values be changed to 10uF for all of them? \n\nhttps://www.signalintegrityjournal.com/articles/1589-the-myth-of-three-capacitor-values\nhttps://codeinsecurity.wordpress.com/2025/01/25/proper-decoupling-practices-and-why-you-should-leave-100nf-behind/"
-		(exclude_from_sim no)
-		(at 154.94 12.7 0)
-		(size 127 30.48)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "ca7b25a1-4933-437d-8410-459226ab4bf9")
 	)
 	(text "25V"
 		(exclude_from_sim no)

@@ -2791,12 +2791,6 @@
 		(uuid "21c836e4-31d1-4da1-bde6-4fbf84eef1d3")
 	)
 	(junction
-		(at 83.82 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "25ea31f7-2d5d-4904-9d33-cc119df04f4c")
-	)
-	(junction
 		(at 198.12 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2861,6 +2855,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b28cabb3-8b92-4904-a698-956c53a0df7b")
+	)
+	(junction
+		(at 82.55 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b7d1a91d-77bf-4046-bdcb-47250482971a")
 	)
 	(junction
 		(at 41.91 59.69)
@@ -2976,7 +2976,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 104.14) (xy 83.82 104.14)
+			(xy 71.12 104.14) (xy 82.55 104.14)
 		)
 		(stroke
 			(width 0)
@@ -3003,6 +3003,16 @@
 			(type default)
 		)
 		(uuid "21b02216-500a-4c4a-a342-f3b4f75b03cf")
+	)
+	(wire
+		(pts
+			(xy 82.55 104.14) (xy 92.71 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23a1e01b-e429-4fcd-8390-dc0d92b3218a")
 	)
 	(wire
 		(pts
@@ -3066,7 +3076,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 85.09) (xy 83.82 104.14)
+			(xy 82.55 85.09) (xy 82.55 104.14)
 		)
 		(stroke
 			(width 0)
@@ -3136,7 +3146,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 67.31) (xy 83.82 67.31)
+			(xy 105.41 67.31) (xy 82.55 67.31)
 		)
 		(stroke
 			(width 0)
@@ -3506,7 +3516,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 67.31) (xy 83.82 77.47)
+			(xy 82.55 67.31) (xy 82.55 77.47)
 		)
 		(stroke
 			(width 0)
@@ -3633,16 +3643,6 @@
 			(type default)
 		)
 		(uuid "f5fda041-bcad-40ff-afea-3cf8407872ce")
-	)
-	(wire
-		(pts
-			(xy 92.71 104.14) (xy 83.82 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f7440a53-c65d-4640-a8e3-ed7cfc668d2f")
 	)
 	(wire
 		(pts
@@ -3789,25 +3789,6 @@
 			(justify left top)
 		)
 		(uuid "9097b2bf-64be-4c20-9ef2-214ae7d79276")
-	)
-	(text_box "TODO:\nRethink the charge current limitation\nbecause with the 200mA limit, the USB C port without\na LiPo connected seems to be too less to drive the circuit during initial power on. "
-		(exclude_from_sim no)
-		(at 142.24 121.92 0)
-		(size 48.26 20.32)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "a736de6e-93c0-4df2-aa53-e76ef97e0588")
 	)
 	(text_box "The final design shall contain the RP2350,\nwithout the Pico2 breakout.\nThis connector should then also handle D+/D-.\nFor now, this connector would not be needed, \nbut integrating it now helps getting used to it."
 		(exclude_from_sim no)
@@ -5659,7 +5640,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 83.82 81.28 0)
+		(at 82.55 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5667,7 +5648,7 @@
 		(dnp no)
 		(uuid "9d93532f-c52c-4dab-a557-153c5742de97")
 		(property "Reference" "R11"
-			(at 85.09 80.01 0)
+			(at 83.82 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5676,7 +5657,7 @@
 			)
 		)
 		(property "Value" "1.5k"
-			(at 85.09 82.55 0)
+			(at 83.82 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5685,7 +5666,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 82.042 81.28 90)
+			(at 80.772 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5694,7 +5675,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 83.82 81.28 0)
+			(at 82.55 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5703,7 +5684,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 83.82 81.28 0)
+			(at 82.55 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)

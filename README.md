@@ -4,6 +4,8 @@ Caution: v1 is working, but the FFC connector is inverted.
 Twisting the cable solves the issue for now.
 This is to be fixed in the next revision!
 
+![PCB rendering](pictures/ze-ray-front.png)
+
 KiCad project for the ZEReader.
 This project uses GitHub Actions and KiBot for CI/CD.
 

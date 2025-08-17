@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "2e9c7c1a-7040-47cb-86e4-098f16d20731")
 	(paper "A4")
 	(title_block
@@ -14,7 +14,9 @@
 	)
 	(lib_symbols
 		(symbol "Device:R"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -133,11 +135,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Switch:SW_Push"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -218,10 +225,9 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 2.54 1.27) (xy -2.54 1.27)
-					)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
 					(stroke
 						(width 0)
 						(type default)
@@ -230,9 +236,10 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -278,12 +285,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+3.3V"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -355,7 +367,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -367,7 +379,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -398,12 +410,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -494,7 +511,28 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(text_box "Maybe switch to 10k?"
+		(exclude_from_sim no)
+		(at 241.3 66.04 0)
+		(size 30.48 7.62)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "be2bef0f-b734-494a-be95-efe2da0b59f1")
 	)
 	(junction
 		(at 173.99 123.19)
@@ -836,112 +874,49 @@
 		)
 		(uuid "ff4c2f3c-59cc-4b60-a3ae-4727ce523eec")
 	)
-	(text_box "Maybe switch to 10k?"
-		(exclude_from_sim no)
-		(at 241.3 66.04 0)
-		(size 30.48 7.62)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "be2bef0f-b734-494a-be95-efe2da0b59f1")
-	)
-	(global_label "BTN_3"
+	(hierarchical_label "BTN_3"
 		(shape bidirectional)
 		(at 133.35 86.36 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "20e14d0d-dfd8-4cf1-89af-313ddb1a24a0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 143.1917 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
+		(uuid "4732eb85-aa43-493c-b9b8-f7d453087eb4")
 	)
-	(global_label "BTN_1"
-		(shape bidirectional)
-		(at 236.22 86.36 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "497be807-fd7f-4176-9a36-42f9772b9a81")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 246.0617 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "BTN_4"
+	(hierarchical_label "BTN_4"
 		(shape bidirectional)
 		(at 81.28 85.09 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "9453d2ce-b142-4a4d-baa7-2c9db4876497")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 91.1217 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
+		(uuid "47c786ce-828c-407c-a902-246fe2d0df85")
 	)
-	(global_label "BTN_2"
+	(hierarchical_label "BTN_2"
 		(shape bidirectional)
 		(at 185.42 86.36 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "94e4810c-e674-4d97-a7f9-fd08ec6cb7fe")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 195.2617 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
+		(uuid "bcf51ddf-9145-43b9-9f75-305bcc279823")
+	)
+	(hierarchical_label "BTN_1"
+		(shape bidirectional)
+		(at 236.22 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify left)
 		)
+		(uuid "ff2c0e84-bc5d-4693-b7f3-262f1745f06c")
 	)
 	(netclass_flag ""
 		(length 2.54)
@@ -1073,7 +1048,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1308111-1_SWITCHES_CORE_PROGRAM_CATALOG&DocType=Catalog%20Section&DocLang=English&DocFormat=pdf&PartCntxt=1825910-6"
+		(property "Datasheet" "~"
 			(at 118.11 99.06 0)
 			(effects
 				(font
@@ -1143,7 +1118,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1308111-1_SWITCHES_CORE_PROGRAM_CATALOG&DocType=Catalog%20Section&DocLang=English&DocFormat=pdf&PartCntxt=1825910-6"
+		(property "Datasheet" "~"
 			(at 168.91 99.06 0)
 			(effects
 				(font
@@ -1349,7 +1324,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1308111-1_SWITCHES_CORE_PROGRAM_CATALOG&DocType=Catalog%20Section&DocLang=English&DocFormat=pdf&PartCntxt=1825910-6"
+		(property "Datasheet" "~"
 			(at 219.71 99.06 0)
 			(effects
 				(font
@@ -1559,7 +1534,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1308111-1_SWITCHES_CORE_PROGRAM_CATALOG&DocType=Catalog%20Section&DocLang=English&DocFormat=pdf&PartCntxt=1825910-6"
+		(property "Datasheet" "~"
 			(at 67.31 99.06 0)
 			(effects
 				(font

@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "d74146f3-2329-4843-8e9f-5944c62075ec")
 	(paper "A4")
 	(title_block
@@ -80,64 +80,22 @@
 				)
 			)
 			(symbol "Micro_SD_Card_Det2_0_1"
-				(rectangle
-					(start -7.62 -6.985)
-					(end -5.08 -8.255)
+				(polyline
+					(pts
+						(xy -8.89 -8.89) (xy -8.89 11.43) (xy -1.27 11.43) (xy 2.54 15.24) (xy 3.81 15.24) (xy 3.81 13.97)
+						(xy 6.35 13.97) (xy 7.62 15.24) (xy 20.32 15.24) (xy 20.32 -8.89) (xy -8.89 -8.89)
+					)
 					(stroke
 						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type background)
 					)
 				)
 				(rectangle
-					(start -7.62 -4.445)
-					(end -5.08 -5.715)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -7.62 -1.905)
-					(end -5.08 -3.175)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -7.62 0.635)
-					(end -5.08 -0.635)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -7.62 3.175)
-					(end -5.08 1.905)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -7.62 5.715)
-					(end -5.08 4.445)
+					(start -7.62 10.795)
+					(end -5.08 9.525)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -158,8 +116,63 @@
 					)
 				)
 				(rectangle
-					(start -7.62 10.795)
-					(end -5.08 9.525)
+					(start -7.62 5.715)
+					(end -5.08 4.445)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -7.62 3.175)
+					(end -5.08 1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -7.62 0.635)
+					(end -5.08 -0.635)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -7.62 -1.905)
+					(end -5.08 -3.175)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -7.62 -4.445)
+					(end -5.08 -5.715)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -7.62 -6.985)
+					(end -5.08 -8.255)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -180,19 +193,6 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy -8.89 -8.89) (xy -8.89 11.43) (xy -1.27 11.43) (xy 2.54 15.24) (xy 3.81 15.24) (xy 3.81 13.97)
-						(xy 6.35 13.97) (xy 7.62 15.24) (xy 20.32 15.24) (xy 20.32 -8.89) (xy -8.89 -8.89)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
 			)
 			(symbol "Micro_SD_Card_Det2_1_1"
 				(pin bidirectional line
@@ -206,42 +206,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -22.86 -10.16 0)
-					(length 3.81)
-					(name "DET_A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 20.32 -12.7 180)
-					(length 3.81)
-					(name "SHIELD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -376,6 +340,24 @@
 					)
 				)
 				(pin passive line
+					(at -22.86 -10.16 0)
+					(length 3.81)
+					(name "DET_A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
 					(at -22.86 -12.7 0)
 					(length 3.81)
 					(name "DET_B"
@@ -393,101 +375,17 @@
 						)
 					)
 				)
-			)
-		)
-		(symbol "Connector:TestPoint"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.762) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "TP"
-				(at 0 6.858 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "test point"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "test point tp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TestPoint_0_1"
-				(circle
-					(center 0 3.302)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TestPoint_1_1"
 				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
-					(name "1"
+					(at 20.32 -12.7 180)
+					(length 3.81)
+					(name "SHIELD"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "1"
+					(number "11"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -496,9 +394,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:C"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0.254)
 			)
@@ -571,7 +472,7 @@
 			(symbol "C_0_1"
 				(polyline
 					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
+						(xy -2.032 0.762) (xy 2.032 0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -583,7 +484,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -632,9 +533,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -753,12 +657,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+3.3V"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -830,7 +739,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -842,7 +751,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -873,12 +782,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -969,12 +883,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:PWR_FLAG"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1065,7 +984,128 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(text_box "DAT1 and DAT2 are not connected in SPI mode"
+		(exclude_from_sim no)
+		(at 157.48 119.38 0)
+		(size 48.26 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "18a62268-5854-4288-8c61-bf097fc2875a")
+	)
+	(text_box "DI - Data In -> MOSI (Master Out/Slave In) -> must connect to TX (master out)\nDO - Data Out -> MISO (Master In/Slave Out) -> must connect to RX (master in)"
+		(exclude_from_sim no)
+		(at 38.1 106.68 0)
+		(size 86.36 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "35e27fba-ed39-458e-a8b0-507c98af4f27")
+	)
+	(text_box "https://resources.altium.com/p/design-your-own-usb-microsd-card-reader-pcb"
+		(exclude_from_sim no)
+		(at 12.7 12.7 0)
+		(size 83.82 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "40c2e59f-dc30-4a0b-b0ee-757f049af841")
+	)
+	(text_box "Pull-up resistors\n10k-100k\n-> must be used!"
+		(exclude_from_sim no)
+		(at 68.58 73.66 0)
+		(size 20.32 7.62)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "4518ef64-7b49-4901-b0cd-7addd401b28e")
+	)
+	(text_box "Future improvement:\nSwitch from SPI mode to 4 bit SDIO mode"
+		(exclude_from_sim no)
+		(at 213.36 83.82 0)
+		(size 27.94 10.16)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "ba3e4886-c0e5-4e49-b69b-e0f4e61c3fe6")
+	)
+	(text_box "Future improvement:\nUtilize detect pins"
+		(exclude_from_sim no)
+		(at 132.08 106.68 0)
+		(size 22.86 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "cffc9472-b689-470a-9089-9b75fca5974f")
 	)
 	(junction
 		(at 123.19 90.17)
@@ -1185,16 +1225,6 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 158.75) (xy 82.55 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3b99a619-c100-483a-9f65-3f49be80750a")
-	)
-	(wire
-		(pts
 			(xy 114.3 92.71) (xy 144.78 92.71)
 		)
 		(stroke
@@ -1202,16 +1232,6 @@
 			(type default)
 		)
 		(uuid "3bbb23c7-ffac-40f8-aeb8-e934c0568c2c")
-	)
-	(wire
-		(pts
-			(xy 73.66 139.7) (xy 74.93 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3c8a6685-5d86-41e0-8d25-1f20a7c61c7c")
 	)
 	(wire
 		(pts
@@ -1232,16 +1252,6 @@
 			(type default)
 		)
 		(uuid "49ba7ffe-b069-48b5-949f-2a83b19a2f7a")
-	)
-	(wire
-		(pts
-			(xy 73.66 152.4) (xy 82.55 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "53f0f489-3e7b-45a0-9b77-9263538d507c")
 	)
 	(wire
 		(pts
@@ -1415,16 +1425,6 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 165.1) (xy 82.55 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c5277963-5df6-4e47-8466-7ac8477af7c5")
-	)
-	(wire
-		(pts
 			(xy 123.19 71.12) (xy 123.19 67.31)
 		)
 		(stroke
@@ -1495,16 +1495,6 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 146.05) (xy 82.55 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f281d3dc-adfb-4dbf-b062-35ac9ebe791b")
-	)
-	(wire
-		(pts
 			(xy 93.98 67.31) (xy 96.52 67.31)
 		)
 		(stroke
@@ -1523,317 +1513,60 @@
 		)
 		(uuid "f8951629-0445-4dc0-bf3f-34704f99a9f6")
 	)
-	(text_box "DAT1 and DAT2 are not connected in SPI mode"
-		(exclude_from_sim no)
-		(at 157.48 119.38 0)
-		(size 48.26 5.08)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "18a62268-5854-4288-8c61-bf097fc2875a")
-	)
-	(text_box "DI - Data In -> MOSI (Master Out/Slave In) -> must connect to TX (master out)\nDO - Data Out -> MISO (Master In/Slave Out) -> must connect to RX (master in)"
-		(exclude_from_sim no)
-		(at 38.1 106.68 0)
-		(size 86.36 5.08)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "35e27fba-ed39-458e-a8b0-507c98af4f27")
-	)
-	(text_box "https://resources.altium.com/p/design-your-own-usb-microsd-card-reader-pcb"
-		(exclude_from_sim no)
-		(at 12.7 12.7 0)
-		(size 83.82 5.08)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "40c2e59f-dc30-4a0b-b0ee-757f049af841")
-	)
-	(text_box "Pull-up resistors\n10k-100k\n-> must be used!"
-		(exclude_from_sim no)
-		(at 68.58 73.66 0)
-		(size 20.32 7.62)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "4518ef64-7b49-4901-b0cd-7addd401b28e")
-	)
-	(text_box "Future improvement:\nSwitch from SPI mode to 4 bit SDIO mode"
-		(exclude_from_sim no)
-		(at 213.36 83.82 0)
-		(size 27.94 10.16)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "ba3e4886-c0e5-4e49-b69b-e0f4e61c3fe6")
-	)
-	(text_box "Future improvement:\nUtilize detect pins"
-		(exclude_from_sim no)
-		(at 132.08 106.68 0)
-		(size 22.86 5.08)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "cffc9472-b689-470a-9089-9b75fca5974f")
-	)
-	(global_label "SD_CLK-SCLK"
-		(shape bidirectional)
-		(at 73.66 158.75 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "17a1eef8-9549-448b-91e8-d04f73d27c46")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 56.1983 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SD_CMD-DI"
-		(shape bidirectional)
-		(at 88.9 92.71 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1c9fc899-4457-4a4a-8b35-7b66e2e98753")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 73.9178 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SD_CLK-SCLK"
-		(shape bidirectional)
-		(at 88.9 97.79 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "34e54c9a-ab3a-43ff-a8ea-c4ac1a4d52e1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 71.4383 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SD_CMD-DI"
-		(shape bidirectional)
-		(at 73.66 146.05 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "541357f4-e574-4f6c-8e85-a3865578be13")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 58.6778 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SD_DAT0-DO"
-		(shape bidirectional)
-		(at 73.66 152.4 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8145925a-ce85-409f-a7ad-29c307a540c6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 57.4078 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SD_CMD-DI"
+	(hierarchical_label "SD_CMD-DI"
 		(shape input)
 		(at 156.21 92.71 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "a6405649-9a58-4437-b318-7dc18b453b00")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 156.21 78.8391 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
+		(uuid "1e4edb36-7336-486e-adcd-a4ac9bbec72c")
 	)
-	(global_label "SD_DAT0-DO"
-		(shape bidirectional)
-		(at 88.9 102.87 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a9b50820-d155-4c18-851c-23689b333d67")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 72.6478 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SD_DAT3-CD-CS"
-		(shape bidirectional)
-		(at 73.66 139.7 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c4caca51-12ae-4cdd-bfb4-1c47d70de068")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 53.4164 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SD_DAT3-CD-CS"
+	(hierarchical_label "SD_DAT3-CD-CS"
 		(shape bidirectional)
 		(at 88.9 90.17 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "e64e11b1-66c7-4184-8300-68add80b1f9c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 68.6564 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
+		(uuid "9f129cd3-5637-4414-b8ba-ac8774c861da")
+	)
+	(hierarchical_label "SD_CMD-DI"
+		(shape bidirectional)
+		(at 88.9 92.71 180)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify right)
 		)
+		(uuid "b36ef4f3-fb17-48d4-9b9a-0b9061d3d328")
+	)
+	(hierarchical_label "SD_CLK-SCLK"
+		(shape bidirectional)
+		(at 88.9 97.79 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c04734cf-c6cd-44e1-abf1-4f1699d54a0b")
+	)
+	(hierarchical_label "SD_DAT0-DO"
+		(shape bidirectional)
+		(at 88.9 102.87 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d075153c-f5cf-4a72-b556-b8e7caccb7a8")
 	)
 	(netclass_flag ""
 		(length 2.54)
@@ -1854,140 +1587,6 @@
 					(italic yes)
 				)
 				(justify left)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 82.55 152.4 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "01b178c4-281a-4c8b-9dbd-6b86fd75c5ba")
-		(property "Reference" "TP10_SD_DO1"
-			(at 87.63 151.1299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SD_DO"
-			(at 87.63 153.6699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
-			(at 82.55 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 82.55 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 82.55 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5d1e4ba9-2a32-48bc-aa74-02bc218d6fd0")
-		)
-		(instances
-			(project "ZEReader-Pico"
-				(path "/ec954637-2a8b-4662-b4a1-f88107f11cb0/5fd074b7-3c47-4717-bcdc-b0d8134ff74e"
-					(reference "TP10_SD_DO1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 82.55 146.05 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "09d8dedd-09b8-4689-a60f-388c9e01f11b")
-		(property "Reference" "TP9_SD_DI1"
-			(at 87.63 144.7799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SD_DI"
-			(at 87.63 147.3199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
-			(at 82.55 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 82.55 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 82.55 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7ebc9bc1-4c81-4d96-bfc4-0e267c2ded5f")
-		)
-		(instances
-			(project "ZEReader-Pico"
-				(path "/ec954637-2a8b-4662-b4a1-f88107f11cb0/5fd074b7-3c47-4717-bcdc-b0d8134ff74e"
-					(reference "TP9_SD_DI1")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -2197,73 +1796,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 72.39 165.1 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "59ac0923-1b72-48fd-9aa0-19fcd3b31b38")
-		(property "Reference" "#PWR030"
-			(at 66.04 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 68.58 165.0999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 72.39 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 72.39 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 72.39 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cef1d752-d148-4faa-9d0f-6cc9e9d96e68")
-		)
-		(instances
-			(project "ZEReader-Pico"
-				(path "/ec954637-2a8b-4662-b4a1-f88107f11cb0/5fd074b7-3c47-4717-bcdc-b0d8134ff74e"
-					(reference "#PWR030")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 139.7 90.17 270)
 		(unit 1)
@@ -2392,141 +1924,6 @@
 			(project ""
 				(path "/ec954637-2a8b-4662-b4a1-f88107f11cb0/5fd074b7-3c47-4717-bcdc-b0d8134ff74e"
 					(reference "#PWR033")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 78.74 139.7 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "655b2d08-6c83-4e60-a291-5a238189fee2")
-		(property "Reference" "R22"
-			(at 78.74 133.35 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0Ohm"
-			(at 78.74 135.89 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 78.74 141.478 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 78.74 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 78.74 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "1c53414e-b530-420e-8d75-f8744cf05fe0")
-		)
-		(pin "1"
-			(uuid "a84f39e2-c743-4910-91f7-ff64b6e0a680")
-		)
-		(instances
-			(project ""
-				(path "/ec954637-2a8b-4662-b4a1-f88107f11cb0/5fd074b7-3c47-4717-bcdc-b0d8134ff74e"
-					(reference "R22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 82.55 139.7 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6a9231dc-ab8f-481f-9332-b9ce630d0021")
-		(property "Reference" "TP8_SD_CS1"
-			(at 87.63 138.4299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SD_CS"
-			(at 87.63 140.9699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
-			(at 82.55 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 82.55 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 82.55 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f5d5f94e-386b-418a-b1cd-b558a4cc85a1")
-		)
-		(instances
-			(project "ZEReader-Pico"
-				(path "/ec954637-2a8b-4662-b4a1-f88107f11cb0/5fd074b7-3c47-4717-bcdc-b0d8134ff74e"
-					(reference "TP8_SD_CS1")
 					(unit 1)
 				)
 			)
@@ -2873,73 +2270,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 82.55 158.75 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d64ef654-f648-4a1c-a2a5-fdedf58d4f2b")
-		(property "Reference" "TP11_SD_CLK1"
-			(at 87.63 157.4799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SD_SCLK"
-			(at 87.63 160.0199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
-			(at 82.55 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 82.55 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 82.55 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fa65a795-9c6c-43fc-a912-e165655f8cbc")
-		)
-		(instances
-			(project "ZEReader-Pico"
-				(path "/ec954637-2a8b-4662-b4a1-f88107f11cb0/5fd074b7-3c47-4717-bcdc-b0d8134ff74e"
-					(reference "TP11_SD_CLK1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 85.09 49.53 0)
 		(unit 1)
@@ -3000,73 +2330,6 @@
 			(project ""
 				(path "/ec954637-2a8b-4662-b4a1-f88107f11cb0/5fd074b7-3c47-4717-bcdc-b0d8134ff74e"
 					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 82.55 165.1 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "efd95098-bb5f-4948-a682-e8d03b94efba")
-		(property "Reference" "TP12_GND1"
-			(at 87.63 163.8299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "GND"
-			(at 87.63 166.3699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
-			(at 82.55 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 82.55 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 82.55 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9a35c6b1-edb4-494c-af1a-c923ae0932d6")
-		)
-		(instances
-			(project "ZEReader-Pico"
-				(path "/ec954637-2a8b-4662-b4a1-f88107f11cb0/5fd074b7-3c47-4717-bcdc-b0d8134ff74e"
-					(reference "TP12_GND1")
 					(unit 1)
 				)
 			)

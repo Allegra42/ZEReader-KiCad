@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "cc39c42c-aa81-46de-b166-62fec5b4832c")
 	(paper "A4")
 	(title_block
@@ -209,18 +209,6 @@
 			(symbol "450404015514_0_0"
 				(polyline
 					(pts
-						(xy -1.646 0.5) (xy 1.4 2.7)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy -2.032 -0.508) (xy -2.54 0) (xy -2.032 0.508) (xy -1.524 0) (xy -2.032 -0.508)
 					)
 					(stroke
@@ -231,9 +219,10 @@
 						(type outline)
 					)
 				)
-				(circle
-					(center 1.905 -2.54)
-					(radius 0.508)
+				(polyline
+					(pts
+						(xy -1.646 0.5) (xy 1.4 2.7)
+					)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -253,6 +242,17 @@
 						(type none)
 					)
 				)
+				(circle
+					(center 1.905 -2.54)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(text "com"
 					(at -3.3 -1.8 0)
 					(effects
@@ -260,24 +260,6 @@
 							(size 1.27 1.27)
 						)
 						(justify left bottom)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
 					)
 				)
 				(pin passive line
@@ -291,6 +273,24 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -317,6 +317,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Battery_Management:BQ24090DGQ"
 			(exclude_from_sim no)
@@ -415,42 +416,6 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at 12.7 7.62 180)
-					(length 2.54)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -12.7 90)
-					(length 2.54) hide
-					(name "VSS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin passive line
 					(at -12.7 2.54 0)
 					(length 2.54)
@@ -462,78 +427,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -12.7 90)
-					(length 2.54)
-					(name "VSS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -12.7 -7.62 0)
-					(length 2.54)
-					(name "PRETERM"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin open_collector line
-					(at 12.7 -7.62 180)
-					(length 2.54)
-					(name "~{PG}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 5.08 -10.16 90)
-					(length 2.54) hide
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -559,17 +452,91 @@
 						)
 					)
 				)
-				(pin open_collector line
-					(at 12.7 -2.54 180)
+				(pin passive line
+					(at -12.7 -7.62 0)
 					(length 2.54)
-					(name "~{CHG}"
+					(name "PRETERM"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "8"
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -12.7 90)
+					(length 2.54)
+					(hide yes)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -12.7 90)
+					(length 2.54)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 5.08 -10.16 90)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 12.7 7.62 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -595,11 +562,50 @@
 						)
 					)
 				)
+				(pin open_collector line
+					(at 12.7 -2.54 180)
+					(length 2.54)
+					(name "~{CHG}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 12.7 -7.62 180)
+					(length 2.54)
+					(name "~{PG}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Connector:Conn_01x02_Socket"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -673,10 +679,10 @@
 				)
 			)
 			(symbol "Conn_01x02_Socket_1_1"
-				(arc
-					(start 0 -2.032)
-					(mid -0.5058 -2.54)
-					(end 0 -3.048)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -0.508 0)
+					)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -697,10 +703,10 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -0.508 0)
-					)
+				(arc
+					(start 0 -0.508)
+					(mid -0.5058 0)
+					(end 0 0.508)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -710,9 +716,9 @@
 					)
 				)
 				(arc
-					(start 0 0.508)
-					(mid -0.5058 0)
-					(end 0 -0.508)
+					(start 0 -3.048)
+					(mid -0.5058 -2.54)
+					(end 0 -2.032)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -758,11 +764,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Connector:TestPoint"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.762) hide)
+				(offset 0.762)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -860,6 +871,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "DMG2305UX-7:DMG2305UX-7"
 			(pin_names
@@ -1004,7 +1016,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description_1" "\n                        \n                            MOSFET P-Ch 20V 5A Enhancement SOT23 | Diodes Inc DMG2305UX-7\n                        \n"
+			(property "Description_1" "MOSFET P-Ch 20V 5A Enhancement SOT23 | Diodes Inc DMG2305UX-7"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1049,7 +1061,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0.762 -3.175) (xy 0.762 -2.54)
+						(xy 0.762 2.54) (xy 0.762 3.175)
 					)
 					(stroke
 						(width 0.254)
@@ -1061,31 +1073,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0.762 -2.54) (xy 0.762 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -2.54) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -0.762) (xy 0.762 0)
+						(xy 0.762 1.905) (xy 0.762 2.54)
 					)
 					(stroke
 						(width 0.254)
@@ -1121,7 +1109,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0.762 1.905) (xy 0.762 2.54)
+						(xy 0.762 -0.762) (xy 0.762 0)
 					)
 					(stroke
 						(width 0.254)
@@ -1133,7 +1121,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0.762 2.54) (xy 0.762 3.175)
+						(xy 0.762 -2.54) (xy 0.762 -1.905)
 					)
 					(stroke
 						(width 0.254)
@@ -1141,6 +1129,77 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -3.175) (xy 0.762 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 0.762 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 3.81 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 2.54)
+					(radius 0.3592)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.524 0.762) (xy 1.524 -0.762) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
 					)
 				)
 				(polyline
@@ -1167,12 +1226,11 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 0.762 2.54)
-					)
+				(circle
+					(center 2.54 -2.54)
+					(radius 0.3592)
 					(stroke
-						(width 0.1524)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -1181,7 +1239,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 2.54) (xy 3.81 2.54)
+						(xy 3.81 2.54) (xy 3.81 -0.508)
 					)
 					(stroke
 						(width 0.1524)
@@ -1217,42 +1275,6 @@
 				)
 				(polyline
 					(pts
-						(xy 3.81 2.54) (xy 3.81 -0.508)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.318 -0.508) (xy 3.81 -0.508)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 1.524 0.762) (xy 1.524 -0.762) (xy 2.54 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
 						(xy 3.81 -0.508) (xy 3.302 0.254) (xy 4.318 0.254) (xy 3.81 -0.508)
 					)
 					(stroke
@@ -1263,22 +1285,12 @@
 						(type outline)
 					)
 				)
-				(circle
-					(center 2.54 -2.54)
-					(radius 0.3592)
-					(stroke
-						(width 0)
-						(type default)
+				(polyline
+					(pts
+						(xy 4.318 -0.508) (xy 3.81 -0.508)
 					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 2.54)
-					(radius 0.3592)
 					(stroke
-						(width 0)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
@@ -1304,24 +1316,6 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at 2.54 5.08 270)
 					(length 2.54)
 					(name "~"
@@ -1339,10 +1333,31 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:C"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0.254)
 			)
@@ -1415,7 +1430,7 @@
 			(symbol "C_0_1"
 				(polyline
 					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
+						(xy -2.032 0.762) (xy 2.032 0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -1427,7 +1442,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -1476,11 +1491,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:LED"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1527,6 +1547,15 @@
 					(hide yes)
 				)
 			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_keywords" "LED diode"
 				(at 0 0 0)
 				(effects
@@ -1548,10 +1577,22 @@
 			(symbol "LED_0_1"
 				(polyline
 					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -1572,7 +1613,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+						(xy -1.27 -1.27) (xy -1.27 1.27)
 					)
 					(stroke
 						(width 0.254)
@@ -1584,22 +1625,10 @@
 				)
 				(polyline
 					(pts
-						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
 					)
 					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
-					)
-					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -1645,9 +1674,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -1766,9 +1798,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:Thermistor_NTC"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -1838,21 +1873,9 @@
 			)
 			(symbol "Thermistor_NTC_0_1"
 				(arc
-					(start -3.048 2.159)
-					(mid -3.0495 2.3143)
-					(end -3.175 2.413)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -3.048 2.159)
-					(mid -2.9736 1.9794)
-					(end -2.794 1.905)
+					(start -3.175 2.413)
+					(mid -3.0506 2.3165)
+					(end -3.048 2.159)
 					(stroke
 						(width 0)
 						(type default)
@@ -1863,32 +1886,8 @@
 				)
 				(arc
 					(start -3.048 2.794)
-					(mid -2.9736 2.6144)
-					(end -2.794 2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.794 1.905)
-					(mid -2.6144 1.9794)
-					(end -2.54 2.159)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.794 2.54)
-					(mid -2.4393 2.5587)
-					(end -2.159 2.794)
+					(mid -2.9736 2.9736)
+					(end -2.794 3.048)
 					(stroke
 						(width 0)
 						(type default)
@@ -1899,7 +1898,19 @@
 				)
 				(arc
 					(start -2.794 3.048)
-					(mid -2.9736 2.9736)
+					(mid -2.6144 2.9736)
+					(end -2.54 2.794)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.794 2.54)
+					(mid -2.9736 2.6144)
 					(end -3.048 2.794)
 					(stroke
 						(width 0)
@@ -1910,9 +1921,9 @@
 					)
 				)
 				(arc
-					(start -2.54 2.794)
-					(mid -2.6144 2.9736)
-					(end -2.794 3.048)
+					(start -2.794 1.905)
+					(mid -2.9736 1.9794)
+					(end -3.048 2.159)
 					(stroke
 						(width 0)
 						(type default)
@@ -1921,11 +1932,24 @@
 						(type none)
 					)
 				)
-				(rectangle
-					(start -1.016 2.54)
-					(end 1.016 -2.54)
+				(arc
+					(start -2.54 2.159)
+					(mid -2.6144 1.9794)
+					(end -2.794 1.905)
 					(stroke
-						(width 0.254)
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.159 2.794)
+					(mid -2.434 2.5608)
+					(end -2.794 2.54)
+					(stroke
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -1935,18 +1959,6 @@
 				(polyline
 					(pts
 						(xy -2.54 2.159) (xy -2.54 2.794)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 2.54) (xy -1.778 1.524) (xy 1.778 -1.524) (xy 1.778 -2.54)
 					)
 					(stroke
 						(width 0)
@@ -1970,6 +1982,18 @@
 				)
 				(polyline
 					(pts
+						(xy -1.778 2.54) (xy -1.778 1.524) (xy 1.778 -1.524) (xy 1.778 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
 						(xy -1.778 -1.397) (xy -1.778 -3.683) (xy -2.032 -2.921) (xy -1.524 -2.921) (xy -1.778 -3.683)
 						(xy -1.778 -3.429)
 					)
@@ -1979,6 +2003,17 @@
 					)
 					(fill
 						(type outline)
+					)
+				)
+				(rectangle
+					(start -1.016 2.54)
+					(end 1.016 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 			)
@@ -2020,11 +2055,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Diode:MBR0530"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2092,10 +2132,10 @@
 			(symbol "MBR0530_0_1"
 				(polyline
 					(pts
-						(xy 1.27 0) (xy -1.27 0)
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
 					)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -2116,10 +2156,10 @@
 				)
 				(polyline
 					(pts
-						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+						(xy 1.27 0) (xy -1.27 0)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -2165,6 +2205,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "USB4105-GF-A:USB4105-GF-A"
 			(pin_names
@@ -2271,42 +2312,6 @@
 						(type background)
 					)
 				)
-				(pin power_in line
-					(at 20.32 -10.16 180)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "A1_B12"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 20.32 10.16 180)
-					(length 5.08)
-					(name "VBUS"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "A4_B9"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
 				(pin bidirectional line
 					(at -20.32 5.08 0)
 					(length 5.08)
@@ -2380,16 +2385,16 @@
 					)
 				)
 				(pin power_in line
-					(at 20.32 -12.7 180)
+					(at 20.32 10.16 180)
 					(length 5.08)
-					(name "GND__1"
+					(name "VBUS"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "B1_A12"
+					(number "A4_B9"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -2488,6 +2493,42 @@
 					)
 				)
 				(pin power_in line
+					(at 20.32 -10.16 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A1_B12"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 20.32 -12.7 180)
+					(length 5.08)
+					(name "GND__1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "B1_A12"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
 					(at 20.32 -15.24 180)
 					(length 5.08)
 					(name "SHELL_GND"
@@ -2560,12 +2601,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2656,12 +2702,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:PWR_FLAG"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2752,7 +2803,250 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(rectangle
+		(start 137.16 81.28)
+		(end 180.34 99.06)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid c86152f6-26bd-404f-9a13-cdbd990dfd86)
+	)
+	(text "Charger connected\n(Power Good)"
+		(exclude_from_sim no)
+		(at 151.384 39.116 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0fe65082-50e5-47e1-9b64-fc17cb3901fa")
+	)
+	(text "LiPo"
+		(exclude_from_sim no)
+		(at 171.45 97.282 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "327fe42e-55aa-45e6-92b6-b21eddcc9ed0")
+	)
+	(text "Charging\nOff for refresh\ncharging"
+		(exclude_from_sim no)
+		(at 150.876 57.912 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3845273a-fc03-4e88-8548-354c9ec65aba")
+	)
+	(text "Programs the \ntermination current\nthreshold"
+		(exclude_from_sim no)
+		(at 101.092 93.98 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "bae3073b-6891-45e3-a0c5-ca3d93776867")
+	)
+	(text "Programs the\nfast charge current\n1.5k -> 360mA\nfuture: 1k -> 500mA"
+		(exclude_from_sim no)
+		(at 86.868 93.98 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f3079a44-8bed-4818-828a-7eabe33777db")
+	)
+	(text_box "CC Resistor values:\nhttps://www.usb.org/sites/default/files/USB%20Type-C%20Spec%20R2.0%20-%20August%202019.pdf S. 236\nhttps://hackaday.com/2023/01/04/all-about-usb-c-resistors-and-emarkers/"
+		(exclude_from_sim no)
+		(at 12.7 17.78 0)
+		(size 111.76 7.62)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "00c6f2aa-58bb-41c2-8984-e215d44500e6")
+	)
+	(text_box "To disable the temp sense function, \nuse a fixed 10kOhm resistor between \nthe TS pin and VSS."
+		(exclude_from_sim no)
+		(at 137.16 101.6 0)
+		(size 43.18 7.62)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "0401d476-c25c-4a8f-a580-d116b2855f1f")
+	)
+	(text_box "BQ24092\n\nThe BQ24090/2/5 are designed\nto work with a 10-k NTC."
+		(exclude_from_sim no)
+		(at 104.14 38.1 0)
+		(size 33.02 12.7)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "19be47ac-a523-433d-a4c2-e7ca96a86f4f")
+	)
+	(text_box "https://www.ti.com/lit/ds/symlink/bq25302.pdf?ts=1738000262944&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FBQ25302"
+		(exclude_from_sim no)
+		(at 12.7 12.7 0)
+		(size 142.24 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "41ef4cf9-0c96-43ad-ba21-b692f0b3ba9f")
+	)
+	(text_box "https://datasheets.raspberrypi.com/pico/pico-2-datasheet.pdf\n5.5 Powering Pico 2\n\nAn improved way to power from a second source is using a P-channel \nMOSFET (P-FET) to replace the Schottky diode as\nshown in Figure 9. Here, the gate of the FET is controlled by VBUS,\nand will disconnect the secondary source when\nVBUS is present. The P-FET should be chosen to have low on resistance,\nand therefore overcomes the efficiency and\nvoltage-drop issues with the diode-only solution..."
+		(exclude_from_sim no)
+		(at 198.12 86.36 0)
+		(size 76.2 22.86)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "6c003e2a-1868-4a3f-811c-a56a05b9cc53")
+	)
+	(text_box "ISET\nPrograms the fast-charge current setting.\nExternal resistor from ISET to VSS defines \nfast charge current value.\nRange is 10.8 kΩ (50 mA) to 540 Ω (1000 mA).\n\nISET2\nProgramming the input/output current limit \nfor the USB or adaptor source:\nhigh = 500 mA max, low = ISET, FLOAT = 100 mA max.\n\nPRETERM\nPrograms the current termination threshold \n(5 to 50% of Iout which is set by ISET) and sets the \nprecharge current to twice the termination current level.\nExpected range of programming resistor is 1 kΩ to 10 kΩ\n(2k: Ipgm/10 for term; Ipgm/5 for precharge)."
+		(exclude_from_sim no)
+		(at 71.12 114.3 0)
+		(size 60.96 35.56)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "9097b2bf-64be-4c20-9ef2-214ae7d79276")
+	)
+	(text_box "The final design shall contain the RP2350,\nwithout the Pico2 breakout.\nThis connector should then also handle D+/D-.\nFor now, this connector would not be needed, \nbut integrating it now helps getting used to it."
+		(exclude_from_sim no)
+		(at 17.78 114.3 0)
+		(size 50.8 15.24)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "b458dfbd-bfce-4346-9fa8-1806e9e180d7")
+	)
+	(text_box "USB D+/D- on Pico\ncan only be accessed via\nthe bottom side test pads."
+		(exclude_from_sim no)
+		(at 17.78 106.68 0)
+		(size 27.94 7.62)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "c02ca3c1-c507-413f-9114-412f205a305e")
+	)
+	(text_box "Current\nsenseing"
+		(exclude_from_sim no)
+		(at 251.46 68.58 0)
+		(size 10.16 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "f4f58b04-347b-4fc3-8035-38793f9a1d48")
 	)
 	(junction
 		(at 39.37 59.69)
@@ -3664,239 +3958,6 @@
 		)
 		(uuid "fe9c583d-6c11-4d48-9d56-0ddbec1d4b56")
 	)
-	(rectangle
-		(start 137.16 81.28)
-		(end 180.34 99.06)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid c86152f6-26bd-404f-9a13-cdbd990dfd86)
-	)
-	(text_box "CC Resistor values:\nhttps://www.usb.org/sites/default/files/USB%20Type-C%20Spec%20R2.0%20-%20August%202019.pdf S. 236\nhttps://hackaday.com/2023/01/04/all-about-usb-c-resistors-and-emarkers/"
-		(exclude_from_sim no)
-		(at 12.7 17.78 0)
-		(size 111.76 7.62)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "00c6f2aa-58bb-41c2-8984-e215d44500e6")
-	)
-	(text_box "To disable the temp sense function, \nuse a fixed 10kOhm resistor between \nthe TS pin and VSS."
-		(exclude_from_sim no)
-		(at 137.16 101.6 0)
-		(size 43.18 7.62)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "0401d476-c25c-4a8f-a580-d116b2855f1f")
-	)
-	(text_box "BQ24092\n\nThe BQ24090/2/5 are designed\nto work with a 10-k NTC."
-		(exclude_from_sim no)
-		(at 104.14 38.1 0)
-		(size 33.02 12.7)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "19be47ac-a523-433d-a4c2-e7ca96a86f4f")
-	)
-	(text_box "https://www.ti.com/lit/ds/symlink/bq25302.pdf?ts=1738000262944&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FBQ25302"
-		(exclude_from_sim no)
-		(at 12.7 12.7 0)
-		(size 142.24 5.08)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "41ef4cf9-0c96-43ad-ba21-b692f0b3ba9f")
-	)
-	(text_box "https://datasheets.raspberrypi.com/pico/pico-2-datasheet.pdf\n5.5 Powering Pico 2\n\nAn improved way to power from a second source is using a P-channel \nMOSFET (P-FET) to replace the Schottky diode as\nshown in Figure 9. Here, the gate of the FET is controlled by VBUS,\nand will disconnect the secondary source when\nVBUS is present. The P-FET should be chosen to have low on resistance,\nand therefore overcomes the efficiency and\nvoltage-drop issues with the diode-only solution..."
-		(exclude_from_sim no)
-		(at 198.12 86.36 0)
-		(size 76.2 22.86)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "6c003e2a-1868-4a3f-811c-a56a05b9cc53")
-	)
-	(text_box "ISET\nPrograms the fast-charge current setting.\nExternal resistor from ISET to VSS defines \nfast charge current value.\nRange is 10.8 kΩ (50 mA) to 540 Ω (1000 mA).\n\nISET2\nProgramming the input/output current limit \nfor the USB or adaptor source:\nhigh = 500 mA max, low = ISET, FLOAT = 100 mA max.\n\nPRETERM\nPrograms the current termination threshold \n(5 to 50% of Iout which is set by ISET) and sets the \nprecharge current to twice the termination current level.\nExpected range of programming resistor is 1 kΩ to 10 kΩ\n(2k: Ipgm/10 for term; Ipgm/5 for precharge)."
-		(exclude_from_sim no)
-		(at 71.12 114.3 0)
-		(size 60.96 35.56)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "9097b2bf-64be-4c20-9ef2-214ae7d79276")
-	)
-	(text_box "The final design shall contain the RP2350,\nwithout the Pico2 breakout.\nThis connector should then also handle D+/D-.\nFor now, this connector would not be needed, \nbut integrating it now helps getting used to it."
-		(exclude_from_sim no)
-		(at 17.78 114.3 0)
-		(size 50.8 15.24)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "b458dfbd-bfce-4346-9fa8-1806e9e180d7")
-	)
-	(text_box "USB D+/D- on Pico\ncan only be accessed via\nthe bottom side test pads."
-		(exclude_from_sim no)
-		(at 17.78 106.68 0)
-		(size 27.94 7.62)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "c02ca3c1-c507-413f-9114-412f205a305e")
-	)
-	(text_box "Current\nsenseing"
-		(exclude_from_sim no)
-		(at 251.46 68.58 0)
-		(size 10.16 5.08)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "f4f58b04-347b-4fc3-8035-38793f9a1d48")
-	)
-	(text "Charger connected\n(Power Good)"
-		(exclude_from_sim no)
-		(at 151.384 39.116 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "0fe65082-50e5-47e1-9b64-fc17cb3901fa")
-	)
-	(text "LiPo"
-		(exclude_from_sim no)
-		(at 171.45 97.282 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "327fe42e-55aa-45e6-92b6-b21eddcc9ed0")
-	)
-	(text "Charging\nOff for refresh\ncharging"
-		(exclude_from_sim no)
-		(at 150.876 57.912 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "3845273a-fc03-4e88-8548-354c9ec65aba")
-	)
-	(text "Programs the \ntermination current\nthreshold"
-		(exclude_from_sim no)
-		(at 101.092 93.98 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "bae3073b-6891-45e3-a0c5-ca3d93776867")
-	)
-	(text "Programs the\nfast charge current\n1.5k -> 360mA\nfuture: 1k -> 500mA"
-		(exclude_from_sim no)
-		(at 86.868 93.98 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "f3079a44-8bed-4818-828a-7eabe33777db")
-	)
 	(label "V_USB_LIPO"
 		(at 176.53 62.23 0)
 		(effects
@@ -3947,50 +4008,6 @@
 		)
 		(uuid "c2ff7eb2-4fb9-4e19-8f56-a9a5c1e9c66e")
 	)
-	(global_label "VBUS"
-		(shape bidirectional)
-		(at 209.55 74.93 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "792ab7f3-3ad2-4037-88dc-91fb605e5d4d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 209.55 83.9251 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VSYS"
-		(shape bidirectional)
-		(at 273.05 64.77 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "cdeaeb9d-7a9d-4db1-ba37-bd89a25461f0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 281.7427 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "VSYS"
 		(shape bidirectional)
 		(at 53.34 177.8 180)
@@ -4012,6 +4029,28 @@
 				(hide yes)
 			)
 		)
+	)
+	(hierarchical_label "VBUS"
+		(shape bidirectional)
+		(at 209.55 74.93 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "08ac97a6-eef8-4ede-ae76-bee2d330db9f")
+	)
+	(hierarchical_label "VSYS"
+		(shape bidirectional)
+		(at 273.05 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "70170288-aa0d-458b-8613-4a4ac50da198")
 	)
 	(netclass_flag ""
 		(length 2.54)
@@ -4240,6 +4279,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
+			(at 156.21 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 156.21 35.56 0)
 			(effects
 				(font
@@ -4773,7 +4821,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description_1" "MOSFET P-Ch 20V 5A Enhancement SOT23 | Diodes Inc DMG2305UX-7                \n"
+		(property "Description_1" "MOSFET P-Ch 20V 5A Enhancement SOT23 | Diodes Inc DMG2305UX-7"
 			(at 207.01 64.77 0)
 			(effects
 				(font
@@ -4952,7 +5000,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description_1" "Slide Switch SPDT Surface Mount"
+		(property "Description_1" "\n                        \n                            Slide Switch SPDT Surface Mount\n                        \n"
 			(at 241.3 64.77 0)
 			(effects
 				(font
@@ -6037,6 +6085,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
+			(at 156.21 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 156.21 53.34 0)
 			(effects
 				(font

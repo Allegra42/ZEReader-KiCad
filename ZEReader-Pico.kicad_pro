@@ -577,6 +577,9 @@
       "/02_Power/V_USB_LIPO": [
         "PWR"
       ],
+      "/03_ePaper-Driver/Drain": [
+        "PWR"
+      ],
       "/03_ePaper-Driver/VGH": [
         "PWR"
       ],

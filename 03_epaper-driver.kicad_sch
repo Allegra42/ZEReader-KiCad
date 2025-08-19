@@ -3628,7 +3628,7 @@
 		(dnp no)
 		(uuid "50b0f144-9bc4-43b9-85e5-8b1c15c50bbb")
 		(property "Reference" "J7"
-			(at 199.644 55.626 0)
+			(at 203.454 56.642 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3637,7 +3637,7 @@
 			)
 		)
 		(property "Value" "FFC2B28-24-G"
-			(at 199.644 58.166 0)
+			(at 196.596 58.928 0)
 			(effects
 				(font
 					(size 1.27 1.27)

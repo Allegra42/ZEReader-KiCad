@@ -118,13 +118,23 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 104.14) (xy 177.8 104.14)
+			(xy 152.4 119.38) (xy 177.8 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "17edaf64-f961-4dc4-afd1-78ff69d68a65")
+	)
+	(wire
+		(pts
+			(xy 152.4 90.17) (xy 177.8 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "180b19a5-0b5e-458d-8e59-7830eeb4f0fd")
 	)
 	(wire
 		(pts
@@ -158,7 +168,27 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 101.6) (xy 177.8 101.6)
+			(xy 152.4 95.25) (xy 177.8 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e97d4ca-d2cc-451d-8624-78baa798e98b")
+	)
+	(wire
+		(pts
+			(xy 152.4 97.79) (xy 177.8 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "881a9472-e0b7-4b30-9b7c-13bb7164ffa5")
+	)
+	(wire
+		(pts
+			(xy 152.4 116.84) (xy 177.8 116.84)
 		)
 		(stroke
 			(width 0)
@@ -168,7 +198,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 109.22) (xy 177.8 109.22)
+			(xy 152.4 124.46) (xy 177.8 124.46)
 		)
 		(stroke
 			(width 0)
@@ -178,7 +208,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 106.68) (xy 177.8 106.68)
+			(xy 152.4 121.92) (xy 177.8 121.92)
 		)
 		(stroke
 			(width 0)
@@ -245,6 +275,16 @@
 			(type default)
 		)
 		(uuid "deac73b4-aafb-42fc-9405-4ab4eaf8102e")
+	)
+	(wire
+		(pts
+			(xy 152.4 92.71) (xy 177.8 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9b6f6c7-b152-46d4-9730-346af00b4a2d")
 	)
 	(wire
 		(pts
@@ -513,7 +553,7 @@
 		)
 	)
 	(sheet
-		(at 177.8 99.06)
+		(at 177.8 114.3)
 		(size 25.4 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -529,7 +569,7 @@
 		)
 		(uuid "33ac9274-8ec9-4374-b845-560e6893b431")
 		(property "Sheetname" "05_Control-Buttons"
-			(at 177.8 98.3484 0)
+			(at 177.8 113.5884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -538,7 +578,7 @@
 			)
 		)
 		(property "Sheetfile" "05_control-buttons.kicad_sch"
-			(at 177.8 114.8846 0)
+			(at 177.8 130.1246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -547,7 +587,7 @@
 			)
 		)
 		(pin "BTN_1" bidirectional
-			(at 177.8 101.6 180)
+			(at 177.8 116.84 180)
 			(uuid "72e7ea1a-c9f6-44c9-8d15-ac0b8b2e3009")
 			(effects
 				(font
@@ -557,7 +597,7 @@
 			)
 		)
 		(pin "BTN_4" bidirectional
-			(at 177.8 109.22 180)
+			(at 177.8 124.46 180)
 			(uuid "d7e26d5c-28f6-4813-aa0a-bd0472e89cda")
 			(effects
 				(font
@@ -567,7 +607,7 @@
 			)
 		)
 		(pin "BTN_2" bidirectional
-			(at 177.8 104.14 180)
+			(at 177.8 119.38 180)
 			(uuid "23b9a32c-d2b4-4f8b-a34e-9f006ca898c5")
 			(effects
 				(font
@@ -577,7 +617,7 @@
 			)
 		)
 		(pin "BTN_3" bidirectional
-			(at 177.8 106.68 180)
+			(at 177.8 121.92 180)
 			(uuid "53078ec7-ac25-4450-829e-58e866d46631")
 			(effects
 				(font
@@ -596,7 +636,7 @@
 	)
 	(sheet
 		(at 177.8 76.2)
-		(size 25.4 15.24)
+		(size 25.4 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -620,7 +660,7 @@
 			)
 		)
 		(property "Sheetfile" "04_sd-card.kicad_sch"
-			(at 177.8 92.0246 0)
+			(at 177.8 102.1846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -631,16 +671,6 @@
 		(pin "SD_CLK-SCLK" bidirectional
 			(at 177.8 85.09 180)
 			(uuid "fe0131cf-d1df-41a0-8904-98c9c361520e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "SD_CMD-DI" input
-			(at 177.8 80.01 180)
-			(uuid "8d2e7cce-2344-479a-8283-a947c8a6f4f9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -668,6 +698,56 @@
 				(justify left)
 			)
 		)
+		(pin "SD_DAT1" bidirectional
+			(at 177.8 90.17 180)
+			(uuid "7914bd1a-36f6-46e5-92e8-5cadaa9734a6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SD_DAT2" bidirectional
+			(at 177.8 92.71 180)
+			(uuid "f0df04b5-585c-44b7-a591-0d7e2f15c669")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SD_DET_A" bidirectional
+			(at 177.8 95.25 180)
+			(uuid "5ba11dfb-c120-4874-b824-fc7f8306bf02")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SD_DET_B" bidirectional
+			(at 177.8 97.79 180)
+			(uuid "447475d7-ba15-48eb-b3ee-f530a10de615")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SD_CMD-DI" bidirectional
+			(at 177.8 80.01 180)
+			(uuid "08c97bd7-c82c-4289-b8ac-9e096c4f3d9a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "ZEReader-Pico"
 				(path "/ec954637-2a8b-4662-b4a1-f88107f11cb0"
@@ -678,7 +758,7 @@
 	)
 	(sheet
 		(at 101.6 50.8)
-		(size 50.8 63.5)
+		(size 50.8 76.2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -702,7 +782,7 @@
 			)
 		)
 		(property "Sheetfile" "01_mcu.kicad_sch"
-			(at 101.6 114.8846 0)
+			(at 101.6 127.5846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -711,7 +791,7 @@
 			)
 		)
 		(pin "BTN_1" bidirectional
-			(at 152.4 101.6 0)
+			(at 152.4 116.84 0)
 			(uuid "4706edb8-962c-4424-95dc-30aa9bd55dd4")
 			(effects
 				(font
@@ -721,7 +801,7 @@
 			)
 		)
 		(pin "BTN_2" bidirectional
-			(at 152.4 104.14 0)
+			(at 152.4 119.38 0)
 			(uuid "a69352c8-fe77-46d6-83ec-3b3d692bc6eb")
 			(effects
 				(font
@@ -731,7 +811,7 @@
 			)
 		)
 		(pin "BTN_4" bidirectional
-			(at 152.4 109.22 0)
+			(at 152.4 124.46 0)
 			(uuid "c75ec25f-32d1-4ec1-972f-09c19a27c8ad")
 			(effects
 				(font
@@ -741,7 +821,7 @@
 			)
 		)
 		(pin "BTN_3" bidirectional
-			(at 152.4 106.68 0)
+			(at 152.4 121.92 0)
 			(uuid "68ee4de2-3a04-4b83-b65e-6128df6ef9dc")
 			(effects
 				(font
@@ -863,6 +943,46 @@
 		(pin "EPD_BUSY" bidirectional
 			(at 152.4 67.31 0)
 			(uuid "55be134d-9462-4ff1-8920-829d23ed35d1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SD_DAT1" bidirectional
+			(at 152.4 90.17 0)
+			(uuid "9c97d0d8-7b14-4cf3-9891-10cd428ae129")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SD_DAT2" bidirectional
+			(at 152.4 92.71 0)
+			(uuid "611cca1d-c998-4bb2-a119-85cfdb06f1ef")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SD_DET_A" bidirectional
+			(at 152.4 95.25 0)
+			(uuid "d88a1c8a-9b42-40b8-9d2e-3608774cf5e4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SD_DET_B" bidirectional
+			(at 152.4 97.79 0)
+			(uuid "476af111-2c3b-4146-9232-f43be89410e0")
 			(effects
 				(font
 					(size 1.27 1.27)

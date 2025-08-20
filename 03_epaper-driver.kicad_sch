@@ -1826,6 +1826,26 @@
 		)
 		(uuid "06cd3d9b-1aaa-444c-b5ca-091240fb3d16")
 	)
+	(text_box "TODO\n\nTest with 4.7 uF"
+		(exclude_from_sim no)
+		(at 15.24 82.55 0)
+		(size 17.78 8.89)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "48d46b37-0ab6-47ba-bc2d-4dcb192a5580")
+	)
 	(text_box "Removed switch, just populate a 3 Ohm resistor if you wish using the other compatible display variants."
 		(exclude_from_sim no)
 		(at 68.58 119.38 0)

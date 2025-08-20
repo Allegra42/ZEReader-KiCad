@@ -593,6 +593,9 @@
         "PWR"
       ],
       "Net-(J1-VDD)": "PWR",
+      "Net-(U2-IN)": [
+        "PWR"
+      ],
       "VBUS": [
         "PWR"
       ],

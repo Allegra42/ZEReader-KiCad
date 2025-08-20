@@ -1710,16 +1710,8 @@
 		(uuid "2168eb9a-aad3-4f9c-ad56-aced01c7ba55")
 	)
 	(no_connect
-		(at 168.91 72.39)
-		(uuid "29d06e87-a550-4787-8403-b051cd8b5922")
-	)
-	(no_connect
 		(at 168.91 85.09)
 		(uuid "2e2ad55b-fd54-49f2-97a7-a2b9e9e37cb6")
-	)
-	(no_connect
-		(at 168.91 69.85)
-		(uuid "31c9311e-a410-4551-ab28-2d86c8df9282")
 	)
 	(no_connect
 		(at 123.19 125.73)
@@ -1742,16 +1734,16 @@
 		(uuid "cc14c14c-56bb-436d-8ff6-12e482f709df")
 	)
 	(no_connect
+		(at 168.91 67.31)
+		(uuid "e97797f3-ca67-4c39-8078-a5dda6253e60")
+	)
+	(no_connect
 		(at 168.91 80.01)
 		(uuid "eed8968a-961e-4a86-a906-2c956e4e179c")
 	)
 	(no_connect
 		(at 168.91 120.65)
 		(uuid "f1501394-e292-4422-b9bd-1ec7d7f26999")
-	)
-	(no_connect
-		(at 168.91 67.31)
-		(uuid "f342146a-48d5-4263-b17a-e0bf8c006f18")
 	)
 	(no_connect
 		(at 168.91 113.03)
@@ -2019,6 +2011,16 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 69.85) (xy 177.8 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8085d82-b83b-4566-976f-1e6fb3f05743")
+	)
+	(wire
+		(pts
 			(xy 93.98 82.55) (xy 123.19 82.55)
 		)
 		(stroke
@@ -2056,6 +2058,16 @@
 			(type default)
 		)
 		(uuid "d26dd6d2-e298-4361-bb21-eb98cc2d74ba")
+	)
+	(wire
+		(pts
+			(xy 168.91 72.39) (xy 177.8 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3d3f290-6bef-444f-a96c-3599f569d2fb")
 	)
 	(wire
 		(pts
@@ -2119,6 +2131,17 @@
 			(justify right)
 		)
 		(uuid "4df2bd88-c424-45b6-87ab-fe4ae21b4813")
+	)
+	(hierarchical_label "USB_DP"
+		(shape bidirectional)
+		(at 177.8 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4e262bde-59bc-4888-a3b7-c64d3f6b70e9")
 	)
 	(hierarchical_label "SD_DAT2"
 		(shape bidirectional)
@@ -2229,6 +2252,17 @@
 			(justify left)
 		)
 		(uuid "9f640c9e-b716-4852-b1e0-2b7b31a5ea1b")
+	)
+	(hierarchical_label "USB_DN"
+		(shape bidirectional)
+		(at 177.8 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a34d2b27-81b9-4fd7-8717-370a91f9ceef")
 	)
 	(hierarchical_label "EPD_DC"
 		(shape bidirectional)

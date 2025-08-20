@@ -148,6 +148,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 63.5) (xy 101.6 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25814a37-92bc-491e-9ef4-9785bd990c0c")
+	)
+	(wire
+		(pts
 			(xy 152.4 87.63) (xy 177.8 87.63)
 		)
 		(stroke
@@ -165,6 +175,16 @@
 			(type default)
 		)
 		(uuid "64c5b0b2-f620-4e53-8a29-6ad305ccb286")
+	)
+	(wire
+		(pts
+			(xy 76.2 60.96) (xy 101.6 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "709612b3-e5e7-4b02-9fa9-dbac1cc6a5de")
 	)
 	(wire
 		(pts
@@ -990,6 +1010,26 @@
 				(justify right)
 			)
 		)
+		(pin "USB_DP" bidirectional
+			(at 101.6 63.5 180)
+			(uuid "ce0ec6d7-a6ef-4e97-8e73-fd3b3e96bc68")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_DN" bidirectional
+			(at 101.6 60.96 180)
+			(uuid "17490bcc-a065-4c0d-8239-8b38fa0d4afe")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "ZEReader-Pico"
 				(path "/ec954637-2a8b-4662-b4a1-f88107f11cb0"
@@ -1000,7 +1040,7 @@
 	)
 	(sheet
 		(at 50.8 50.8)
-		(size 25.4 12.7)
+		(size 25.4 16.51)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1024,7 +1064,7 @@
 			)
 		)
 		(property "Sheetfile" "02_power.kicad_sch"
-			(at 50.8 64.0846 0)
+			(at 50.8 67.8946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1045,6 +1085,26 @@
 		(pin "VSYS" bidirectional
 			(at 76.2 54.61 0)
 			(uuid "b0ec0005-b53b-4803-bbb3-f6d0e9a0ff90")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_DN" bidirectional
+			(at 76.2 60.96 0)
+			(uuid "89bf6c38-f245-4f59-9c76-a9c4f5bbe9da")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_DP" bidirectional
+			(at 76.2 63.5 0)
+			(uuid "86b6aa3d-118f-4a6d-8a9b-53236a9a38d2")
 			(effects
 				(font
 					(size 1.27 1.27)

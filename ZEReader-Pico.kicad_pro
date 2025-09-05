@@ -490,6 +490,7 @@
       "single_global_label": "ignore",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
@@ -571,10 +572,19 @@
       "/01_MCU/VBUS": [
         "PWR"
       ],
+      "/01_MCU/VSYS": [
+        "PWR"
+      ],
       "/02_Power/USB_VBUS": [
         "PWR"
       ],
       "/02_Power/V_USB_LIPO": [
+        "PWR"
+      ],
+      "/02a_USB-Battery-Charging/USB_VBUS": [
+        "PWR"
+      ],
+      "/02a_USB-Battery-Charging/V_USB_LIPO": [
         "PWR"
       ],
       "/03_ePaper-Driver/Drain": [
@@ -592,8 +602,13 @@
       "Net-(D3-A)": [
         "PWR"
       ],
-      "Net-(J1-VDD)": "PWR",
+      "Net-(J1-VDD)": [
+        "PWR"
+      ],
       "Net-(U2-IN)": [
+        "PWR"
+      ],
+      "Net-(U3-IN)": [
         "PWR"
       ],
       "VBUS": [
@@ -884,7 +899,11 @@
     ],
     [
       "a18230d5-251f-4044-a9cd-045093d87cd6",
-      "02_Power"
+      "02a_USB-Battery-Charging"
+    ],
+    [
+      "a3bedda0-cdd4-4cf1-8725-53db0608a498",
+      "02b_Power-On-Off"
     ],
     [
       "d006ff72-e176-4e99-8906-01d59b86077c",

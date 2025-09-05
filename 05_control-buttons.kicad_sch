@@ -874,7 +874,7 @@
 		(uuid "ff4c2f3c-59cc-4b60-a3ae-4727ce523eec")
 	)
 	(hierarchical_label "BTN_3"
-		(shape bidirectional)
+		(shape output)
 		(at 106.68 88.9 0)
 		(effects
 			(font
@@ -885,7 +885,7 @@
 		(uuid "4732eb85-aa43-493c-b9b8-f7d453087eb4")
 	)
 	(hierarchical_label "BTN_4"
-		(shape bidirectional)
+		(shape output)
 		(at 81.28 88.9 0)
 		(effects
 			(font
@@ -896,7 +896,7 @@
 		(uuid "47c786ce-828c-407c-a902-246fe2d0df85")
 	)
 	(hierarchical_label "BTN_2"
-		(shape bidirectional)
+		(shape output)
 		(at 132.08 88.9 0)
 		(effects
 			(font
@@ -907,7 +907,7 @@
 		(uuid "bcf51ddf-9145-43b9-9f75-305bcc279823")
 	)
 	(hierarchical_label "BTN_1"
-		(shape bidirectional)
+		(shape output)
 		(at 157.48 88.9 0)
 		(effects
 			(font

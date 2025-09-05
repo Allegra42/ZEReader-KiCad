@@ -1065,16 +1065,6 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 90.17) (xy 158.75 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "170d099b-87e2-4221-9e6f-38a97d5bd77e")
-	)
-	(wire
-		(pts
 			(xy 132.08 78.74) (xy 132.08 90.17)
 		)
 		(stroke
@@ -1082,16 +1072,6 @@
 			(type default)
 		)
 		(uuid "21e81135-3667-410f-969f-8d047ce9b5e5")
-	)
-	(wire
-		(pts
-			(xy 139.7 92.71) (xy 158.75 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2abd4d1b-cc60-463a-8d7a-d2a3c1e61367")
 	)
 	(wire
 		(pts
@@ -1255,7 +1235,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 92.71) (xy 132.08 92.71)
+			(xy 124.46 92.71) (xy 158.75 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1285,7 +1265,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 90.17) (xy 143.51 90.17)
+			(xy 132.08 90.17) (xy 158.75 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1781,73 +1761,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 147.32 90.17 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5a2c037c-8ce8-4da4-9925-a7b933ffcf82")
-		(property "Reference" "R21"
-			(at 143.002 91.186 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0Ohm"
-			(at 152.654 91.186 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 147.32 88.392 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 147.32 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 147.32 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "935c2161-e206-45ec-a0a7-9a1702fd9f37")
-		)
-		(pin "1"
-			(uuid "5909c850-7793-4786-bdbd-e95eb78c17cc")
-		)
-		(instances
-			(project "ZEReader-Pico"
-				(path "/ec954637-2a8b-4662-b4a1-f88107f11cb0/5fd074b7-3c47-4717-bcdc-b0d8134ff74e"
-					(reference "R21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 85.09 64.77 0)
 		(unit 1)
@@ -2181,73 +2094,6 @@
 			(project ""
 				(path "/ec954637-2a8b-4662-b4a1-f88107f11cb0/5fd074b7-3c47-4717-bcdc-b0d8134ff74e"
 					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 135.89 92.71 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8363a5c4-1ad4-446b-8bef-c5c0cdeace45")
-		(property "Reference" "R20"
-			(at 131.318 93.726 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0Ohm"
-			(at 141.224 93.726 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 135.89 90.932 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 135.89 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 135.89 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9c6f460e-8161-4ef9-b396-7dd3ae35ebfd")
-		)
-		(pin "1"
-			(uuid "bfe4fa2a-8fff-4d9d-867c-0bf35bf501c4")
-		)
-		(instances
-			(project ""
-				(path "/ec954637-2a8b-4662-b4a1-f88107f11cb0/5fd074b7-3c47-4717-bcdc-b0d8134ff74e"
-					(reference "R20")
 					(unit 1)
 				)
 			)

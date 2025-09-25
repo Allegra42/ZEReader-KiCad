@@ -3299,72 +3299,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 50.8 177.8 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2733b416-df60-4397-88ca-610956514706")
-		(property "Reference" "TP_BSS138_Drain1"
-			(at 51.562 173.736 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BSS138_Drain"
-			(at 51.562 175.768 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
-			(at 50.8 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 50.8 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 50.8 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7ab2e4b4-f0fe-48cf-91f6-7c75c9110e71")
-		)
-		(instances
-			(project "ZEReader-Pico"
-				(path "/ec954637-2a8b-4662-b4a1-f88107f11cb0/d006ff72-e176-4e99-8906-01d59b86077c"
-					(reference "TP_BSS138_Drain1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 170.18 78.74 90)
 		(unit 1)
@@ -4777,7 +4711,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d0d113a8-849f-4581-8c2f-6ade7f47a2e5")
-		(property "Reference" "TP_BSS138_Gate_GDR1"
+		(property "Reference" "G/GDR1"
 			(at 51.562 161.036 90)
 			(effects
 				(font
@@ -4828,7 +4762,73 @@
 		(instances
 			(project "ZEReader-Pico"
 				(path "/ec954637-2a8b-4662-b4a1-f88107f11cb0/d006ff72-e176-4e99-8906-01d59b86077c"
-					(reference "TP_BSS138_Gate_GDR1")
+					(reference "G/GDR1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 50.8 177.8 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d8f3186a-6c5d-40a9-863c-3564bf2f67c8")
+		(property "Reference" "Drain1"
+			(at 51.562 173.736 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BSS138_Drain"
+			(at 51.562 175.768 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
+			(at 50.8 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 50.8 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 50.8 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "de5f98d4-d5de-4ad0-9dc0-b064d55382f8")
+		)
+		(instances
+			(project "ZEReader-Pico"
+				(path "/ec954637-2a8b-4662-b4a1-f88107f11cb0/d006ff72-e176-4e99-8906-01d59b86077c"
+					(reference "Drain1")
 					(unit 1)
 				)
 			)
@@ -4843,7 +4843,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "db793b38-4800-4bf4-8871-284108d4d8e7")
-		(property "Reference" "TP_BSS138_Source_RESE1"
+		(property "Reference" "S/RESE1"
 			(at 51.562 167.386 90)
 			(effects
 				(font
@@ -4894,7 +4894,7 @@
 		(instances
 			(project "ZEReader-Pico"
 				(path "/ec954637-2a8b-4662-b4a1-f88107f11cb0/d006ff72-e176-4e99-8906-01d59b86077c"
-					(reference "TP_BSS138_Source_RESE1")
+					(reference "S/RESE1")
 					(unit 1)
 				)
 			)

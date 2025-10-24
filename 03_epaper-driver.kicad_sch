@@ -1826,7 +1826,7 @@
 		)
 		(uuid "06cd3d9b-1aaa-444c-b5ca-091240fb3d16")
 	)
-	(text_box "TODO\n\nTest with 4.7 uF"
+	(text_box "Needs testing on the finished PCB if 4.7uF or 10uF"
 		(exclude_from_sim no)
 		(at 15.24 82.55 0)
 		(size 17.78 8.89)

@@ -1667,14 +1667,14 @@
 		)
 		(uuid "268cc221-0fda-4865-a1e4-dcc5f3a18ea9")
 	)
-	(text_box "SWD Debug\nno need to populate in production"
+	(text_box "SWD Debug\nPopulation is optional"
 		(exclude_from_sim no)
 		(at 55.88 66.04 0)
 		(size 35.56 7.62)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
-			(type default)
+			(type solid)
 		)
 		(fill
 			(type none)
@@ -1783,6 +1783,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 74.93) (xy 106.68 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "156e7e72-8888-4d0e-9467-d83c38bb44b0")
+	)
+	(wire
+		(pts
 			(xy 181.61 115.57) (xy 189.23 115.57)
 		)
 		(stroke
@@ -1793,7 +1803,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 72.39) (xy 106.68 72.39)
+			(xy 127 74.93) (xy 106.68 74.93)
 		)
 		(stroke
 			(width 0)
@@ -2103,7 +2113,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 69.85) (xy 127 72.39)
+			(xy 127 69.85) (xy 127 74.93)
 		)
 		(stroke
 			(width 0)
@@ -2818,7 +2828,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 111.76 69.85 90)
+		(at 111.76 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2827,7 +2837,7 @@
 		(fields_autoplaced yes)
 		(uuid "9cb113f8-4151-472d-8f9e-d3b41d98e0ce")
 		(property "Reference" "#PWR022"
-			(at 118.11 69.85 0)
+			(at 111.76 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2836,12 +2846,12 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 115.57 69.8499 90)
+			(at 114.3 71.1199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""

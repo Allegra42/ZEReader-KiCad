@@ -925,26 +925,6 @@
 		)
 		(uuid "40c2e59f-dc30-4a0b-b0ee-757f049af841")
 	)
-	(text_box "Pull-up resistors\n10k-100k\n-> must be used!\nTODO switch to 10K?"
-		(exclude_from_sim no)
-		(at 59.69 72.39 0)
-		(size 29.21 10.16)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "4518ef64-7b49-4901-b0cd-7addd401b28e")
-	)
 	(junction
 		(at 85.09 53.34)
 		(diameter 0)
@@ -1571,7 +1551,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22k"
+		(property "Value" "10k"
 			(at 133.35 75.692 0)
 			(effects
 				(font
@@ -1640,7 +1620,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "22k"
+		(property "Value" "10k"
 			(at 98.806 75.692 0)
 			(effects
 				(font
@@ -1709,7 +1689,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22k"
+		(property "Value" "10k"
 			(at 125.73 75.692 0)
 			(effects
 				(font
@@ -1913,7 +1893,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22k"
+		(property "Value" "10k"
 			(at 110.49 75.692 0)
 			(effects
 				(font
@@ -1982,7 +1962,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22k"
+		(property "Value" "10k"
 			(at 140.97 75.692 0)
 			(effects
 				(font
@@ -2249,7 +2229,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22k"
+		(property "Value" "10k"
 			(at 102.87 75.692 0)
 			(effects
 				(font

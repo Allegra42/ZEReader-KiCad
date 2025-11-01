@@ -600,6 +600,9 @@
       "Net-(D3-A)": [
         "PWR"
       ],
+      "Net-(D6-K)": [
+        "PWR"
+      ],
       "Net-(J1-VDD)": [
         "PWR"
       ],

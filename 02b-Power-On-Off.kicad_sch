@@ -2352,16 +2352,6 @@
 		)
 		(uuid "f0fbb28a-1e35-48f0-932b-5e8b6f1bf654")
 	)
-	(label "V_USB_LIPO"
-		(at 83.82 76.2 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b04246a1-a737-49cb-ab73-40af19fa4dd8")
-	)
 	(hierarchical_label "VSYS"
 		(shape output)
 		(at 228.6 76.2 0)
@@ -2463,6 +2453,28 @@
 		(uuid "9574dcfd-043b-45a6-ab73-733ee0336dd3")
 		(property "Netclass" "PWR"
 			(at 221.996 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 88.9 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b379c1ee-de40-4af7-a4fc-73215248a66c")
+		(property "Netclass" "PWR"
+			(at 86.614 72.136 0)
 			(effects
 				(font
 					(size 1.27 1.27)

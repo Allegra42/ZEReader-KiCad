@@ -27,7 +27,7 @@ jobs:
         sed -i "s/{kibot_git-hash}/$REV/g" *.kicad_*
 
     - name: Run KiBot
-      uses: INTI-CMNB/KiBot@v2_k8
+      uses: INTI-CMNB/KiBot@v1.8.4
       with:
         config: 'zereader-pico.kibot.yaml'
         dir: KiBot_Outputs

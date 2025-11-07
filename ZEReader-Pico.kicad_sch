@@ -7,7 +7,7 @@
 	(title_block
 		(title "ZEReader-Pico")
 		(date "{kibot_date}")
-		(rev "v1")
+		(rev "v2")
 		(company "Anna-Lena Marx")
 		(comment 4 "Git revision: {kibot_git-hash}")
 	)

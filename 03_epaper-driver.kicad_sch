@@ -7,7 +7,7 @@
 	(title_block
 		(title "ZEReader-Pico")
 		(date "{kibot_date}")
-		(rev "v1")
+		(rev "v2")
 		(company "Anna-Lena Marx")
 		(comment 4 "Git revision: {kibot_git-hash}")
 	)
@@ -3125,7 +3125,7 @@
 				)
 			)
 		)
-		(property "Value" "1uF/25V"
+		(property "Value" "1uF, 25V"
 			(at 163.322 67.564 90)
 			(effects
 				(font
@@ -3325,7 +3325,7 @@
 				)
 			)
 		)
-		(property "Value" "1uF/10V"
+		(property "Value" "1uF, 10V"
 			(at 163.576 77.724 90)
 			(effects
 				(font
@@ -3847,7 +3847,7 @@
 				)
 			)
 		)
-		(property "Value" "10uF/10V"
+		(property "Value" "10uF, 10V"
 			(at 163.068 85.344 90)
 			(effects
 				(font
@@ -4048,7 +4048,7 @@
 				)
 			)
 		)
-		(property "Value" "1uF/25V"
+		(property "Value" "1uF, 25V"
 			(at 120.65 94.234 90)
 			(effects
 				(font
@@ -4185,7 +4185,7 @@
 				)
 			)
 		)
-		(property "Value" "1uF/50V"
+		(property "Value" "1uF, 50V"
 			(at 163.322 62.484 90)
 			(effects
 				(font
@@ -4318,7 +4318,7 @@
 				)
 			)
 		)
-		(property "Value" "1uF/25V"
+		(property "Value" "1uF, 25V"
 			(at 163.322 110.744 90)
 			(effects
 				(font
@@ -4662,7 +4662,7 @@
 				)
 			)
 		)
-		(property "Value" "1uF/25V"
+		(property "Value" "1uF, 25V"
 			(at 120.65 72.136 90)
 			(effects
 				(font
@@ -4717,7 +4717,7 @@
 		(at 50.8 165.1 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "d0d113a8-849f-4581-8c2f-6ade7f47a2e5")
@@ -4783,7 +4783,7 @@
 		(at 50.8 177.8 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "d8f3186a-6c5d-40a9-863c-3564bf2f67c8")
@@ -4849,7 +4849,7 @@
 		(at 50.8 171.45 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "db793b38-4800-4bf4-8871-284108d4d8e7")
@@ -4927,7 +4927,7 @@
 				)
 			)
 		)
-		(property "Value" "1uF/25V"
+		(property "Value" "1uF, 25V"
 			(at 163.322 72.644 90)
 			(effects
 				(font

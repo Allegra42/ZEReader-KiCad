@@ -148,7 +148,7 @@
           "td_onpthpad": true,
           "td_onroundshapesonly": false,
           "td_onsmdpad": true,
-          "td_ontrackend": false,
+          "td_ontrackend": true,
           "td_onvia": true
         }
       ],
@@ -534,7 +534,7 @@
         "microvia_drill": 0.1,
         "name": "GND",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgb(0, 48, 255)",
         "track_width": 0.4,
         "via_diameter": 0.7,
@@ -551,8 +551,25 @@
         "microvia_drill": 0.1,
         "name": "PWR",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgb(255, 28, 34)",
+        "track_width": 0.4,
+        "via_diameter": 0.7,
+        "via_drill": 0.3,
+        "wire_width": 10
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.15,
+        "diff_pair_gap": 0.2,
+        "diff_pair_width": 0.8,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "USB",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgb(188, 61, 180)",
         "track_width": 0.4,
         "via_diameter": 0.7,
         "via_drill": 0.3,
@@ -600,10 +617,16 @@
       "Net-(D3-A)": [
         "PWR"
       ],
+      "Net-(D4-K)": [
+        "PWR"
+      ],
       "Net-(D6-K)": [
         "PWR"
       ],
       "Net-(J1-VDD)": [
+        "PWR"
+      ],
+      "Net-(U1-IN)": [
         "PWR"
       ],
       "Net-(U3-IN)": [
@@ -648,6 +671,14 @@
       {
         "netclass": "Default",
         "pattern": "+3.3V"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/01_MCU/USB_DP"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/01_MCU/USB_DN"
       }
     ]
   },

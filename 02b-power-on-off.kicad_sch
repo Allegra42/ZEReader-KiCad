@@ -2558,7 +2558,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "103ec094-59f3-442b-addd-36979d45fbc4")
-		(property "Reference" "R16"
+		(property "Reference" "R11"
 			(at 215.646 119.38 0)
 			(effects
 				(font
@@ -2612,7 +2612,7 @@
 		(instances
 			(project ""
 				(path "/ec954637-2a8b-4662-b4a1-f88107f11cb0/a3bedda0-cdd4-4cf1-8725-53db0608a498"
-					(reference "R16")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -2627,7 +2627,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "130414e4-f68a-46a0-adb0-ee6455536a70")
-		(property "Reference" "D4"
+		(property "Reference" "D11"
 			(at 177.038 96.774 0)
 			(effects
 				(font
@@ -2681,7 +2681,7 @@
 		(instances
 			(project "ZEReader-Pico"
 				(path "/ec954637-2a8b-4662-b4a1-f88107f11cb0/a3bedda0-cdd4-4cf1-8725-53db0608a498"
-					(reference "D4")
+					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -2697,7 +2697,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1bccb9b4-fc1e-474c-b1f9-d0b0f1e34bba")
-		(property "Reference" "R11"
+		(property "Reference" "R10"
 			(at 115.57 109.2199 0)
 			(effects
 				(font
@@ -2751,7 +2751,7 @@
 		(instances
 			(project ""
 				(path "/ec954637-2a8b-4662-b4a1-f88107f11cb0/a3bedda0-cdd4-4cf1-8725-53db0608a498"
-					(reference "R11")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -2767,7 +2767,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "22421680-7af6-4125-ab8f-b5131ef7b4f2")
-		(property "Reference" "Q4"
+		(property "Reference" "Q1"
 			(at 133.35 69.85 90)
 			(effects
 				(font
@@ -2943,7 +2943,7 @@
 		(instances
 			(project ""
 				(path "/ec954637-2a8b-4662-b4a1-f88107f11cb0/a3bedda0-cdd4-4cf1-8725-53db0608a498"
-					(reference "Q4")
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -2959,7 +2959,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "47fef009-8689-4e42-b479-c56f7086c4b6")
-		(property "Reference" "Q3"
+		(property "Reference" "Q2"
 			(at 72.39 69.85 90)
 			(effects
 				(font
@@ -3135,7 +3135,7 @@
 		(instances
 			(project ""
 				(path "/ec954637-2a8b-4662-b4a1-f88107f11cb0/a3bedda0-cdd4-4cf1-8725-53db0608a498"
-					(reference "Q3")
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -3150,7 +3150,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "523bafae-a466-4cd7-95b4-3fb62cae66b3")
-		(property "Reference" "D10"
+		(property "Reference" "D8"
 			(at 165.354 89.662 0)
 			(effects
 				(font
@@ -3204,7 +3204,7 @@
 		(instances
 			(project "ZEReader-Pico"
 				(path "/ec954637-2a8b-4662-b4a1-f88107f11cb0/a3bedda0-cdd4-4cf1-8725-53db0608a498"
-					(reference "D10")
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -3285,7 +3285,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7fe0ff8b-0b4a-4d7d-840a-2eb85889c86d")
-		(property "Reference" "Q2"
+		(property "Reference" "Q4"
 			(at 127 129.5401 0)
 			(effects
 				(font
@@ -3345,7 +3345,7 @@
 		(instances
 			(project "ZEReader-Pico"
 				(path "/ec954637-2a8b-4662-b4a1-f88107f11cb0/a3bedda0-cdd4-4cf1-8725-53db0608a498"
-					(reference "Q2")
+					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -3360,7 +3360,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8835a279-6e34-4420-af6e-960ef4418740")
-		(property "Reference" "C12"
+		(property "Reference" "C10"
 			(at 194.31 82.5499 0)
 			(effects
 				(font
@@ -3414,7 +3414,7 @@
 		(instances
 			(project "ZEReader-Pico"
 				(path "/ec954637-2a8b-4662-b4a1-f88107f11cb0/a3bedda0-cdd4-4cf1-8725-53db0608a498"
-					(reference "C12")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -3495,7 +3495,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a7b88d33-e319-44a6-8052-5ba9d4457e25")
-		(property "Reference" "R17"
+		(property "Reference" "R9"
 			(at 198.12 99.06 90)
 			(effects
 				(font
@@ -3547,7 +3547,7 @@
 		(instances
 			(project ""
 				(path "/ec954637-2a8b-4662-b4a1-f88107f11cb0/a3bedda0-cdd4-4cf1-8725-53db0608a498"
-					(reference "R17")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -3629,7 +3629,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cd6b8aae-45ad-44f3-a216-4e82f70806a7")
-		(property "Reference" "D6"
+		(property "Reference" "D4"
 			(at 72.7075 58.42 0)
 			(effects
 				(font
@@ -3681,7 +3681,7 @@
 		(instances
 			(project "ZEReader-Pico"
 				(path "/ec954637-2a8b-4662-b4a1-f88107f11cb0/a3bedda0-cdd4-4cf1-8725-53db0608a498"
-					(reference "D6")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -3830,7 +3830,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f6d3b29a-b67e-4f1f-bc19-e0a086332c68")
-		(property "Reference" "D11"
+		(property "Reference" "D12"
 			(at 203.708 119.634 90)
 			(effects
 				(font
@@ -3884,7 +3884,7 @@
 		(instances
 			(project ""
 				(path "/ec954637-2a8b-4662-b4a1-f88107f11cb0/a3bedda0-cdd4-4cf1-8725-53db0608a498"
-					(reference "D11")
+					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -3900,7 +3900,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f7ffcabc-6cc9-44d0-917f-944df4353442")
-		(property "Reference" "TP15_VSYS1"
+		(property "Reference" "TP3_VSYS1"
 			(at 53.34 181.6099 90)
 			(effects
 				(font
@@ -3951,7 +3951,7 @@
 		(instances
 			(project "ZEReader-Pico"
 				(path "/ec954637-2a8b-4662-b4a1-f88107f11cb0/a3bedda0-cdd4-4cf1-8725-53db0608a498"
-					(reference "TP15_VSYS1")
+					(reference "TP3_VSYS1")
 					(unit 1)
 				)
 			)

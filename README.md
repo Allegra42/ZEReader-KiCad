@@ -30,7 +30,7 @@ This intended to help with a more agile approach in hardware development.
 Besides, KiRi makes it easy to visualize and understand changes in schematic and pcb files tracked by git.
 
 ## Production
-[AISLER]([https://aisler.net/](https://aisler.net/en?utm_source=zereader) helps to make this project alive.
+[AISLER](https://aisler.net/en?utm_source=zereader) helps to make this project alive.
 
 To get the lastest revision manufactured, just follow this link for [Uploading to AISLER](https://aisler.net/p/new?url=https://raw.githubusercontent.com/Allegra42/ZEReader-KiCad/refs/heads/main/ZEReader-Pico.kicad_pcb&ref=github).
 

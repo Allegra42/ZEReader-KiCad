@@ -11,4 +11,5 @@
   (lib (name "my-usb4105-gf-a")(type "KiCad")(uri "${KIPRJMOD}/symbols/my-usb4105-gf-a.kicad_sym")(options "")(descr ""))
   (lib (name "MAX16150BUT+T")(type "KiCad")(uri "${KIPRJMOD}/symbols/MAX16150BUT+T.kicad_sym")(options "")(descr ""))
   (lib (name "BQ25170J")(type "KiCad")(uri "${KIPRJMOD}/symbols/BQ25170J.kicad_sym")(options "")(descr ""))
+  (lib (name "NUP3115UPMUTAG")(type "KiCad")(uri "${KIPRJMOD}/symbols/NUP3115UPMUTAG.kicad_sym")(options "")(descr ""))
 )

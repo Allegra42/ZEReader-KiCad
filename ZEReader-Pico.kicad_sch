@@ -744,7 +744,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "6287da76-0db4-4fe1-bf56-9c4c0c357d1d")
+			(uuid "6287da76-0db4-4fe1-bf56-9c4c0c357d1e")
 		)
 		(instances
 			(project ""
@@ -943,7 +943,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "6287da76-0db4-4fe1-bf56-9c4c0c357d1d")
+			(uuid "6287da76-0db4-4fe1-bf56-9c4c0c357d1f")
 		)
 		(instances
 			(project ""

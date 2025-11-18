@@ -614,19 +614,19 @@
       "GND": [
         "GND"
       ],
-      "Net-(D1-K)": [
+      "Net-(D3-A)": [
         "PWR"
       ],
-      "Net-(D3-A)": [
+      "Net-(D3-K)": [
         "PWR"
       ],
       "Net-(D6-K)": [
         "PWR"
       ],
-      "Net-(J1-VBUS)": [
+      "Net-(J1-VDD)": [
         "PWR"
       ],
-      "Net-(J1-VDD)": [
+      "Net-(J3-VBUS)": [
         "PWR"
       ],
       "Net-(U3-IN)": [

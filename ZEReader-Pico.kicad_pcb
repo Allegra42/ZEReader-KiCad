@@ -55,7 +55,7 @@
 			)
 			(layer "F.Mask"
 				(type "Top Solder Mask")
-				(color "Black")
+				(color "Green")
 				(thickness 0.025)
 				(material "Elpemer AS 2467 SM-DG")
 				(epsilon_r 3.7)
@@ -79,7 +79,7 @@
 			)
 			(layer "B.Mask"
 				(type "Bottom Solder Mask")
-				(color "Black")
+				(color "Green")
 				(thickness 0.025)
 				(material "Elpemer AS 2467 SM-DG")
 				(epsilon_r 3.7)

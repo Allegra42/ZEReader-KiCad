@@ -3842,7 +3842,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Zener 2V7"
+		(property "Value" "Zener 3V3"
 			(at 198.12 121.412 90)
 			(effects
 				(font
@@ -3851,7 +3851,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
+		(property "Footprint" "Diode_SMD:D_SOD-923"
 			(at 209.55 120.65 0)
 			(effects
 				(font
@@ -3860,7 +3860,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/discrete/diode/zener/cdzvt2r3.0b-e.pdf"
 			(at 209.55 120.65 0)
 			(effects
 				(font

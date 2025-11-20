@@ -1840,7 +1840,7 @@
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
-			(type default)
+			(type solid)
 		)
 		(fill
 			(type none)
@@ -1850,6 +1850,7 @@
 				(size 1.27 1.27)
 			)
 			(justify left top)
+			(href "https://datasheets.raspberrypi.com/pico/pico-2-datasheet.pdf")
 		)
 		(uuid "222697e3-5817-4d54-aa2a-5cad9a0f038b")
 	)
@@ -3766,7 +3767,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e289bb6f-fb20-4595-a924-7162ba80827a")
-		(property "Reference" "SW0"
+		(property "Reference" "SW5"
 			(at 152.4 93.98 0)
 			(effects
 				(font
@@ -3782,7 +3783,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_E-Switch_TL3301NxxxxxG"
 			(at 152.4 96.52 0)
 			(effects
 				(font
@@ -3791,7 +3792,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.de/de/products/detail/e-switch/TL3301NF100QG/1805569"
 			(at 152.4 96.52 0)
 			(effects
 				(font
@@ -3818,7 +3819,7 @@
 		(instances
 			(project "ZEReader-Pico"
 				(path "/ec954637-2a8b-4662-b4a1-f88107f11cb0/a3bedda0-cdd4-4cf1-8725-53db0608a498"
-					(reference "SW0")
+					(reference "SW5")
 					(unit 1)
 				)
 			)

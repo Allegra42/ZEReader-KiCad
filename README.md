@@ -101,6 +101,7 @@ Huge thanks to [AISLER](https://aisler.net/en?utm_source=zereader) for their sup
   - [Production](#production)
     - [Option 1: Tip of the Tree Production](#option-1-tip-of-the-tree-production)
     - [Option 2: Using Pre-Generated Artifacts](#option-2-using-pre-generated-artifacts)
+  - [Thanks](#thanks)
   - [License](#license)
 
 ---
@@ -184,6 +185,8 @@ The generated output is optimized for AISLER. If using a different manufacturing
 3.  Upload the Gerber files or the `.kicad_pcb` to [AISLER](https://aisler.net/en?utm_source=zereader).
 
 ---
+## Thanks
+- to @casartar for reviewing the design and some great tips and ideas!
 
 ## License
 

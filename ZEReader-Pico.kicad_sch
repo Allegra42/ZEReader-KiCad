@@ -353,16 +353,6 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 97.79) (xy 177.8 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e97d4ca-d2cc-451d-8624-78baa798e98b")
-	)
-	(wire
-		(pts
 			(xy 76.2 90.17) (xy 101.6 90.17)
 		)
 		(stroke
@@ -373,7 +363,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 100.33) (xy 177.8 100.33)
+			(xy 152.4 97.79) (xy 177.8 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1187,18 +1177,8 @@
 				(justify left)
 			)
 		)
-		(pin "SD_DET_A" bidirectional
-			(at 177.8 97.79 180)
-			(uuid "5ba11dfb-c120-4874-b824-fc7f8306bf02")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "SD_DET_B" bidirectional
-			(at 177.8 100.33 180)
+			(at 177.8 97.79 180)
 			(uuid "447475d7-ba15-48eb-b3ee-f530a10de615")
 			(effects
 				(font
@@ -1439,18 +1419,8 @@
 				(justify right)
 			)
 		)
-		(pin "SD_DET_A" bidirectional
-			(at 152.4 97.79 0)
-			(uuid "d88a1c8a-9b42-40b8-9d2e-3608774cf5e4")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "SD_DET_B" bidirectional
-			(at 152.4 100.33 0)
+			(at 152.4 97.79 0)
 			(uuid "476af111-2c3b-4146-9232-f43be89410e0")
 			(effects
 				(font

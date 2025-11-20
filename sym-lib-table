@@ -12,4 +12,5 @@
   (lib (name "MAX16150BUT+T")(type "KiCad")(uri "${KIPRJMOD}/symbols/MAX16150BUT+T.kicad_sym")(options "")(descr ""))
   (lib (name "BQ25170J")(type "KiCad")(uri "${KIPRJMOD}/symbols/BQ25170J.kicad_sym")(options "")(descr ""))
   (lib (name "NUP3115UPMUTAG")(type "KiCad")(uri "${KIPRJMOD}/symbols/NUP3115UPMUTAG.kicad_sym")(options "")(descr ""))
+  (lib (name "BD125-10-A-0305-0580-L-B")(type "KiCad")(uri "${KIPRJMOD}/symbols/BD125-10-A-0305-0580-L-B.kicad_sym")(options "")(descr ""))
 )

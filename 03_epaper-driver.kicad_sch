@@ -1806,6 +1806,27 @@
 		)
 		(uuid "d3b4addf-7a34-4870-ad1d-7f0e75dff352")
 	)
+	(text_box "https://files.waveshare.com/upload/8/8e/E-Paper_Driver_HAT.pdf"
+		(exclude_from_sim no)
+		(at 12.7 16.51 0)
+		(size 127 3.81)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+			(href "https://files.waveshare.com/upload/8/8e/E-Paper_Driver_HAT.pdf")
+		)
+		(uuid "069595ac-e1bc-475b-8cc9-d55aea13299d")
+	)
 	(text_box "INVERTED \n 1 VCOM\n 2 VGL\n 3 VSL\n 4 VGH\n 5 VSH\n 6 VPP\n 7 VDD\n 8 VSS\n 9 VCI\n10 VDDIO\n11 SDA\n12 SCL\n13 CS\n14 DC\n15 RST\n16 BUSY\n17 BS\n18 TSDA\n19 TSCL\n20 VSH2\n21 NC\n22 RESE\n23 GDR\n24 NC"
 		(exclude_from_sim no)
 		(at 213.36 58.42 0)
@@ -1826,6 +1847,27 @@
 		)
 		(uuid "06cd3d9b-1aaa-444c-b5ca-091240fb3d16")
 	)
+	(text_box "https://v4.cecdn.yun300.cn/100001_1909185148/GDEY075T7.pdf -> Reference Circuit S. 40"
+		(exclude_from_sim no)
+		(at 12.7 20.32 0)
+		(size 127 3.81)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+			(href "https://v4.cecdn.yun300.cn/100001_1909185148/GDEY075T7.pdf")
+		)
+		(uuid "2e980c7e-5fbb-4adc-b551-164553ea555b")
+	)
 	(text_box "Needs testing on the finished PCB if 4.7uF or 10uF"
 		(exclude_from_sim no)
 		(at 15.24 82.55 0)
@@ -1845,6 +1887,26 @@
 			(justify left top)
 		)
 		(uuid "48d46b37-0ab6-47ba-bc2d-4dcb192a5580")
+	)
+	(text_box "https://www.buydisplay.com/download/ic/UC8179.pdf?srsltid=AfmBOorGWKpt56S8v_SEIg68MTf0PBAwJ0nzrTD0Z42XBr54EIzW-IkT (Controller itself, S.55)"
+		(exclude_from_sim no)
+		(at 12.7 24.13 0)
+		(size 127 3.81)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "74803695-89fa-483d-a842-744fb1cfd834")
 	)
 	(text_box "Removed switch, just populate a 3 Ohm resistor if you wish using the other compatible display variants."
 		(exclude_from_sim no)
@@ -1906,10 +1968,10 @@
 		)
 		(uuid "ab56955c-4b1c-4acd-a7b2-c3df982917e4")
 	)
-	(text_box "Reference:\nhttps://files.waveshare.com/upload/8/8e/E-Paper_Driver_HAT.pdf\nhttps://v4.cecdn.yun300.cn/100001_1909185148/GDEY075T7.pdf -> Reference Circuit S. 40\nhttps://www.buydisplay.com/download/ic/UC8179.pdf?srsltid=AfmBOorGWKpt56S8v_SEIg68MTf0PBAwJ0nzrTD0Z42XBr54EIzW-IkT (Controller itself, S.55)\n\nnot needed:\n- RPI GPIO Header\n- 9 Pin Header\n- Switch 3/4 line SPI -> connect and use 4 line SPI\n- Level Shifting (TXB0108E), 3.3V used due to RP2350\n- Regulator (RT9193-33) \n	-> the breakout is intended for use with 3.3V and 5V (not needed here)"
+	(text_box "Reference:\n\n\n\n\n\n\n\n\nnot needed:\n- RPI GPIO Header\n- 9 Pin Header\n- Switch 3/4 line SPI -> connect and use 4 line SPI\n- Level Shifting (TXB0108E), 3.3V used due to RP2350\n- Regulator (RT9193-33) \n	-> the breakout is intended for use with 3.3V and 5V (not needed here)"
 		(exclude_from_sim no)
 		(at 12.7 12.7 0)
-		(size 127 30.48)
+		(size 127 35.56)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -1923,7 +1985,6 @@
 				(size 1.27 1.27)
 			)
 			(justify left top)
-			(href "https://files.waveshare.com/upload/8/8e/E-Paper_Driver_HAT.pdf")
 		)
 		(uuid "c86b425c-0e64-4250-9966-4879d27d39a2")
 	)

@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 1.2,
-          "width": 1.0
+          "height": 2.65,
+          "width": 0.74
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -58,7 +58,20 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "lib_footprint_mismatch|123357500|97560000|9470d3fe-bf4b-4a4d-880e-7a99afbcb6af|00000000-0000-0000-0000-000000000000",
+          "Disabled soldermask for unused bottom testpoints to avoid shortening"
+        ],
+        [
+          "silk_edge_clearance|95000000|52065000|09ace966-7e1a-46c8-ac82-399fdbff292c|eb4976c8-c210-4927-8993-619866ad2141",
+          "Clipped silkscreen accepted"
+        ],
+        [
+          "silk_edge_clearance|95000000|61005000|09ace966-7e1a-46c8-ac82-399fdbff292c|dd76b384-7c5c-4c1c-88c4-5ff6715bcdd9",
+          "Clipped silkscreen accepted"
+        ]
+      ],
       "meta": {
         "version": 2
       },

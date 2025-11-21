@@ -27,7 +27,7 @@ outputs:
     type: ibom
     dir: BoM
     options:
-      show_fields: 'Value, Footprint, DigiKey, Manufacturer PartNo'
+      extra_fields: "DigiKey,Manufacturer PartNo"
 
   - name: 'HTML BoM'
     type: bom
@@ -36,7 +36,13 @@ outputs:
       format: HTML
       columns:
       - _kicad_bom_fields
-      
+
+  - name: 'CSV BoM'
+    type: bom
+    dir: BoM
+    options: &bom_options
+      columns:
+      - _kicad_bom_fields
 
   - name: 'Schematic'
     type: pdf_sch_print

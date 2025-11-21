@@ -6,6 +6,7 @@
 	(paper "A4")
 	(title_block
 		(rev "v2")
+		(comment 4 "Git revision: {kibot_git-hash}")
 	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"

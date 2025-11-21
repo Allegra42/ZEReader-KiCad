@@ -125,7 +125,9 @@ Major improvements and changes in rev 2:
 - Fixed **FFC connector inversion** from rev 1.
 - Removed switch in the display's booster circuit; populate R11 accordingly for EPDs that require a 3-ohm resistor.
 - Connected all SD card connector datalines.
+- Switched to a standard SWD pin header format (2x05, 1.27 pitch) for convenience.
 - Reworked and improved general schematic clarity (hierarchical sheets, new Pi Pico footprint, netclasses adoption).
+- Improved BoM.
 
 #### Known Issues Rev 2
 
@@ -186,7 +188,7 @@ The generated output is optimized for AISLER. If using a different manufacturing
 
 ---
 ## Thanks
-- to @casartar for reviewing the design and some great tips and ideas!
+- to [casartar](https://github.com/casartar) for reviewing the design and some great tips and ideas!
 
 ## License
 

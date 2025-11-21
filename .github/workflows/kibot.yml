@@ -6,6 +6,7 @@ on:
     paths:
       - '*.kicad_sch'
       - '*.kicad_pcb'
+      - '*kibot.yaml'
 
 jobs:
   kibot:

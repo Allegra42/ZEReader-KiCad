@@ -35,14 +35,15 @@ outputs:
     options: &bom_options
       format: HTML
       columns:
-      - _kicad_bom_fields
+        - _kicad_bom_fields
 
   - name: 'CSV BoM'
     type: bom
     dir: BoM
-    options: &bom_options
+    options: &csv_bom_options
+      format: CSV
       columns:
-      - _kicad_bom_fields
+        - _kicad_bom_fields
 
   - name: 'Schematic'
     type: pdf_sch_print

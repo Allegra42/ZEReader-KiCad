@@ -2872,6 +2872,12 @@
 		(uuid "340a9cf9-2793-4ee4-bda8-342211325160")
 	)
 	(junction
+		(at 189.23 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3af867ff-5305-435e-9be6-be3307a6e0e0")
+	)
+	(junction
 		(at 77.47 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3245,6 +3251,16 @@
 	)
 	(wire
 		(pts
+			(xy 189.23 93.98) (xy 190.5 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36a245ba-d3ff-4c90-b2aa-26070bc3bdfe")
+	)
+	(wire
+		(pts
 			(xy 29.21 80.01) (xy 30.48 80.01)
 		)
 		(stroke
@@ -3495,7 +3511,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 93.98) (xy 190.5 93.98)
+			(xy 187.96 93.98) (xy 189.23 93.98)
 		)
 		(stroke
 			(width 0)
@@ -3885,6 +3901,16 @@
 	)
 	(wire
 		(pts
+			(xy 189.23 93.98) (xy 189.23 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1bdd47b-0a85-4f56-bc9e-d7177ec5a9c7")
+	)
+	(wire
+		(pts
 			(xy 149.86 78.74) (xy 132.08 78.74)
 		)
 		(stroke
@@ -3962,6 +3988,17 @@
 			(justify right bottom)
 		)
 		(uuid "a8e2ccc6-ea79-4f3f-8143-42c170dc4460")
+	)
+	(hierarchical_label "CHARGING"
+		(shape output)
+		(at 189.23 100.33 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6af07aea-b102-4204-9aeb-38d708209875")
 	)
 	(hierarchical_label "V_USB_LIPO"
 		(shape output)

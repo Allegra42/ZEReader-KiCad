@@ -4645,7 +4645,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:Nexperia_CFP3_SOD-123W"
+		(property "Footprint" "prj-footprints:DIO_TDZVT_ROM"
 			(at 209.55 120.65 0)
 			(effects
 				(font

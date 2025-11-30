@@ -323,6 +323,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 59.69) (xy 101.6 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c580433-c6d3-496a-9544-02a76cf77fcd")
+	)
+	(wire
+		(pts
 			(xy 152.4 85.09) (xy 177.8 85.09)
 		)
 		(stroke
@@ -1685,6 +1695,16 @@
 				(justify left)
 			)
 		)
+		(pin "CHARGING" input
+			(at 101.6 59.69 180)
+			(uuid "54a0cba0-9864-44f8-a060-97035bd38aa0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "ZEReader-Pico"
 				(path "/ec954637-2a8b-4662-b4a1-f88107f11cb0"
@@ -1755,6 +1775,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "CHARGING" output
+			(at 76.2 59.69 0)
+			(uuid "71101443-d95f-407e-a13b-72675852d754")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances

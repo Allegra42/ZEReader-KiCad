@@ -2080,14 +2080,6 @@
 		(uuid "ca25fc42-f1bd-435c-879c-e6086c1c37b2")
 	)
 	(no_connect
-		(at 181.61 110.49)
-		(uuid "14960349-8cfc-4425-abc6-9dbd0c829ef3")
-	)
-	(no_connect
-		(at 181.61 85.09)
-		(uuid "2e2ad55b-fd54-49f2-97a7-a2b9e9e37cb6")
-	)
-	(no_connect
 		(at 135.89 92.71)
 		(uuid "344cef9b-6d89-4cce-8ac3-bd7ea32a522c")
 	)
@@ -2150,6 +2142,10 @@
 	(no_connect
 		(at 135.89 87.63)
 		(uuid "f4c24b96-af78-439e-b4e0-9f736d1ab283")
+	)
+	(no_connect
+		(at 181.61 85.09)
+		(uuid "ff49ae6d-4a07-42dd-8ad0-1931a4e637ae")
 	)
 	(wire
 		(pts
@@ -2380,6 +2376,16 @@
 			(type default)
 		)
 		(uuid "88542913-74d5-4275-9bb8-4d6e1d1f9982")
+	)
+	(wire
+		(pts
+			(xy 181.61 110.49) (xy 189.23 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95039f07-b098-423b-9b55-59e05cbc469c")
 	)
 	(wire
 		(pts
@@ -2714,6 +2720,17 @@
 			(justify right)
 		)
 		(uuid "8d305feb-5c99-499c-b489-d5cdd5adb895")
+	)
+	(hierarchical_label "CHARGING"
+		(shape input)
+		(at 189.23 110.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "91331769-162f-4122-9291-5adfe8440cf7")
 	)
 	(hierarchical_label "SD_DAT1"
 		(shape bidirectional)

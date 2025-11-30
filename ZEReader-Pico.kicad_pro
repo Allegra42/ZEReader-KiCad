@@ -60,10 +60,6 @@
       ],
       "drc_exclusions": [
         [
-          "extra_footprint|148907487|122204848|ee2d16e7-1777-44d2-b00b-6acb26909a7d|00000000-0000-0000-0000-000000000000",
-          "KiCad Logo"
-        ],
-        [
           "lib_footprint_mismatch|123357500|97560000|9470d3fe-bf4b-4a4d-880e-7a99afbcb6af|00000000-0000-0000-0000-000000000000",
           "Disabled soldermask for unused bottom testpoints to avoid shortening"
         ],
@@ -707,7 +703,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "ZEReader-Pico.step",
       "svg": "",
       "vrml": ""
     },

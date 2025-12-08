@@ -233,6 +233,26 @@
 	)
 	(wire
 		(pts
+			(xy 45.72 60.96) (xy 45.72 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01e2a033-29d7-43e2-a312-97e5aa0f325d")
+	)
+	(wire
+		(pts
+			(xy 76.2 85.09) (xy 101.6 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11cf6659-d4bb-4430-9a5e-a0906cb7d84c")
+	)
+	(wire
+		(pts
 			(xy 152.4 64.77) (xy 177.8 64.77)
 		)
 		(stroke
@@ -250,6 +270,16 @@
 			(type default)
 		)
 		(uuid "155024ee-2c2a-4946-8ca1-2713165aa853")
+	)
+	(wire
+		(pts
+			(xy 45.72 81.28) (xy 50.8 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "155ab0fc-19c3-4999-a208-4c68daa67a67")
 	)
 	(wire
 		(pts
@@ -383,16 +413,6 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 85.09) (xy 101.6 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8973e186-b30f-4f87-985b-2bf714988d1a")
-	)
-	(wire
-		(pts
 			(xy 152.4 116.84) (xy 177.8 116.84)
 		)
 		(stroke
@@ -440,6 +460,16 @@
 			(type default)
 		)
 		(uuid "cc0c0ae6-25cf-4cb3-a7f2-47e7210c1770")
+	)
+	(wire
+		(pts
+			(xy 50.8 60.96) (xy 45.72 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d231cfec-1d06-4e00-aa26-eceef0b270f4")
 	)
 	(wire
 		(pts
@@ -1787,6 +1817,16 @@
 				(justify right)
 			)
 		)
+		(pin "USB_VBUS" output
+			(at 50.8 60.96 180)
+			(uuid "3ec8ac27-c06f-4770-a881-b0cb9993c01c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "ZEReader-Pico"
 				(path "/ec954637-2a8b-4662-b4a1-f88107f11cb0"
@@ -1877,6 +1917,16 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "USB_VBUS" input
+			(at 50.8 81.28 180)
+			(uuid "906b5a15-e367-4b5b-8670-e73e160430cf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

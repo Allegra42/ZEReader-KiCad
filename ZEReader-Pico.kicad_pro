@@ -511,7 +511,9 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "Mechanical"
+    ]
   },
   "meta": {
     "filename": "ZEReader-Pico.kicad_pro",
@@ -648,6 +650,12 @@
       "Net-(J3-VBUS)": [
         "PWR"
       ],
+      "Net-(Q1-Pad3)": [
+        "PWR"
+      ],
+      "Net-(Q3-Pad3)": [
+        "PWR"
+      ],
       "Net-(U3-IN)": [
         "PWR"
       ],
@@ -706,10 +714,10 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "pcb_pdf",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "ZEReader-Pico.step",
+      "step": ".step",
       "svg": "",
       "vrml": ""
     },

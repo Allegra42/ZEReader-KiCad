@@ -1,0 +1,68 @@
+name: "KiCad Jobset GitHub Action"
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '*.kicad_pro'
+      - '*.kicad_sch'
+      - '*.kicad_pcb'
+      - '*.kicad_jobset'
+
+jobs:
+  kicad:
+    name: "KiCad"
+    runs-on: ubuntu-latest
+    container: 
+      image: kicad/kicad:9.0-full
+      options: --user root
+
+    steps:
+    - name: Setup node
+      uses: actions/setup-node@v4
+      with:
+        node-version: '20'
+
+    - name: Checkout repo
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: '0'
+
+    - name: Configure Git Safe Directory
+      run: |
+        git config --global --add safe.directory /__w/ZEReader-KiCad/ZEReader-KiCad
+
+    - name: Replace vars
+      run: |
+        DATE=$(TZ=Europe/Berlin date --iso-8601=minutes)
+        sed -i "s|{kibot_date}|$DATE|g" *.kicad_*
+
+        REV=$(git log -1 --format="%h" ZEReader-Pico.kicad_pcb)
+        sed -i "s/{kibot_git-hash}/$REV/g" *.kicad_*
+
+    - name: Initialize KiCad Configuration from Templates
+      run: |
+        # 1. Define configuration paths based on KiCad 9 standard locations inside the container
+        KICAD_CONFIG_DIR="/root/.config/kicad/9.0" # Default config path for root user in official container
+        KICAD_TEMPLATE_DIR="/usr/share/kicad/template" # System template path in official container
+
+        mkdir -p "${KICAD_CONFIG_DIR}"
+
+        # 2. Copy the default fp-lib-table and sym-lib-table into the user config directory
+        cp "${KICAD_TEMPLATE_DIR}/fp-lib-table" "${KICAD_CONFIG_DIR}/fp-lib-table"
+        cp "${KICAD_TEMPLATE_DIR}/sym-lib-table" "${KICAD_CONFIG_DIR}/sym-lib-table"
+
+        # 3. Append the project's local footprints to the copied fp-lib-table
+        # The KIPRJMOD variable is used here to point back to the workspace
+        echo "(lib (name prj-footprints) (type KiCad) (uri \${KIPRJMOD}/footprints/prj-footprints.pretty) (options "") (descr \"Project Specific Footprints\"))" >> "${KICAD_CONFIG_DIR}/fp-lib-table"
+
+    - name: Run Jobset
+      run: |
+        kicad-cli jobset run --file ZEReader-Pico.kicad_jobset ZEReader-Pico.kicad_pro
+
+    - name: Upload results
+      if: ${{ always() }}
+      uses: actions/upload-artifact@v4
+      with:
+        name: jobset-outputs
+        path: jobset-outputs

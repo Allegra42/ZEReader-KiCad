@@ -110,7 +110,7 @@ Huge thanks to [AISLER](https://aisler.net/en?utm_source=zereader) for their sup
 
 ### Revision 2
 
-**Current Status:** The design is complete, but the board ***is not produced yet***!  
+**Current Status:** The board is **working**, but USB-C cannot be used for flashing. Use the Micro-USB port on the Raspberry Pi Pico 2 instead!
 
 This revision is a major redesign, focused on fixing Rev 1 issues and significantly improving power handling and robustness.
 
@@ -133,7 +133,8 @@ Major improvements and changes in rev 2:
 
 | Issue | Workaround/Impact |
 | :--- | :--- |
-| None | The board **is not produced yet** and awaits production and testing. |
+| **USB-C / Power Path** | **USB-C cannot be used for firmware flashing.** The current power path design gates the entire circuit through the on/off button. Because flashing requires constant power, the controller cuts out during the process unless the button is manually held down (which is unreliable). <br>*Status: To be fixed in the next hardware revision. Use the Raspberry Pi Pico's micro-USB for now!*  |
+| **Front-Side Buttons** | Front-side buttons are centered relative to the physical PCB dimensions, rather than the active display area. This results in a visual asymmetry. |
 
 ### Revision 1
 
